@@ -1,27 +1,27 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-06-26T08:00:00+09:00",
+    "data_generated_at": "2026-06-26T15:30:10+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
-    "data_mode": "external_json_sample",
+    "data_mode": "external_json_auto",
     "sources_checked": 5,
-    "sources_success": 5,
+    "sources_success": 3,
     "sources_failed": 0,
-    "run_status": "success",
-    "copyright_policy": "Store title, published date, source URL, short summary, classification fields only. Do not store full article text.",
-    "schema_note": "This file is designed to be loaded directly by global_livestock_news_dashboard_improved.html via ./news-data.json."
+    "sources_stale": 2,
+    "run_status": "partial",
+    "copyright_policy": "Store title, published date, source URL, short summary, classification fields only. Do not store full article text."
   },
-  "last_updated": "2026-06-26 08:00 KST",
+  "last_updated": "2026-06-26 15:30 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T08:00:00+09:00",
-      "collection_method": "rss_or_listing_sample",
-      "error_message": "",
+      "last_attempt_at": "2026-06-26T15:30:01+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss: https://www.feedstrategy.com/feed/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/feed/ | listing: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/",
       "articles": [
         {
           "id": "feed-strategy-20260626-a8b5c2d1",
@@ -32,10 +32,18 @@
           "collected_at": "2026-06-26T08:00:00+09:00",
           "summary": "Feed producers are reviewing additives that support nutrient utilization, gut health, and cost control under volatile raw material conditions.",
           "category": "Feed Additives",
-          "species": ["Swine", "Poultry"],
+          "species": [
+            "Swine",
+            "Poultry"
+          ],
           "priority": "High",
           "priority_score": 90,
-          "keywords": ["feed additive", "gut health", "feed efficiency", "nutrient utilization"],
+          "keywords": [
+            "feed additive",
+            "gut health",
+            "feed efficiency",
+            "nutrient utilization"
+          ],
           "why_it_matters": "PM 관점에서는 성장성, FCR, 영양소 이용률 중심의 claim과 제품 포지셔닝을 점검할 필요가 있습니다."
         },
         {
@@ -47,10 +55,17 @@
           "collected_at": "2026-06-26T08:00:00+09:00",
           "summary": "Feed companies are placing more emphasis on ingredient traceability, supplier documentation, and quality assurance systems.",
           "category": "Regulation",
-          "species": ["Multi-species"],
+          "species": [
+            "Multi-species"
+          ],
           "priority": "High",
           "priority_score": 86,
-          "keywords": ["feed safety", "traceability", "supplier", "quality assurance"],
+          "keywords": [
+            "feed safety",
+            "traceability",
+            "supplier",
+            "quality assurance"
+          ],
           "why_it_matters": "원료 추적성, QC 자료, 제조 일관성 메시지를 기술자료에 반영할 수 있습니다."
         }
       ]
@@ -58,11 +73,11 @@
     {
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T08:00:00+09:00",
-      "collection_method": "listing_sample",
-      "error_message": "",
+      "last_attempt_at": "2026-06-26T15:30:01+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss: https://www.allaboutfeed.net/feed/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/feed/ | listing: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/",
       "articles": [
         {
           "id": "all-about-feed-20260625-c43e1b92",
@@ -73,10 +88,18 @@
           "collected_at": "2026-06-26T08:00:00+09:00",
           "summary": "Recent feed industry coverage discusses how yeast type and product selection can affect animal health and performance positioning.",
           "category": "Feed Additives",
-          "species": ["Swine", "Poultry"],
+          "species": [
+            "Swine",
+            "Poultry"
+          ],
           "priority": "Medium",
           "priority_score": 68,
-          "keywords": ["yeast", "gut health", "performance", "feed additive"],
+          "keywords": [
+            "yeast",
+            "gut health",
+            "performance",
+            "feed additive"
+          ],
           "why_it_matters": "효모·postbiotic 계열 제품은 안정성, 균주·원료 차이, 적용 축종별 근거 수준을 구분해야 합니다."
         },
         {
@@ -88,10 +111,17 @@
           "collected_at": "2026-06-26T08:00:00+09:00",
           "summary": "Market reports indicate cautious activity in key feed-grade amino acids and vitamins, with buyers and sellers monitoring supply-demand balance.",
           "category": "Market / Trade",
-          "species": ["Multi-species"],
+          "species": [
+            "Multi-species"
+          ],
           "priority": "Medium",
           "priority_score": 62,
-          "keywords": ["amino acid", "vitamin", "market", "supply"],
+          "keywords": [
+            "amino acid",
+            "vitamin",
+            "market",
+            "supply"
+          ],
           "why_it_matters": "원료 가격 변화는 matrix value, 배합비 절감, 기능성 첨가제의 경제성 메시지와 연결됩니다."
         }
       ]
@@ -100,40 +130,224 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T08:00:00+09:00",
-      "collection_method": "rss_or_wordpress_sample",
+      "last_success_at": "2026-06-26T15:30:02+09:00",
+      "last_attempt_at": "2026-06-26T15:30:02+09:00",
+      "collection_method": "rss",
       "error_message": "",
       "articles": [
         {
-          "id": "feed-additive-magazine-20260626-9e35f3ab",
+          "id": "feed-additive-magazine-20260625-d06b1ce4",
           "source": "Feed & Additive Magazine",
-          "title": "Heat stress nutrition programs expand across poultry and swine",
-          "url": "https://www.feedandadditive.com/",
-          "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T08:00:00+09:00",
-          "summary": "Seasonal programs increasingly combine antioxidants, electrolytes, phytogenics, and gut-support additives to reduce heat stress impact.",
-          "category": "Animal Nutrition",
-          "species": ["Swine", "Poultry"],
-          "priority": "High",
-          "priority_score": 89,
-          "keywords": ["heat stress", "antioxidant", "electrolyte", "phytogenic"],
-          "why_it_matters": "하절기 캠페인에서 feed intake, oxidative stress, gut barrier 관련 메시지로 확장할 수 있습니다."
+          "title": "David R. Heppner joins The Andersons Board of Directors",
+          "url": "https://www.feedandadditive.com/david-r-heppner-joins-the-andersons-board-of-directors/",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "The Andersons, Inc. has appointed David R. Heppner to its Board of Directors, effective June 18, 2026, bringing decades of strategy, operations, and energy sector leadership experience. The Andersons, Inc., a North American…",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive"
+          ],
+          "why_it_matters": "additive 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
         },
         {
-          "id": "feed-additive-magazine-20260624-19dd6f2e",
+          "id": "feed-additive-magazine-20260625-0fa40301",
           "source": "Feed & Additive Magazine",
-          "title": "Postbiotic applications move further into commercial feed programs",
-          "url": "https://www.feedandadditive.com/",
-          "published_date": "2026-06-24",
-          "collected_at": "2026-06-26T08:00:00+09:00",
-          "summary": "Postbiotic ingredients are increasingly positioned as stable alternatives or complements to live microbial products in feed programs.",
+          "title": "Big Dutchman brings global sales network together in Istanbul",
+          "url": "https://www.feedandadditive.com/big-dutchman-brings-global-sales-network-together-in-istanbul/",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "Feeding systems and livestock equipment supplier Big Dutchman has gathered more than 760 sales professionals from 80 countries in Istanbul for its 7th International Agents’ Meeting, focusing on key opportunities and challenges…",
           "category": "Feed Additives",
-          "species": ["Ruminant", "Swine", "Poultry"],
+          "species": [
+            "Swine",
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive",
+            "poultry",
+            "egg",
+            "pig"
+          ],
+          "why_it_matters": "additive, poultry, egg 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260625-e0972b8e",
+          "source": "Feed & Additive Magazine",
+          "title": "BioZyme expands leadership team with two key appointments",
+          "url": "https://www.feedandadditive.com/biozyme-expands-leadership-team-with-two-key-appointments/",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "BioZyme® Inc. has strengthened its leadership team with the addition of Matt Williamson and TJ Campbell, who will help advance business development, sales growth and diversification strategies across the company. BioZyme® Inc.…",
+          "category": "Feed Additives",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive",
+            "hen"
+          ],
+          "why_it_matters": "additive, hen 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260625-d995cc7a",
+          "source": "Feed & Additive Magazine",
+          "title": "Evonik strengthens methionine supply chain with new methanol pipeline",
+          "url": "https://www.feedandadditive.com/evonik-strengthens-methionine-supply-chain-with-new-methanol-pipeline/",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "Evonik has launched a new methanol pipeline to secure long-term raw material supply for methionine production, supporting its Animal Nutrition business line. The infrastructure also reduces emissions and enables future green…",
+          "category": "Feed Additives",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "nutrition",
+            "emission",
+            "additive",
+            "supply",
+            "hen"
+          ],
+          "why_it_matters": "nutrition, emission, additive 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260624-43e70839",
+          "source": "Feed & Additive Magazine",
+          "title": "World Pork Expo seminar highlights new opportunities for pork innovation",
+          "url": "https://www.feedandadditive.com/world-pork-expo-seminar-highlights-new-opportunities-for-pork-innovation/",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "Alltech and the National Pork Board highlighted new approaches to pork innovation during a business seminar at World Pork Expo. The session focused on emerging product opportunities and evolving consumer preferences to support…",
+          "category": "Feed Additives",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 46,
+          "keywords": [
+            "additive",
+            "market",
+            "pork"
+          ],
+          "why_it_matters": "additive, market, pork 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260624-05e10b97",
+          "source": "Feed & Additive Magazine",
+          "title": "Innovad opens new offices and expands packaging capacity in Essen",
+          "url": "https://www.feedandadditive.com/innovad-opens-new-offices-and-expands-packaging-capacity-in-essen/",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "Innovad Group has marked a new growth phase by opening modern offices in Essen, Belgium, while bringing a second packaging line online at the same site. The dual investment reflects the company’s strategy to scale capacity while…",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive"
+          ],
+          "why_it_matters": "additive 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260624-04f5d64e",
+          "source": "Feed & Additive Magazine",
+          "title": "WMU set to become Southeast Asia’s largest cage-free egg producer",
+          "url": "https://www.feedandadditive.com/wmu-set-to-become-southeast-asias-largest-cage-free-egg-producer/",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "Indonesian poultry producer WMU plans to expand its cage-free laying hen capacity to 500,000 birds by 2027, positioning the company as Southeast Asia’s largest cage-free egg producer. The investment reflects growing demand for…",
+          "category": "Feed Additives",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive",
+            "poultry",
+            "demand",
+            "egg",
+            "hen"
+          ],
+          "why_it_matters": "additive, poultry, demand 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260623-874ba0e4",
+          "source": "Feed & Additive Magazine",
+          "title": "Sustainable aquafeed metrics take center stage at IFFO webinar",
+          "url": "https://www.feedandadditive.com/sustainable-aquafeed-metrics-take-center-stage-at-iffo-webinar/",
+          "published_date": "2026-06-23",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "On 24 June 2026, IFFO’s InFocus webinar will examine the role of sustainable aquafeed metrics in environmental assessment. The event will discuss trade-offs linked to feed ingredients and formulation strategies. IFFO, The Marine…",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
           "priority": "Medium",
-          "priority_score": 70,
-          "keywords": ["postbiotic", "microbial", "immune", "stability"],
-          "why_it_matters": "Postbiotic 제품은 안정성, 면역, 장건강 claim을 근거 수준별로 정리하는 것이 중요합니다."
+          "priority_score": 52,
+          "keywords": [
+            "environment",
+            "additive",
+            "trade"
+          ],
+          "why_it_matters": "environment, additive, trade 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260623-f585549e",
+          "source": "Feed & Additive Magazine",
+          "title": "Zinpro emphasizes immune support strategies for stressed cattle",
+          "url": "https://www.feedandadditive.com/zinpro-emphasizes-immune-support-strategies-for-stressed-cattle/",
+          "published_date": "2026-06-23",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "Stressful events such as weaning, transportation and commingling can weaken cattle immunity and reduce feed intake. Zinpro emphasizes management and trace mineral strategies to support immune function during high-risk periods.…",
+          "category": "Feed Additives",
+          "species": [
+            "Swine",
+            "Ruminant"
+          ],
+          "priority": "Low",
+          "priority_score": 46,
+          "keywords": [
+            "additive",
+            "mineral",
+            "weaning",
+            "cattle"
+          ],
+          "why_it_matters": "additive, mineral, weaning 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260623-2167d094",
+          "source": "Feed & Additive Magazine",
+          "title": "NOVUS to highlight broiler resilience and feed efficiency research at PSA 2026",
+          "url": "https://www.feedandadditive.com/novus-to-highlight-broiler-resilience-and-feed-efficiency-research-at-psa-2026/",
+          "published_date": "2026-06-23",
+          "collected_at": "2026-06-26T15:30:02+09:00",
+          "summary": "NOVUS and its research partners will present three studies at PSA 2026 examining broiler resilience, copper source functionality and reduced-energy feeding strategies under commercial production conditions. NOVUS and its…",
+          "category": "Feed Additives",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive",
+            "poultry",
+            "broiler",
+            "diet"
+          ],
+          "why_it_matters": "additive, poultry, broiler 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
         }
       ]
     },
@@ -141,40 +355,149 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/latest?section=news",
       "status": "success",
-      "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T08:00:00+09:00",
-      "collection_method": "listing_sample",
+      "last_success_at": "2026-06-26T15:30:02+09:00",
+      "last_attempt_at": "2026-06-26T15:30:02+09:00",
+      "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260624-0a3d9c81",
+          "id": "the-pig-site-20260626-7a4f6aa2",
           "source": "The Pig Site",
-          "title": "US pork exports to Philippines up 26% in April",
-          "url": "https://www.thepigsite.com/latest?section=news",
-          "published_date": "2026-06-24",
-          "collected_at": "2026-06-26T08:00:00+09:00",
-          "summary": "Pork export data indicate stronger shipments to the Philippines, with four-month shipments also above the previous year.",
-          "category": "Market / Trade",
-          "species": ["Swine"],
-          "priority": "Medium",
-          "priority_score": 58,
-          "keywords": ["pork", "export", "Philippines", "trade"],
-          "why_it_matters": "돈육 수출입 흐름은 고객사의 생산성 개선, 원가 관리, 시장 대응 니즈와 연결될 수 있습니다."
+          "title": "Genetics & reproduction",
+          "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "Genetics & reproduction",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "pig"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
         },
         {
-          "id": "the-pig-site-20260623-f63b2c19",
+          "id": "the-pig-site-20260626-743f73b1",
           "source": "The Pig Site",
-          "title": "Hog futures mixed as pork prices slide",
-          "url": "https://www.thepigsite.com/latest?section=news",
-          "published_date": "2026-06-23",
-          "collected_at": "2026-06-26T08:00:00+09:00",
-          "summary": "Market coverage reports mixed hog futures and movement in pork prices, reflecting short-term market pressure.",
-          "category": "Market / Trade",
-          "species": ["Swine"],
+          "title": "Research & innovation",
+          "url": "https://www.thepigsite.com/research-and-innovation",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "Research & innovation",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
           "priority": "Low",
-          "priority_score": 42,
-          "keywords": ["hog futures", "pork price", "market"],
-          "why_it_matters": "단기 시장 동향은 영업 대화 소재로는 활용 가능하지만 제품 claim과의 직접성은 제한적입니다."
+          "priority_score": 30,
+          "keywords": [
+            "pig"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-pig-site-20260626-4d69cb58",
+          "source": "The Pig Site",
+          "title": "US food stamp cuts strip 4.7 million of benefits",
+          "url": "https://www.thepigsite.com/news/2026/06/us-food-stamp-cuts-strip-4-7-million-of-benefits",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "US food stamp cuts strip 4.7 million of benefits",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "pig"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-pig-site-20260626-a1650576",
+          "source": "The Pig Site",
+          "title": "Government and regulatory",
+          "url": "https://www.thepigsite.com/policy-and-regulation/government-and-regulatory",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "Government and regulatory",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "pig"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-pig-site-20260626-829646b0",
+          "source": "The Pig Site",
+          "title": "US pork exports to Philippines up 26% in April",
+          "url": "https://www.thepigsite.com/news/2026/06/us-pork-exports-to-philippines-up-26-in-april",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "US pork exports to Philippines up 26% in April",
+          "category": "Market / Trade",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 36,
+          "keywords": [
+            "export",
+            "pork",
+            "pig"
+          ],
+          "why_it_matters": "시장·무역 이슈로, 고객사의 원가 관리와 생산성 개선 니즈에 미치는 영향을 검토할 수 있습니다."
+        },
+        {
+          "id": "the-pig-site-20260626-397413e8",
+          "source": "The Pig Site",
+          "title": "Hog futures mixed as pork prices slide - CME",
+          "url": "https://www.thepigsite.com/news/2026/06/cattle-futures-fall-on-profit-taking-and-demand-concerns-cme",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "Hog futures mixed as pork prices slide - CME",
+          "category": "Market / Trade",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 36,
+          "keywords": [
+            "futures",
+            "price",
+            "pork",
+            "pig",
+            "hog"
+          ],
+          "why_it_matters": "시장·무역 이슈로, 고객사의 원가 관리와 생산성 개선 니즈에 미치는 영향을 검토할 수 있습니다."
+        },
+        {
+          "id": "the-pig-site-20260626-a75e552c",
+          "source": "The Pig Site",
+          "title": "Canada launches $3B food security strategy to boost domestic output",
+          "url": "https://www.thepigsite.com/news/2026/06/canada-launches-3b-food-security-strategy-to-boost-domestic-output",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:06+09:00",
+          "summary": "Canada launches $3B food security strategy to boost domestic output",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "pig"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
         }
       ]
     },
@@ -182,40 +505,149 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/latest?section=news",
       "status": "success",
-      "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T08:00:00+09:00",
-      "collection_method": "listing_sample",
+      "last_success_at": "2026-06-26T15:30:06+09:00",
+      "last_attempt_at": "2026-06-26T15:30:06+09:00",
+      "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260625-6c8f21e0",
+          "id": "the-poultry-site-20260626-cbfac380",
           "source": "The Poultry Site",
-          "title": "UConn researchers test postbiotics to cut Salmonella in poultry",
-          "url": "https://www.thepoultrysite.com/latest?section=news",
-          "published_date": "2026-06-25",
-          "collected_at": "2026-06-26T08:00:00+09:00",
-          "summary": "Research coverage describes postbiotic use as a potential tool to reduce Salmonella contamination risk in poultry processing.",
-          "category": "Feed Additives",
-          "species": ["Poultry"],
-          "priority": "High",
-          "priority_score": 88,
-          "keywords": ["postbiotic", "Salmonella", "poultry", "food safety"],
-          "why_it_matters": "Postbiotic, pathogen control, food safety 관련 claim 개발 시 적용 가능성과 규제 표현을 함께 검토해야 합니다."
+          "title": "Equipment & innovation",
+          "url": "https://www.thepoultrysite.com/equipment-innovation",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "Equipment & innovation",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
         },
         {
-          "id": "the-poultry-site-20260624-385b8f1a",
+          "id": "the-poultry-site-20260626-aeda5400",
+          "source": "The Poultry Site",
+          "title": "UConn researchers test postbiotics to cut Salmonella in poultry",
+          "url": "https://www.thepoultrysite.com/news/2026/06/uconn-researchers-test-postbiotics-to-cut-salmonella-in-poultry",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "UConn researchers test postbiotics to cut Salmonella in poultry",
+          "category": "Disease / Biosecurity",
+          "species": [
+            "Poultry",
+            "Aquaculture"
+          ],
+          "priority": "Medium",
+          "priority_score": 64,
+          "keywords": [
+            "postbiotic",
+            "salmonella",
+            "poultry",
+            "salmon"
+          ],
+          "why_it_matters": "Poultry, Aquaculture 질병·방역 이슈로, 면역·장건강·스트레스 대응 제품 메시지와 연결 가능성을 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260626-6cd2b6c4",
+          "source": "The Poultry Site",
+          "title": "Product quality and safety",
+          "url": "https://www.thepoultrysite.com/processing/product-quality-and-safety",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "Product quality and safety",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260626-ff99175f",
+          "source": "The Poultry Site",
+          "title": "US food stamp cuts strip 4.7 million of benefits",
+          "url": "https://www.thepoultrysite.com/news/2026/06/us-food-stamp-cuts-strip-4-7-million-of-benefits",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "US food stamp cuts strip 4.7 million of benefits",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260626-b5e5b070",
+          "source": "The Poultry Site",
+          "title": "Government and regulatory",
+          "url": "https://www.thepoultrysite.com/markets-policy-2/policy-and-regulation/government-and-regulatory",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "Government and regulatory",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260626-5f2528d7",
+          "source": "The Poultry Site",
+          "title": "French heatwave kills hundreds of thousands of poultry",
+          "url": "https://www.thepoultrysite.com/news/2026/06/french-heatwave-kills-hundreds-of-thousands-of-poultry",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "French heatwave kills hundreds of thousands of poultry",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260626-ff291dda",
           "source": "The Poultry Site",
           "title": "Australia ramps up avian influenza testing",
-          "url": "https://www.thepoultrysite.com/latest?section=news",
-          "published_date": "2026-06-24",
-          "collected_at": "2026-06-26T08:00:00+09:00",
-          "summary": "Poultry health monitoring remains focused on avian influenza testing and biosecurity response.",
+          "url": "https://www.thepoultrysite.com/news/2026/06/australia-ramps-up-avian-influenza-testing",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:30:10+09:00",
+          "summary": "Australia ramps up avian influenza testing",
           "category": "Disease / Biosecurity",
-          "species": ["Poultry"],
-          "priority": "High",
-          "priority_score": 91,
-          "keywords": ["avian influenza", "biosecurity", "poultry", "testing"],
-          "why_it_matters": "질병 이슈는 면역, 항산화, 장건강, 생산성 저하 대응 메시지와 연결 가능합니다."
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Medium",
+          "priority_score": 52,
+          "keywords": [
+            "avian influenza",
+            "poultry",
+            "avian"
+          ],
+          "why_it_matters": "Poultry 질병·방역 이슈로, 면역·장건강·스트레스 대응 제품 메시지와 연결 가능성을 검토해야 합니다."
         }
       ]
     }
