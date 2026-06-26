@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Global Livestock News Monitoring Dashboard</title>
+  <style>
+    :root {
+      --bg: #f4f6f8;
+      --panel: #ffffff;
+      --text: #1f2933;
+      --muted: #6b7280;
+      --line: #d9dee7;
+      --primary: #1f4e79;
+      --primary-soft: #e8f1f8;
+      --green: #1f7a4d;
+      --green-soft: #e7f4ed;
+      --orange: #b45309;
+      --orange-soft: #fff3df;
+      --red: #b42318;
+      --red-soft: #fdeceb;
+      --blue-soft: #eaf2ff;
+      --gray-soft: #f3f4f6;
+      --shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+      --radius: 16px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+    }
+
+    header {
+      background: linear-gradient(135deg, #17324d 0%, #1f4e79 55%, #2d6c9f 100%);
+      color: white;
+      padding: 34px 36px 28px;
+    }
+
+    .header-inner { max-width: 1380px; margin: 0 auto; }
+
+    .eyebrow {
+      margin: 0 0 8px;
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: rgba(255, 255, 255, 0.78);
+      font-weight: 700;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 30px;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+    }
+
+    .subtitle {
+      margin: 12px 0 0;
+      max-width: 980px;
+      color: rgba(255, 255, 255, 0.86);
+      font-size: 15px;
+    }
+
+    .container {
+      max-width: 1380px;
+      margin: 0 auto;
+      padding: 24px 24px 44px;
+    }
+
+    .notice, .status-panel, .footer-note {
+      background: var(--panel);
+      border-radius: 12px;
+      border: 1px solid var(--line);
+    }
+
+    .notice {
+      margin: -10px 0 20px;
+      padding: 14px 16px;
+      border-color: #c7d7e6;
+      background: #eef6ff;
+      color: #17324d;
+      font-size: 14px;
+    }
+
+    .status-panel {
+      margin-bottom: 20px;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .status-summary {
+      display: grid;
+      grid-template-columns: 1.2fr repeat(4, minmax(130px, 1fr));
+      gap: 0;
+      border-bottom: 1px solid #eef1f5;
+    }
+
+    .status-item {
+      padding: 14px 16px;
+      border-right: 1px solid #eef1f5;
+    }
+
+    .status-item:last-child { border-right: none; }
+
+    .status-label {
+      margin: 0;
+      color: var(--muted);
+      font-size: 11px;
+      font-weight: 800;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .status-value {
+      margin: 5px 0 0;
+      font-weight: 900;
+      font-size: 14px;
+    }
+
+    .source-status-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      padding: 12px 16px 14px;
+      background: #fbfcfe;
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      padding: 6px 9px;
+      font-size: 12px;
+      font-weight: 800;
+      border: 1px solid var(--line);
+      background: #fff;
+    }
+
+    .status-badge::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+    }
+
+    .status-success::before { background: var(--green); }
+    .status-partial::before { background: var(--orange); }
+    .status-failed::before { background: var(--red); }
+    .status-stale::before { background: #64748b; }
+
+    .metrics {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 14px;
+      margin-bottom: 20px;
+    }
+
+    .metric-card {
+      background: var(--panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 18px 16px;
+      border: 1px solid rgba(217, 222, 231, 0.8);
+    }
+
+    .metric-label {
+      margin: 0;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    .metric-value {
+      margin: 6px 0 0;
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      white-space: pre-line;
+    }
+
+    .controls {
+      background: var(--panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px;
+      border: 1px solid rgba(217, 222, 231, 0.8);
+      margin-bottom: 20px;
+    }
+
+    .controls-title {
+      margin: 0 0 14px;
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .control-grid {
+      display: grid;
+      grid-template-columns: 1.35fr repeat(6, 1fr) auto auto;
+      gap: 10px;
+      align-items: end;
+    }
+
+    label {
+      display: block;
+      margin: 0 0 5px;
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 700;
+    }
+
+    input, select, button {
+      width: 100%;
+      min-height: 42px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      padding: 9px 11px;
+      font-size: 14px;
+      background: #fff;
+      color: var(--text);
+      font-family: inherit;
+    }
+
+    button {
+      cursor: pointer;
+      border: none;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .btn-primary { background: var(--primary); color: #fff; }
+    .btn-secondary { background: #eef2f6; color: #1f2933; border: 1px solid var(--line); }
+
+    .btn-primary:hover { background: #173a5c; }
+    .btn-secondary:hover { background: #e5eaf0; }
+
+    .section-head {
+      display: flex;
+      justify-content: space-between;
+      gap: 12px;
+      align-items: center;
+      margin: 22px 0 12px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+    }
+
+    .result-count {
+      color: var(--muted);
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .source-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 4px 0 18px;
+    }
+
+    .tab {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: #374151;
+      padding: 9px 12px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 800;
+      cursor: pointer;
+      width: auto;
+      min-height: 34px;
+    }
+
+    .tab.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 16px;
+    }
+
+    .article-card {
+      background: var(--panel);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      border: 1px solid rgba(217, 222, 231, 0.85);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      min-height: 348px;
+    }
+
+    .card-top {
+      padding: 16px 16px 12px;
+      border-bottom: 1px solid #eef1f5;
+    }
+
+    .source-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      align-items: flex-start;
+      margin-bottom: 10px;
+    }
+
+    .source-name {
+      font-size: 13px;
+      font-weight: 900;
+      color: var(--primary);
+    }
+
+    .date {
+      color: var(--muted);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .article-title {
+      margin: 0;
+      font-size: 17px;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+
+    .article-title a {
+      color: #111827;
+      text-decoration: none;
+    }
+
+    .article-title a:hover { color: var(--primary); text-decoration: underline; }
+
+    .card-body {
+      padding: 14px 16px 16px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .summary {
+      margin: 0 0 12px;
+      color: #374151;
+      font-size: 14px;
+    }
+
+    .insight {
+      margin: 0 0 14px;
+      padding: 10px 11px;
+      background: #f8fafc;
+      border-left: 4px solid var(--primary);
+      border-radius: 8px;
+      font-size: 13px;
+      color: #374151;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: auto;
+      padding-top: 4px;
+    }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: 11px;
+      font-weight: 800;
+      background: #eef2f6;
+      color: #374151;
+    }
+
+    .priority-high { background: var(--red-soft); color: var(--red); }
+    .priority-medium { background: var(--orange-soft); color: var(--orange); }
+    .priority-low { background: var(--green-soft); color: var(--green); }
+    .category { background: var(--primary-soft); color: var(--primary); }
+    .species { background: var(--blue-soft); color: #25518f; }
+    .method { background: var(--gray-soft); color: #475569; }
+
+    .empty, .error-state {
+      background: #fff;
+      border: 1px dashed var(--line);
+      border-radius: var(--radius);
+      padding: 30px;
+      text-align: center;
+      color: var(--muted);
+      display: none;
+    }
+
+    .error-state {
+      border-color: #f3b4ae;
+      color: var(--red);
+      background: #fffafa;
+      margin-bottom: 20px;
+    }
+
+    .footer-note {
+      margin-top: 28px;
+      padding: 16px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    code {
+      background: #eef2f6;
+      padding: 2px 5px;
+      border-radius: 5px;
+      color: #334155;
+    }
+
+    @media (max-width: 1280px) {
+      .control-grid { grid-template-columns: repeat(4, 1fr); }
+    }
+
+    @media (max-width: 1180px) {
+      .metrics { grid-template-columns: repeat(3, 1fr); }
+      .status-summary { grid-template-columns: repeat(2, 1fr); }
+      .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+
+    @media (max-width: 760px) {
+      header { padding: 28px 20px 24px; }
+      h1 { font-size: 24px; }
+      .container { padding: 18px 14px 36px; }
+      .metrics, .status-summary, .control-grid { grid-template-columns: 1fr; }
+      .status-item { border-right: none; border-bottom: 1px solid #eef1f5; }
+      .cards { grid-template-columns: 1fr; }
+      .section-head { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <p class="eyebrow">Global Livestock & Feed Media Monitoring</p>
+      <h1>글로벌 축산 전문 뉴스 모니터링 대시보드</h1>
+      <p class="subtitle">Feed Strategy, All About Feed, Feed & Additive Magazine, The Pig Site, The Poultry Site의 주요 뉴스를 PM 관점에서 분류·검색·요약하는 대시보드입니다.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="notice" id="dataNotice">
+      외부 <code>news-data.json</code> 파일을 우선 불러오고, 실패 시 HTML 내부 fallback 데이터를 표시합니다. 실제 운영 단계에서는 JSON 파일을 매일 오전 8시 자동 갱신하는 구조로 연결하면 됩니다.
+    </div>
+
+    <section class="status-panel" aria-label="Data status">
+      <div class="status-summary">
+        <div class="status-item">
+          <p class="status-label">Data Mode</p>
+          <p class="status-value" id="dataMode">Loading</p>
+        </div>
+        <div class="status-item">
+          <p class="status-label">Generated At</p>
+          <p class="status-value" id="generatedAt">-</p>
+        </div>
+        <div class="status-item">
+          <p class="status-label">Source Success</p>
+          <p class="status-value" id="sourceSuccess">-</p>
+        </div>
+        <div class="status-item">
+          <p class="status-label">Dashboard Version</p>
+          <p class="status-value" id="dashboardVersion">-</p>
+        </div>
+        <div class="status-item">
+          <p class="status-label">JSON Path</p>
+          <p class="status-value" id="jsonPath">./news-data.json</p>
+        </div>
+      </div>
+      <div class="source-status-list" id="sourceStatusList"></div>
+    </section>
+
+    <div class="error-state" id="errorState"></div>
+
+    <section class="metrics" aria-label="Dashboard summary">
+      <div class="metric-card">
+        <p class="metric-label">Last Updated</p>
+        <p class="metric-value" id="lastUpdated">-</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">Sources</p>
+        <p class="metric-value" id="sourceCount">-</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">Total Articles</p>
+        <p class="metric-value" id="totalArticles">-</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">High Priority</p>
+        <p class="metric-value" id="highPriority">-</p>
+      </div>
+      <div class="metric-card">
+        <p class="metric-label">Visible Articles</p>
+        <p class="metric-value" id="visibleArticles">-</p>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <p class="controls-title">필터 및 검색</p>
+      <div class="control-grid">
+        <div>
+          <label for="searchInput">키워드 검색</label>
+          <input id="searchInput" type="search" placeholder="예: enzyme, ASF, gut health, phytase" />
+        </div>
+        <div>
+          <label for="sourceFilter">매체</label>
+          <select id="sourceFilter"><option value="All">All Sources</option></select>
+        </div>
+        <div>
+          <label for="priorityFilter">중요도</label>
+          <select id="priorityFilter">
+            <option value="All">All Priorities</option>
+            <option value="High">High</option>
+            <option value="Medium">Medium</option>
+            <option value="Low">Low</option>
+          </select>
+        </div>
+        <div>
+          <label for="speciesFilter">축종</label>
+          <select id="speciesFilter"><option value="All">All Species</option></select>
+        </div>
+        <div>
+          <label for="categoryFilter">카테고리</label>
+          <select id="categoryFilter"><option value="All">All Categories</option></select>
+        </div>
+        <div>
+          <label for="dateFilter">기간</label>
+          <select id="dateFilter">
+            <option value="All">All Dates</option>
+            <option value="Today">Today</option>
+            <option value="3">Last 3 Days</option>
+            <option value="7">Last 7 Days</option>
+          </select>
+        </div>
+        <div>
+          <label for="sortFilter">정렬</label>
+          <select id="sortFilter">
+            <option value="date_desc">최신순</option>
+            <option value="priority_desc">중요도순</option>
+            <option value="source_asc">매체순</option>
+            <option value="category_asc">카테고리순</option>
+          </select>
+        </div>
+        <div>
+          <label>&nbsp;</label>
+          <button class="btn-secondary" id="resetBtn">초기화</button>
+        </div>
+        <div>
+          <label>&nbsp;</label>
+          <button class="btn-primary" id="csvBtn">CSV 다운로드</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-head">
+      <h2>주요 기사</h2>
+      <div class="result-count" id="resultCount">-</div>
+    </section>
+
+    <div class="source-tabs" id="sourceTabs"></div>
+
+    <section class="cards" id="articleCards" aria-label="Article cards"></section>
+    <div class="empty" id="emptyState">조건에 맞는 기사가 없습니다. 검색어나 필터를 조정해 주세요.</div>
+
+    <div class="footer-note">
+      <strong>운영 메모:</strong> 실제 운영 단계에서는 기사 전문을 복제하지 말고, 제목·발행일·공개 요약·원문 링크 중심으로 표시하는 것을 권장합니다. 자동 수집 전에는 각 매체의 이용약관, robots.txt, RSS/API 제공 여부를 확인해야 합니다. 외부 JSON은 <code>news-data.json</code> 파일명으로 HTML과 같은 경로에 두는 구조를 기본값으로 설정했습니다.
+    </div>
+  </main>
+
+  <script>
+    const DATA_URL = "./news-data.json";
+
+    const fallbackData = {
+      meta: {
+        data_generated_at: "2026-06-26T08:00:00+09:00",
+        dashboard_version: "0.2.0-prototype",
+        timezone: "Asia/Seoul",
+        data_mode: "fallback_sample",
+        sources_checked: 5,
+        sources_success: 5,
+        sources_failed: 0
+      },
+      last_updated: "2026-06-26 08:00 KST",
+      sources: [
+        {
+          name: "Feed Strategy",
+          source_url: "https://www.feedstrategy.com/",
+          status: "success",
+          last_success_at: "2026-06-26T08:00:00+09:00",
+          collection_method: "sample",
+          articles: [
+            {
+              id: "feedstrategy-20260626-001",
+              title: "Global feed additive market shows renewed focus on gut health and feed efficiency",
+              url: "https://www.feedstrategy.com/",
+              published_date: "2026-06-26",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Feed manufacturers are increasing attention on additives that support nutrient utilization, gut health, and cost control under volatile raw material prices.",
+              category: "Feed Additives",
+              species: ["Swine", "Poultry"],
+              priority: "High",
+              priority_score: 90,
+              keywords: ["feed additive", "gut health", "feed efficiency", "nutrient utilization"],
+              why_it_matters: "PM 관점에서는 제품 claim을 성장성, FCR, 영양소 이용률 중심으로 정리할 필요가 있습니다."
+            },
+            {
+              id: "feedstrategy-20260625-002",
+              title: "Feed mills review energy cost management amid changing commodity markets",
+              url: "https://www.feedstrategy.com/",
+              published_date: "2026-06-25",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Feed producers are reviewing formulation and processing strategies to manage energy and ingredient cost pressure.",
+              category: "Market / Trade",
+              species: ["Multi-species"],
+              priority: "Medium",
+              priority_score: 65,
+              keywords: ["commodity", "feed mill", "formulation", "energy cost"],
+              why_it_matters: "원가 절감형 첨가제, 에너지 matrix value, 배합비 최적화 메시지와 연결 가능합니다."
+            },
+            {
+              id: "feedstrategy-20260624-003",
+              title: "New feed safety guidance highlights traceability and supplier verification",
+              url: "https://www.feedstrategy.com/",
+              published_date: "2026-06-24",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "The feed industry is placing more emphasis on ingredient traceability, supplier documentation, and quality assurance systems.",
+              category: "Regulation",
+              species: ["Multi-species"],
+              priority: "High",
+              priority_score: 86,
+              keywords: ["feed safety", "traceability", "supplier", "quality assurance"],
+              why_it_matters: "기술자료와 QC 자료에서 원료 추적성, 품질 안정성, 제조 일관성 메시지를 강화할 수 있습니다."
+            }
+          ]
+        },
+        {
+          name: "All About Feed",
+          source_url: "https://www.allaboutfeed.net/",
+          status: "success",
+          last_success_at: "2026-06-26T08:00:00+09:00",
+          collection_method: "sample",
+          articles: [
+            {
+              id: "allaboutfeed-20260626-001",
+              title: "Precision nutrition strategies gain attention in broiler production",
+              url: "https://www.allaboutfeed.net/",
+              published_date: "2026-06-26",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Nutritionists are using more targeted formulation approaches to improve broiler growth performance while controlling feed cost.",
+              category: "Animal Nutrition",
+              species: ["Poultry"],
+              priority: "High",
+              priority_score: 88,
+              keywords: ["precision nutrition", "broiler", "growth performance", "feed cost"],
+              why_it_matters: "Broiler용 제품은 low-energy diet, FCR 개선, nutrient digestibility claim과 함께 포지셔닝할 수 있습니다."
+            },
+            {
+              id: "allaboutfeed-20260625-002",
+              title: "Enzyme combinations explored for improved fiber utilization in monogastrics",
+              url: "https://www.allaboutfeed.net/",
+              published_date: "2026-06-25",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Research and field application continue to explore enzyme blends for better use of fibrous ingredients in pig and poultry diets.",
+              category: "Feed Additives",
+              species: ["Swine", "Poultry"],
+              priority: "High",
+              priority_score: 84,
+              keywords: ["enzyme", "fiber", "NSP", "monogastric", "digestibility"],
+              why_it_matters: "복합효소 제품의 substrate-specific positioning과 원료 다변화 대응 메시지에 활용할 수 있습니다."
+            },
+            {
+              id: "allaboutfeed-20260623-003",
+              title: "Sustainability claims require stronger evidence in animal nutrition marketing",
+              url: "https://www.allaboutfeed.net/",
+              published_date: "2026-06-23",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Companies are being pushed to support sustainability-related product claims with measurable and transparent data.",
+              category: "Sustainability",
+              species: ["Multi-species"],
+              priority: "Medium",
+              priority_score: 62,
+              keywords: ["sustainability", "evidence", "claim", "animal nutrition"],
+              why_it_matters: "마케팅 자료에서 CO2, nutrient excretion, feed efficiency 등 수치 기반 claim 관리가 필요합니다."
+            }
+          ]
+        },
+        {
+          name: "Feed & Additive Magazine",
+          source_url: "https://www.feedandadditive.com/",
+          status: "success",
+          last_success_at: "2026-06-26T08:00:00+09:00",
+          collection_method: "sample",
+          articles: [
+            {
+              id: "feedadditive-20260626-001",
+              title: "Heat stress solutions expand across poultry and swine nutrition programs",
+              url: "https://www.feedandadditive.com/",
+              published_date: "2026-06-26",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Producers are preparing seasonal nutrition programs with antioxidants, electrolytes, phytogenics, and gut-support additives.",
+              category: "Animal Nutrition",
+              species: ["Swine", "Poultry"],
+              priority: "High",
+              priority_score: 89,
+              keywords: ["heat stress", "antioxidant", "electrolyte", "phytogenic", "gut health"],
+              why_it_matters: "하절기 캠페인, stress response, feed intake, gut barrier 관련 메시지 개발에 직접 활용 가능합니다."
+            },
+            {
+              id: "feedadditive-20260624-002",
+              title: "Postbiotic applications move from concept to commercial feed programs",
+              url: "https://www.feedandadditive.com/",
+              published_date: "2026-06-24",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Postbiotic ingredients are increasingly discussed as stable alternatives or complements to live microbial products.",
+              category: "Feed Additives",
+              species: ["Ruminant", "Swine", "Poultry"],
+              priority: "Medium",
+              priority_score: 68,
+              keywords: ["postbiotic", "microbial", "immune", "stability"],
+              why_it_matters: "Postbiotic 제품은 안정성, 면역, 장건강 claim의 근거 수준을 명확히 구분해야 합니다."
+            },
+            {
+              id: "feedadditive-20260622-003",
+              title: "Mycotoxin risk management remains a priority under changing climate patterns",
+              url: "https://www.feedandadditive.com/",
+              published_date: "2026-06-22",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Mycotoxin prevention and mitigation strategies are receiving continued attention as climate variability affects grain quality.",
+              category: "Feed Safety",
+              species: ["Multi-species"],
+              priority: "High",
+              priority_score: 82,
+              keywords: ["mycotoxin", "grain quality", "climate", "feed safety"],
+              why_it_matters: "흡착제, 간 건강, 면역 저하 대응 제품의 기술마케팅 소재로 검토할 수 있습니다."
+            }
+          ]
+        },
+        {
+          name: "The Pig Site",
+          source_url: "https://www.thepigsite.com/",
+          status: "success",
+          last_success_at: "2026-06-26T08:00:00+09:00",
+          collection_method: "sample",
+          articles: [
+            {
+              id: "pigsite-20260626-001",
+              title: "ASF biosecurity pressure continues to shape global pig production strategy",
+              url: "https://www.thepigsite.com/",
+              published_date: "2026-06-26",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "African swine fever remains a key risk factor for pig producers, affecting farm biosecurity, trade, and production planning.",
+              category: "Disease / Biosecurity",
+              species: ["Swine"],
+              priority: "High",
+              priority_score: 92,
+              keywords: ["ASF", "biosecurity", "swine", "trade", "disease"],
+              why_it_matters: "질병 스트레스 상황에서 장건강, 면역, 사료섭취 유지 관련 제품 포지셔닝 검토가 필요합니다."
+            },
+            {
+              id: "pigsite-20260625-002",
+              title: "Piglet nutrition programs emphasize early gut development after weaning",
+              url: "https://www.thepigsite.com/",
+              published_date: "2026-06-25",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Nutrition programs for weaned pigs continue to focus on gut maturation, diarrhea reduction, and improved nutrient uptake.",
+              category: "Animal Nutrition",
+              species: ["Swine"],
+              priority: "High",
+              priority_score: 90,
+              keywords: ["piglet", "weaning", "gut development", "diarrhea", "nutrient uptake"],
+              why_it_matters: "이유자돈용 산제, 효소, 유화제, postbiotic 제품의 적용 논리와 직접 연결됩니다."
+            },
+            {
+              id: "pigsite-20260623-003",
+              title: "Global pork market reacts to shifting export demand",
+              url: "https://www.thepigsite.com/",
+              published_date: "2026-06-23",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Pork exporters and producers are monitoring demand shifts across major import markets and production regions.",
+              category: "Market / Trade",
+              species: ["Swine"],
+              priority: "Medium",
+              priority_score: 58,
+              keywords: ["pork", "export", "demand", "market"],
+              why_it_matters: "시장 환경 변화는 고객사의 원가 관리, 생산성 개선 니즈와 연결될 수 있습니다."
+            }
+          ]
+        },
+        {
+          name: "The Poultry Site",
+          source_url: "https://www.thepoultrysite.com/",
+          status: "success",
+          last_success_at: "2026-06-26T08:00:00+09:00",
+          collection_method: "sample",
+          articles: [
+            {
+              id: "poultrysite-20260626-001",
+              title: "HPAI concerns keep poultry biosecurity at the center of production planning",
+              url: "https://www.thepoultrysite.com/",
+              published_date: "2026-06-26",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Highly pathogenic avian influenza continues to influence poultry farm management, trade, and health monitoring programs.",
+              category: "Disease / Biosecurity",
+              species: ["Poultry"],
+              priority: "High",
+              priority_score: 91,
+              keywords: ["HPAI", "avian influenza", "biosecurity", "poultry"],
+              why_it_matters: "질병 이슈는 생산성 저하, 면역, 항산화, 장건강 관련 제품 메시지와 연결 가능합니다."
+            },
+            {
+              id: "poultrysite-20260624-002",
+              title: "Layer producers evaluate nutrition tools for egg quality and shell strength",
+              url: "https://www.thepoultrysite.com/",
+              published_date: "2026-06-24",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Nutrition strategies for layers are increasingly focused on mineral utilization, gut health, and sustained egg quality.",
+              category: "Animal Nutrition",
+              species: ["Poultry"],
+              priority: "Medium",
+              priority_score: 64,
+              keywords: ["layer", "egg quality", "shell strength", "mineral", "gut health"],
+              why_it_matters: "Phytase, mineral utilization, calcium-phosphorus strategy 관련 기술자료와 연결할 수 있습니다."
+            },
+            {
+              id: "poultrysite-20260622-003",
+              title: "Poultry sustainability programs highlight feed conversion and resource efficiency",
+              url: "https://www.thepoultrysite.com/",
+              published_date: "2026-06-22",
+              collected_at: "2026-06-26T08:00:00+09:00",
+              summary: "Feed conversion, water use, and nutrient excretion are becoming common metrics in poultry sustainability discussions.",
+              category: "Sustainability",
+              species: ["Poultry"],
+              priority: "Medium",
+              priority_score: 60,
+              keywords: ["sustainability", "feed conversion", "resource efficiency", "nutrient excretion"],
+              why_it_matters: "FCR 개선 claim은 경제성뿐 아니라 지속가능성 메시지로도 확장 가능합니다."
+            }
+          ]
+        }
+      ]
+    };
+
+    let dashboardData = null;
+    let allArticles = [];
+    let activeSourceTab = "All";
+    let loadedFromExternalJson = false;
+
+    const els = {
+      dataNotice: document.getElementById("dataNotice"),
+      dataMode: document.getElementById("dataMode"),
+      generatedAt: document.getElementById("generatedAt"),
+      sourceSuccess: document.getElementById("sourceSuccess"),
+      dashboardVersion: document.getElementById("dashboardVersion"),
+      jsonPath: document.getElementById("jsonPath"),
+      sourceStatusList: document.getElementById("sourceStatusList"),
+      errorState: document.getElementById("errorState"),
+      lastUpdated: document.getElementById("lastUpdated"),
+      sourceCount: document.getElementById("sourceCount"),
+      totalArticles: document.getElementById("totalArticles"),
+      highPriority: document.getElementById("highPriority"),
+      visibleArticles: document.getElementById("visibleArticles"),
+      searchInput: document.getElementById("searchInput"),
+      sourceFilter: document.getElementById("sourceFilter"),
+      priorityFilter: document.getElementById("priorityFilter"),
+      speciesFilter: document.getElementById("speciesFilter"),
+      categoryFilter: document.getElementById("categoryFilter"),
+      dateFilter: document.getElementById("dateFilter"),
+      sortFilter: document.getElementById("sortFilter"),
+      resetBtn: document.getElementById("resetBtn"),
+      csvBtn: document.getElementById("csvBtn"),
+      articleCards: document.getElementById("articleCards"),
+      emptyState: document.getElementById("emptyState"),
+      resultCount: document.getElementById("resultCount"),
+      sourceTabs: document.getElementById("sourceTabs")
+    };
+
+    function normalizeData(rawData) {
+      const data = structuredClone(rawData);
+      data.meta = data.meta || {};
+      data.sources = data.sources || [];
+      data.last_updated = data.last_updated || formatDateTime(data.meta.data_generated_at) || "-";
+      data.meta.sources_checked = data.meta.sources_checked ?? data.sources.length;
+      data.meta.sources_success = data.meta.sources_success ?? data.sources.filter(s => (s.status || "").toLowerCase() === "success").length;
+      data.meta.sources_failed = data.meta.sources_failed ?? data.sources.filter(s => (s.status || "").toLowerCase() === "failed").length;
+
+      data.sources.forEach(source => {
+        source.status = source.status || "success";
+        source.collection_method = source.collection_method || "unknown";
+        source.articles = source.articles || [];
+        source.articles.forEach((article, index) => {
+          article.id = article.id || `${slugify(source.name)}-${article.published_date || "unknown"}-${index + 1}`;
+          article.source = article.source || source.name;
+          article.source_status = source.status;
+          article.collection_method = article.collection_method || source.collection_method || "unknown";
+          article.species = Array.isArray(article.species) ? article.species : [article.species || "Unclassified"];
+          article.keywords = Array.isArray(article.keywords) ? article.keywords : [];
+          article.priority = article.priority || "Low";
+          article.priority_score = Number.isFinite(Number(article.priority_score)) ? Number(article.priority_score) : priorityToScore(article.priority);
+          article.category = article.category || "Unclassified";
+          article.summary = article.summary || "No summary available.";
+          article.why_it_matters = article.why_it_matters || "PM note 검토 필요.";
+          article.url = article.url || source.source_url || "#";
+          article.published_date = article.published_date || "";
+        });
+      });
+      return data;
+    }
+
+    function slugify(text) {
+      return String(text || "source").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
+    }
+
+    function priorityToScore(priority) {
+      if (priority === "High") return 80;
+      if (priority === "Medium") return 50;
+      return 20;
+    }
+
+    function formatDateTime(value) {
+      if (!value) return "-";
+      const date = new Date(value);
+      if (Number.isNaN(date.getTime())) return value;
+      return date.toLocaleString("ko-KR", { timeZone: "Asia/Seoul", year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit" });
+    }
+
+    async function loadDashboardData() {
+      els.dataMode.textContent = "Loading";
+      try {
+        const response = await fetch(`${DATA_URL}?ts=${Date.now()}`, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const externalData = await response.json();
+        dashboardData = normalizeData(externalData);
+        loadedFromExternalJson = true;
+        els.errorState.style.display = "none";
+        els.dataNotice.innerHTML = `외부 <code>${DATA_URL}</code> 파일을 정상 로딩했습니다. 화면 데이터는 외부 JSON 기준입니다.`;
+      } catch (error) {
+        dashboardData = normalizeData(fallbackData);
+        loadedFromExternalJson = false;
+        els.errorState.textContent = `외부 JSON을 불러오지 못해 fallback 샘플 데이터를 표시합니다. 원인: ${error.message}`;
+        els.errorState.style.display = "block";
+      }
+      initDashboard();
+    }
+
+    function flattenArticles() {
+      const seen = new Set();
+      allArticles = [];
+      dashboardData.sources.forEach(source => {
+        source.articles.forEach(article => {
+          const key = article.url && article.url !== "#" ? article.url : article.id;
+          if (seen.has(key)) return;
+          seen.add(key);
+          allArticles.push({ ...article, source: source.name, source_status: source.status });
+        });
+      });
+      sortArticles(allArticles);
+    }
+
+    function uniqueValues(key) {
+      const values = new Set();
+      allArticles.forEach(article => {
+        const value = article[key];
+        if (Array.isArray(value)) value.forEach(v => values.add(v));
+        else if (value) values.add(value);
+      });
+      return Array.from(values).sort();
+    }
+
+    function clearDynamicSelects() {
+      [els.sourceFilter, els.speciesFilter, els.categoryFilter].forEach(select => {
+        const firstOption = select.options[0];
+        select.innerHTML = "";
+        select.appendChild(firstOption);
+      });
+    }
+
+    function populateSelect(selectEl, values) {
+      values.forEach(value => {
+        const option = document.createElement("option");
+        option.value = value;
+        option.textContent = value;
+        selectEl.appendChild(option);
+      });
+    }
+
+    function populateTabs() {
+      const sources = ["All", ...uniqueValues("source")];
+      els.sourceTabs.innerHTML = "";
+      sources.forEach(source => {
+        const button = document.createElement("button");
+        button.className = "tab" + (source === activeSourceTab ? " active" : "");
+        button.textContent = source === "All" ? "All Sources" : source;
+        button.addEventListener("click", () => {
+          activeSourceTab = source;
+          els.sourceFilter.value = source;
+          render();
+          populateTabs();
+        });
+        els.sourceTabs.appendChild(button);
+      });
+    }
+
+    function updateStatusPanel() {
+      const meta = dashboardData.meta || {};
+      const sourceTotal = dashboardData.sources.length;
+      const sourceSuccess = dashboardData.sources.filter(s => (s.status || "").toLowerCase() === "success").length;
+      els.dataMode.textContent = loadedFromExternalJson ? "External JSON" : "Fallback Sample";
+      els.generatedAt.textContent = formatDateTime(meta.data_generated_at || dashboardData.last_updated);
+      els.sourceSuccess.textContent = `${sourceSuccess}/${sourceTotal}`;
+      els.dashboardVersion.textContent = meta.dashboard_version || "-";
+      els.jsonPath.textContent = DATA_URL;
+
+      els.sourceStatusList.innerHTML = "";
+      dashboardData.sources.forEach(source => {
+        const badge = document.createElement("span");
+        const status = (source.status || "unknown").toLowerCase();
+        badge.className = `status-badge status-${status}`;
+        badge.textContent = `${source.name}: ${source.status || "unknown"}`;
+        badge.title = `Last success: ${formatDateTime(source.last_success_at)} / Method: ${source.collection_method || "unknown"}`;
+        els.sourceStatusList.appendChild(badge);
+      });
+    }
+
+    function updateMetrics(visibleCount) {
+      els.lastUpdated.textContent = String(dashboardData.last_updated || "-").replace(" 08:00 KST", "\n08:00 KST");
+      els.sourceCount.textContent = dashboardData.sources.length;
+      els.totalArticles.textContent = allArticles.length;
+      els.highPriority.textContent = allArticles.filter(a => a.priority === "High").length;
+      els.visibleArticles.textContent = visibleCount;
+    }
+
+    function priorityClass(priority) {
+      if (priority === "High") return "priority-high";
+      if (priority === "Medium") return "priority-medium";
+      return "priority-low";
+    }
+
+    function escapeHtml(text) {
+      return String(text ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function getReferenceDate() {
+      const metaDate = dashboardData.meta?.data_generated_at ? new Date(dashboardData.meta.data_generated_at) : new Date();
+      return Number.isNaN(metaDate.getTime()) ? new Date() : metaDate;
+    }
+
+    function articleWithinDateFilter(article) {
+      const filter = els.dateFilter.value;
+      if (filter === "All") return true;
+      if (!article.published_date) return false;
+
+      const articleDate = new Date(article.published_date + "T00:00:00");
+      if (Number.isNaN(articleDate.getTime())) return false;
+
+      const ref = getReferenceDate();
+      const refDate = new Date(ref.getFullYear(), ref.getMonth(), ref.getDate());
+      const articleLocalDate = new Date(articleDate.getFullYear(), articleDate.getMonth(), articleDate.getDate());
+      const diffDays = Math.round((refDate - articleLocalDate) / (1000 * 60 * 60 * 24));
+
+      if (filter === "Today") return diffDays === 0;
+      return diffDays >= 0 && diffDays <= Number(filter) - 1;
+    }
+
+    function articleMatches(article) {
+      const query = els.searchInput.value.trim().toLowerCase();
+      const source = els.sourceFilter.value;
+      const priority = els.priorityFilter.value;
+      const species = els.speciesFilter.value;
+      const category = els.categoryFilter.value;
+
+      const searchableText = [
+        article.title,
+        article.summary,
+        article.category,
+        article.priority,
+        article.source,
+        article.why_it_matters,
+        ...(article.species || []),
+        ...(article.keywords || [])
+      ].join(" ").toLowerCase();
+
+      return (!query || searchableText.includes(query)) &&
+        (source === "All" || article.source === source) &&
+        (priority === "All" || article.priority === priority) &&
+        (species === "All" || article.species.includes(species)) &&
+        (category === "All" || article.category === category) &&
+        articleWithinDateFilter(article);
+    }
+
+    function sortArticles(articles) {
+      const sortValue = els.sortFilter?.value || "date_desc";
+      const priorityOrder = { High: 3, Medium: 2, Low: 1 };
+      articles.sort((a, b) => {
+        if (sortValue === "priority_desc") {
+          return (b.priority_score || priorityOrder[b.priority] || 0) - (a.priority_score || priorityOrder[a.priority] || 0) || new Date(b.published_date) - new Date(a.published_date);
+        }
+        if (sortValue === "source_asc") {
+          return String(a.source).localeCompare(String(b.source)) || new Date(b.published_date) - new Date(a.published_date);
+        }
+        if (sortValue === "category_asc") {
+          return String(a.category).localeCompare(String(b.category)) || new Date(b.published_date) - new Date(a.published_date);
+        }
+        return new Date(b.published_date) - new Date(a.published_date);
+      });
+      return articles;
+    }
+
+    function renderCards(articles) {
+      els.articleCards.innerHTML = "";
+      articles.forEach(article => {
+        const card = document.createElement("article");
+        card.className = "article-card";
+        const speciesTags = article.species.map(s => `<span class="tag species">${escapeHtml(s)}</span>`).join("");
+        const keywordTags = article.keywords.slice(0, 4).map(k => `<span class="tag">${escapeHtml(k)}</span>`).join("");
+        const methodTag = article.collection_method ? `<span class="tag method">${escapeHtml(article.collection_method)}</span>` : "";
+        card.innerHTML = `
+          <div class="card-top">
+            <div class="source-row">
+              <span class="source-name">${escapeHtml(article.source)}</span>
+              <span class="date">${escapeHtml(article.published_date)}</span>
+            </div>
+            <h3 class="article-title"><a href="${escapeHtml(article.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a></h3>
+          </div>
+          <div class="card-body">
+            <p class="summary">${escapeHtml(article.summary)}</p>
+            <p class="insight"><strong>PM note:</strong> ${escapeHtml(article.why_it_matters)}</p>
+            <div class="tag-row">
+              <span class="tag ${priorityClass(article.priority)}">${escapeHtml(article.priority)}${article.priority_score ? ` · ${escapeHtml(article.priority_score)}` : ""}</span>
+              <span class="tag category">${escapeHtml(article.category)}</span>
+              ${speciesTags}
+              ${keywordTags}
+              ${methodTag}
+            </div>
+          </div>
+        `;
+        els.articleCards.appendChild(card);
+      });
+    }
+
+    function render() {
+      const filtered = sortArticles(allArticles.filter(articleMatches));
+      renderCards(filtered);
+      updateMetrics(filtered.length);
+      updateStatusPanel();
+      els.resultCount.textContent = `${filtered.length} articles shown / ${allArticles.length} total`;
+      els.emptyState.style.display = filtered.length === 0 ? "block" : "none";
+      els.articleCards.style.display = filtered.length === 0 ? "none" : "grid";
+    }
+
+    function resetFilters() {
+      els.searchInput.value = "";
+      els.sourceFilter.value = "All";
+      els.priorityFilter.value = "All";
+      els.speciesFilter.value = "All";
+      els.categoryFilter.value = "All";
+      els.dateFilter.value = "All";
+      els.sortFilter.value = "date_desc";
+      activeSourceTab = "All";
+      populateTabs();
+      render();
+    }
+
+    function downloadCSV() {
+      const filtered = sortArticles(allArticles.filter(articleMatches));
+      const headers = [
+        "id", "source", "published_date", "collected_at", "priority", "priority_score", "category", "species", "title", "summary", "keywords", "why_it_matters", "collection_method", "url"
+      ];
+      const rows = filtered.map(article => [
+        article.id,
+        article.source,
+        article.published_date,
+        article.collected_at || "",
+        article.priority,
+        article.priority_score || "",
+        article.category,
+        article.species.join("; "),
+        article.title,
+        article.summary,
+        article.keywords.join("; "),
+        article.why_it_matters,
+        article.collection_method || "",
+        article.url
+      ]);
+
+      const csv = [headers, ...rows]
+        .map(row => row.map(value => `"${String(value ?? "").replace(/"/g, '""')}"`).join(","))
+        .join("\n");
+
+      const blob = new Blob(["\uFEFF" + csv], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `global_livestock_news_${new Date().toISOString().slice(0, 10)}.csv`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+
+    function initDashboard() {
+      flattenArticles();
+      clearDynamicSelects();
+      populateSelect(els.sourceFilter, uniqueValues("source"));
+      populateSelect(els.speciesFilter, uniqueValues("species"));
+      populateSelect(els.categoryFilter, uniqueValues("category"));
+      populateTabs();
+      render();
+    }
+
+    [els.searchInput, els.sourceFilter, els.priorityFilter, els.speciesFilter, els.categoryFilter, els.dateFilter, els.sortFilter].forEach(el => {
+      el.addEventListener("input", () => {
+        if (el === els.sourceFilter) activeSourceTab = els.sourceFilter.value;
+        populateTabs();
+        render();
+      });
+      el.addEventListener("change", () => {
+        if (el === els.sourceFilter) activeSourceTab = els.sourceFilter.value;
+        populateTabs();
+        render();
+      });
+    });
+
+    els.resetBtn.addEventListener("click", resetFilters);
+    els.csvBtn.addEventListener("click", downloadCSV);
+
+    loadDashboardData();
+  </script>
+</body>
+</html>

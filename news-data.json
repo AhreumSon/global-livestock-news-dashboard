@@ -1,0 +1,223 @@
+{
+  "schema_version": "1.0.0",
+  "meta": {
+    "data_generated_at": "2026-06-26T08:00:00+09:00",
+    "dashboard_version": "0.2.0-prototype",
+    "timezone": "Asia/Seoul",
+    "data_mode": "external_json_sample",
+    "sources_checked": 5,
+    "sources_success": 5,
+    "sources_failed": 0,
+    "run_status": "success",
+    "copyright_policy": "Store title, published date, source URL, short summary, classification fields only. Do not store full article text.",
+    "schema_note": "This file is designed to be loaded directly by global_livestock_news_dashboard_improved.html via ./news-data.json."
+  },
+  "last_updated": "2026-06-26 08:00 KST",
+  "sources": [
+    {
+      "name": "Feed Strategy",
+      "source_url": "https://www.feedstrategy.com/",
+      "status": "success",
+      "last_success_at": "2026-06-26T08:00:00+09:00",
+      "last_attempt_at": "2026-06-26T08:00:00+09:00",
+      "collection_method": "rss_or_listing_sample",
+      "error_message": "",
+      "articles": [
+        {
+          "id": "feed-strategy-20260626-a8b5c2d1",
+          "source": "Feed Strategy",
+          "title": "Feed additive market focus shifts toward gut health and feed efficiency",
+          "url": "https://www.feedstrategy.com/",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Feed producers are reviewing additives that support nutrient utilization, gut health, and cost control under volatile raw material conditions.",
+          "category": "Feed Additives",
+          "species": ["Swine", "Poultry"],
+          "priority": "High",
+          "priority_score": 90,
+          "keywords": ["feed additive", "gut health", "feed efficiency", "nutrient utilization"],
+          "why_it_matters": "PM 관점에서는 성장성, FCR, 영양소 이용률 중심의 claim과 제품 포지셔닝을 점검할 필요가 있습니다."
+        },
+        {
+          "id": "feed-strategy-20260625-f1d2a9e7",
+          "source": "Feed Strategy",
+          "title": "Feed safety guidance highlights traceability and supplier verification",
+          "url": "https://www.feedstrategy.com/",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Feed companies are placing more emphasis on ingredient traceability, supplier documentation, and quality assurance systems.",
+          "category": "Regulation",
+          "species": ["Multi-species"],
+          "priority": "High",
+          "priority_score": 86,
+          "keywords": ["feed safety", "traceability", "supplier", "quality assurance"],
+          "why_it_matters": "원료 추적성, QC 자료, 제조 일관성 메시지를 기술자료에 반영할 수 있습니다."
+        }
+      ]
+    },
+    {
+      "name": "All About Feed",
+      "source_url": "https://www.allaboutfeed.net/",
+      "status": "success",
+      "last_success_at": "2026-06-26T08:00:00+09:00",
+      "last_attempt_at": "2026-06-26T08:00:00+09:00",
+      "collection_method": "listing_sample",
+      "error_message": "",
+      "articles": [
+        {
+          "id": "all-about-feed-20260625-c43e1b92",
+          "source": "All About Feed",
+          "title": "Yeast-based solutions remain under review for animal health and performance",
+          "url": "https://www.allaboutfeed.net/",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Recent feed industry coverage discusses how yeast type and product selection can affect animal health and performance positioning.",
+          "category": "Feed Additives",
+          "species": ["Swine", "Poultry"],
+          "priority": "Medium",
+          "priority_score": 68,
+          "keywords": ["yeast", "gut health", "performance", "feed additive"],
+          "why_it_matters": "효모·postbiotic 계열 제품은 안정성, 균주·원료 차이, 적용 축종별 근거 수준을 구분해야 합니다."
+        },
+        {
+          "id": "all-about-feed-20260624-ae29db08",
+          "source": "All About Feed",
+          "title": "Amino acid and vitamin markets remain cautious amid weak demand",
+          "url": "https://www.allaboutfeed.net/",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Market reports indicate cautious activity in key feed-grade amino acids and vitamins, with buyers and sellers monitoring supply-demand balance.",
+          "category": "Market / Trade",
+          "species": ["Multi-species"],
+          "priority": "Medium",
+          "priority_score": 62,
+          "keywords": ["amino acid", "vitamin", "market", "supply"],
+          "why_it_matters": "원료 가격 변화는 matrix value, 배합비 절감, 기능성 첨가제의 경제성 메시지와 연결됩니다."
+        }
+      ]
+    },
+    {
+      "name": "Feed & Additive Magazine",
+      "source_url": "https://www.feedandadditive.com/",
+      "status": "success",
+      "last_success_at": "2026-06-26T08:00:00+09:00",
+      "last_attempt_at": "2026-06-26T08:00:00+09:00",
+      "collection_method": "rss_or_wordpress_sample",
+      "error_message": "",
+      "articles": [
+        {
+          "id": "feed-additive-magazine-20260626-9e35f3ab",
+          "source": "Feed & Additive Magazine",
+          "title": "Heat stress nutrition programs expand across poultry and swine",
+          "url": "https://www.feedandadditive.com/",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Seasonal programs increasingly combine antioxidants, electrolytes, phytogenics, and gut-support additives to reduce heat stress impact.",
+          "category": "Animal Nutrition",
+          "species": ["Swine", "Poultry"],
+          "priority": "High",
+          "priority_score": 89,
+          "keywords": ["heat stress", "antioxidant", "electrolyte", "phytogenic"],
+          "why_it_matters": "하절기 캠페인에서 feed intake, oxidative stress, gut barrier 관련 메시지로 확장할 수 있습니다."
+        },
+        {
+          "id": "feed-additive-magazine-20260624-19dd6f2e",
+          "source": "Feed & Additive Magazine",
+          "title": "Postbiotic applications move further into commercial feed programs",
+          "url": "https://www.feedandadditive.com/",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Postbiotic ingredients are increasingly positioned as stable alternatives or complements to live microbial products in feed programs.",
+          "category": "Feed Additives",
+          "species": ["Ruminant", "Swine", "Poultry"],
+          "priority": "Medium",
+          "priority_score": 70,
+          "keywords": ["postbiotic", "microbial", "immune", "stability"],
+          "why_it_matters": "Postbiotic 제품은 안정성, 면역, 장건강 claim을 근거 수준별로 정리하는 것이 중요합니다."
+        }
+      ]
+    },
+    {
+      "name": "The Pig Site",
+      "source_url": "https://www.thepigsite.com/latest?section=news",
+      "status": "success",
+      "last_success_at": "2026-06-26T08:00:00+09:00",
+      "last_attempt_at": "2026-06-26T08:00:00+09:00",
+      "collection_method": "listing_sample",
+      "error_message": "",
+      "articles": [
+        {
+          "id": "the-pig-site-20260624-0a3d9c81",
+          "source": "The Pig Site",
+          "title": "US pork exports to Philippines up 26% in April",
+          "url": "https://www.thepigsite.com/latest?section=news",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Pork export data indicate stronger shipments to the Philippines, with four-month shipments also above the previous year.",
+          "category": "Market / Trade",
+          "species": ["Swine"],
+          "priority": "Medium",
+          "priority_score": 58,
+          "keywords": ["pork", "export", "Philippines", "trade"],
+          "why_it_matters": "돈육 수출입 흐름은 고객사의 생산성 개선, 원가 관리, 시장 대응 니즈와 연결될 수 있습니다."
+        },
+        {
+          "id": "the-pig-site-20260623-f63b2c19",
+          "source": "The Pig Site",
+          "title": "Hog futures mixed as pork prices slide",
+          "url": "https://www.thepigsite.com/latest?section=news",
+          "published_date": "2026-06-23",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Market coverage reports mixed hog futures and movement in pork prices, reflecting short-term market pressure.",
+          "category": "Market / Trade",
+          "species": ["Swine"],
+          "priority": "Low",
+          "priority_score": 42,
+          "keywords": ["hog futures", "pork price", "market"],
+          "why_it_matters": "단기 시장 동향은 영업 대화 소재로는 활용 가능하지만 제품 claim과의 직접성은 제한적입니다."
+        }
+      ]
+    },
+    {
+      "name": "The Poultry Site",
+      "source_url": "https://www.thepoultrysite.com/latest?section=news",
+      "status": "success",
+      "last_success_at": "2026-06-26T08:00:00+09:00",
+      "last_attempt_at": "2026-06-26T08:00:00+09:00",
+      "collection_method": "listing_sample",
+      "error_message": "",
+      "articles": [
+        {
+          "id": "the-poultry-site-20260625-6c8f21e0",
+          "source": "The Poultry Site",
+          "title": "UConn researchers test postbiotics to cut Salmonella in poultry",
+          "url": "https://www.thepoultrysite.com/latest?section=news",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Research coverage describes postbiotic use as a potential tool to reduce Salmonella contamination risk in poultry processing.",
+          "category": "Feed Additives",
+          "species": ["Poultry"],
+          "priority": "High",
+          "priority_score": 88,
+          "keywords": ["postbiotic", "Salmonella", "poultry", "food safety"],
+          "why_it_matters": "Postbiotic, pathogen control, food safety 관련 claim 개발 시 적용 가능성과 규제 표현을 함께 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260624-385b8f1a",
+          "source": "The Poultry Site",
+          "title": "Australia ramps up avian influenza testing",
+          "url": "https://www.thepoultrysite.com/latest?section=news",
+          "published_date": "2026-06-24",
+          "collected_at": "2026-06-26T08:00:00+09:00",
+          "summary": "Poultry health monitoring remains focused on avian influenza testing and biosecurity response.",
+          "category": "Disease / Biosecurity",
+          "species": ["Poultry"],
+          "priority": "High",
+          "priority_score": 91,
+          "keywords": ["avian influenza", "biosecurity", "poultry", "testing"],
+          "why_it_matters": "질병 이슈는 면역, 항산화, 장건강, 생산성 저하 대응 메시지와 연결 가능합니다."
+        }
+      ]
+    }
+  ]
+}
