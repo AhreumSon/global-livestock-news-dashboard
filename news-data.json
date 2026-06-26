@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-06-26T15:30:10+09:00",
+    "data_generated_at": "2026-06-26T15:58:33+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -12,14 +12,14 @@
     "run_status": "partial",
     "copyright_policy": "Store title, published date, source URL, short summary, classification fields only. Do not store full article text."
   },
-  "last_updated": "2026-06-26 15:30 KST",
+  "last_updated": "2026-06-26 15:58 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "stale",
       "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T15:30:01+09:00",
+      "last_attempt_at": "2026-06-26T15:58:26+09:00",
       "collection_method": "previous_json_fallback",
       "error_message": "rss: https://www.feedstrategy.com/feed/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/feed/ | listing: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/",
       "articles": [
@@ -75,7 +75,7 @@
       "source_url": "https://www.allaboutfeed.net/",
       "status": "stale",
       "last_success_at": "2026-06-26T08:00:00+09:00",
-      "last_attempt_at": "2026-06-26T15:30:01+09:00",
+      "last_attempt_at": "2026-06-26T15:58:26+09:00",
       "collection_method": "previous_json_fallback",
       "error_message": "rss: https://www.allaboutfeed.net/feed/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/feed/ | listing: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/",
       "articles": [
@@ -130,8 +130,8 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-06-26T15:30:02+09:00",
-      "last_attempt_at": "2026-06-26T15:30:02+09:00",
+      "last_success_at": "2026-06-26T15:58:26+09:00",
+      "last_attempt_at": "2026-06-26T15:58:26+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -141,7 +141,7 @@
           "title": "David R. Heppner joins The Andersons Board of Directors",
           "url": "https://www.feedandadditive.com/david-r-heppner-joins-the-andersons-board-of-directors/",
           "published_date": "2026-06-25",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "The Andersons, Inc. has appointed David R. Heppner to its Board of Directors, effective June 18, 2026, bringing decades of strategy, operations, and energy sector leadership experience. The Andersons, Inc., a North American…",
           "category": "Feed Additives",
           "species": [
@@ -160,7 +160,7 @@
           "title": "Big Dutchman brings global sales network together in Istanbul",
           "url": "https://www.feedandadditive.com/big-dutchman-brings-global-sales-network-together-in-istanbul/",
           "published_date": "2026-06-25",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "Feeding systems and livestock equipment supplier Big Dutchman has gathered more than 760 sales professionals from 80 countries in Istanbul for its 7th International Agents’ Meeting, focusing on key opportunities and challenges…",
           "category": "Feed Additives",
           "species": [
@@ -183,7 +183,7 @@
           "title": "BioZyme expands leadership team with two key appointments",
           "url": "https://www.feedandadditive.com/biozyme-expands-leadership-team-with-two-key-appointments/",
           "published_date": "2026-06-25",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "BioZyme® Inc. has strengthened its leadership team with the addition of Matt Williamson and TJ Campbell, who will help advance business development, sales growth and diversification strategies across the company. BioZyme® Inc.…",
           "category": "Feed Additives",
           "species": [
@@ -203,7 +203,7 @@
           "title": "Evonik strengthens methionine supply chain with new methanol pipeline",
           "url": "https://www.feedandadditive.com/evonik-strengthens-methionine-supply-chain-with-new-methanol-pipeline/",
           "published_date": "2026-06-25",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "Evonik has launched a new methanol pipeline to secure long-term raw material supply for methionine production, supporting its Animal Nutrition business line. The infrastructure also reduces emissions and enables future green…",
           "category": "Feed Additives",
           "species": [
@@ -213,12 +213,12 @@
           "priority_score": 40,
           "keywords": [
             "nutrition",
-            "emission",
             "additive",
+            "emission",
             "supply",
             "hen"
           ],
-          "why_it_matters": "nutrition, emission, additive 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+          "why_it_matters": "nutrition, additive, emission 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
         },
         {
           "id": "feed-additive-magazine-20260624-43e70839",
@@ -226,7 +226,7 @@
           "title": "World Pork Expo seminar highlights new opportunities for pork innovation",
           "url": "https://www.feedandadditive.com/world-pork-expo-seminar-highlights-new-opportunities-for-pork-innovation/",
           "published_date": "2026-06-24",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "Alltech and the National Pork Board highlighted new approaches to pork innovation during a business seminar at World Pork Expo. The session focused on emerging product opportunities and evolving consumer preferences to support…",
           "category": "Feed Additives",
           "species": [
@@ -247,7 +247,7 @@
           "title": "Innovad opens new offices and expands packaging capacity in Essen",
           "url": "https://www.feedandadditive.com/innovad-opens-new-offices-and-expands-packaging-capacity-in-essen/",
           "published_date": "2026-06-24",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "Innovad Group has marked a new growth phase by opening modern offices in Essen, Belgium, while bringing a second packaging line online at the same site. The dual investment reflects the company’s strategy to scale capacity while…",
           "category": "Feed Additives",
           "species": [
@@ -266,7 +266,7 @@
           "title": "WMU set to become Southeast Asia’s largest cage-free egg producer",
           "url": "https://www.feedandadditive.com/wmu-set-to-become-southeast-asias-largest-cage-free-egg-producer/",
           "published_date": "2026-06-24",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "Indonesian poultry producer WMU plans to expand its cage-free laying hen capacity to 500,000 birds by 2027, positioning the company as Southeast Asia’s largest cage-free egg producer. The investment reflects growing demand for…",
           "category": "Feed Additives",
           "species": [
@@ -278,8 +278,8 @@
             "additive",
             "poultry",
             "demand",
-            "egg",
-            "hen"
+            "hen",
+            "egg"
           ],
           "why_it_matters": "additive, poultry, demand 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
         },
@@ -289,7 +289,7 @@
           "title": "Sustainable aquafeed metrics take center stage at IFFO webinar",
           "url": "https://www.feedandadditive.com/sustainable-aquafeed-metrics-take-center-stage-at-iffo-webinar/",
           "published_date": "2026-06-23",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "On 24 June 2026, IFFO’s InFocus webinar will examine the role of sustainable aquafeed metrics in environmental assessment. The event will discuss trade-offs linked to feed ingredients and formulation strategies. IFFO, The Marine…",
           "category": "Feed Additives",
           "species": [
@@ -310,7 +310,7 @@
           "title": "Zinpro emphasizes immune support strategies for stressed cattle",
           "url": "https://www.feedandadditive.com/zinpro-emphasizes-immune-support-strategies-for-stressed-cattle/",
           "published_date": "2026-06-23",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "Stressful events such as weaning, transportation and commingling can weaken cattle immunity and reduce feed intake. Zinpro emphasizes management and trace mineral strategies to support immune function during high-risk periods.…",
           "category": "Feed Additives",
           "species": [
@@ -333,7 +333,7 @@
           "title": "NOVUS to highlight broiler resilience and feed efficiency research at PSA 2026",
           "url": "https://www.feedandadditive.com/novus-to-highlight-broiler-resilience-and-feed-efficiency-research-at-psa-2026/",
           "published_date": "2026-06-23",
-          "collected_at": "2026-06-26T15:30:02+09:00",
+          "collected_at": "2026-06-26T15:58:26+09:00",
           "summary": "NOVUS and its research partners will present three studies at PSA 2026 examining broiler resilience, copper source functionality and reduced-energy feeding strategies under commercial production conditions. NOVUS and its…",
           "category": "Feed Additives",
           "species": [
@@ -343,11 +343,11 @@
           "priority_score": 40,
           "keywords": [
             "additive",
-            "poultry",
             "broiler",
+            "poultry",
             "diet"
           ],
-          "why_it_matters": "additive, poultry, broiler 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
+          "why_it_matters": "additive, broiler, poultry 관련 첨가제 claim, 적용 축종, 근거 수준, 경쟁제품 포지셔닝을 비교할 필요가 있습니다."
         }
       ]
     },
@@ -355,8 +355,8 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/latest?section=news",
       "status": "success",
-      "last_success_at": "2026-06-26T15:30:02+09:00",
-      "last_attempt_at": "2026-06-26T15:30:02+09:00",
+      "last_success_at": "2026-06-26T15:58:26+09:00",
+      "last_attempt_at": "2026-06-26T15:58:26+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
@@ -366,7 +366,7 @@
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
+          "collected_at": "2026-06-26T15:58:30+09:00",
           "summary": "Genetics & reproduction",
           "category": "Unclassified",
           "species": [
@@ -385,8 +385,27 @@
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
+          "collected_at": "2026-06-26T15:58:30+09:00",
           "summary": "Research & innovation",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "pig"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-pig-site-20260626-f9264a78",
+          "source": "The Pig Site",
+          "title": "Belgian heatwave hits milk and meat output as livestock suffer",
+          "url": "https://www.thepigsite.com/news/2026/06/belgian-heatwave-hits-milk-and-meat-output-as-livestock-suffer",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:58:30+09:00",
+          "summary": "Belgian heatwave hits milk and meat output as livestock suffer",
           "category": "Unclassified",
           "species": [
             "Swine"
@@ -404,7 +423,7 @@
           "title": "US food stamp cuts strip 4.7 million of benefits",
           "url": "https://www.thepigsite.com/news/2026/06/us-food-stamp-cuts-strip-4-7-million-of-benefits",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
+          "collected_at": "2026-06-26T15:58:30+09:00",
           "summary": "US food stamp cuts strip 4.7 million of benefits",
           "category": "Unclassified",
           "species": [
@@ -423,7 +442,7 @@
           "title": "Government and regulatory",
           "url": "https://www.thepigsite.com/policy-and-regulation/government-and-regulatory",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
+          "collected_at": "2026-06-26T15:58:30+09:00",
           "summary": "Government and regulatory",
           "category": "Unclassified",
           "species": [
@@ -442,7 +461,7 @@
           "title": "US pork exports to Philippines up 26% in April",
           "url": "https://www.thepigsite.com/news/2026/06/us-pork-exports-to-philippines-up-26-in-april",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
+          "collected_at": "2026-06-26T15:58:30+09:00",
           "summary": "US pork exports to Philippines up 26% in April",
           "category": "Market / Trade",
           "species": [
@@ -463,7 +482,7 @@
           "title": "Hog futures mixed as pork prices slide - CME",
           "url": "https://www.thepigsite.com/news/2026/06/cattle-futures-fall-on-profit-taking-and-demand-concerns-cme",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
+          "collected_at": "2026-06-26T15:58:30+09:00",
           "summary": "Hog futures mixed as pork prices slide - CME",
           "category": "Market / Trade",
           "species": [
@@ -479,25 +498,6 @@
             "hog"
           ],
           "why_it_matters": "시장·무역 이슈로, 고객사의 원가 관리와 생산성 개선 니즈에 미치는 영향을 검토할 수 있습니다."
-        },
-        {
-          "id": "the-pig-site-20260626-a75e552c",
-          "source": "The Pig Site",
-          "title": "Canada launches $3B food security strategy to boost domestic output",
-          "url": "https://www.thepigsite.com/news/2026/06/canada-launches-3b-food-security-strategy-to-boost-domestic-output",
-          "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:06+09:00",
-          "summary": "Canada launches $3B food security strategy to boost domestic output",
-          "category": "Unclassified",
-          "species": [
-            "Swine"
-          ],
-          "priority": "Low",
-          "priority_score": 30,
-          "keywords": [
-            "pig"
-          ],
-          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
         }
       ]
     },
@@ -505,8 +505,8 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/latest?section=news",
       "status": "success",
-      "last_success_at": "2026-06-26T15:30:06+09:00",
-      "last_attempt_at": "2026-06-26T15:30:06+09:00",
+      "last_success_at": "2026-06-26T15:58:30+09:00",
+      "last_attempt_at": "2026-06-26T15:58:30+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
@@ -516,8 +516,27 @@
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
+          "collected_at": "2026-06-26T15:58:33+09:00",
           "summary": "Equipment & innovation",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 30,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
+        },
+        {
+          "id": "the-poultry-site-20260626-a9cfe11d",
+          "source": "The Poultry Site",
+          "title": "Belgian heatwave hits milk and meat output as livestock suffer",
+          "url": "https://www.thepoultrysite.com/news/2026/06/belgian-heatwave-hits-milk-and-meat-output-as-livestock-suffer",
+          "published_date": "2026-06-26",
+          "collected_at": "2026-06-26T15:58:33+09:00",
+          "summary": "Belgian heatwave hits milk and meat output as livestock suffer",
           "category": "Unclassified",
           "species": [
             "Poultry"
@@ -535,7 +554,7 @@
           "title": "UConn researchers test postbiotics to cut Salmonella in poultry",
           "url": "https://www.thepoultrysite.com/news/2026/06/uconn-researchers-test-postbiotics-to-cut-salmonella-in-poultry",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
+          "collected_at": "2026-06-26T15:58:33+09:00",
           "summary": "UConn researchers test postbiotics to cut Salmonella in poultry",
           "category": "Disease / Biosecurity",
           "species": [
@@ -545,8 +564,8 @@
           "priority": "Medium",
           "priority_score": 64,
           "keywords": [
-            "postbiotic",
             "salmonella",
+            "postbiotic",
             "poultry",
             "salmon"
           ],
@@ -558,7 +577,7 @@
           "title": "Product quality and safety",
           "url": "https://www.thepoultrysite.com/processing/product-quality-and-safety",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
+          "collected_at": "2026-06-26T15:58:33+09:00",
           "summary": "Product quality and safety",
           "category": "Unclassified",
           "species": [
@@ -577,7 +596,7 @@
           "title": "US food stamp cuts strip 4.7 million of benefits",
           "url": "https://www.thepoultrysite.com/news/2026/06/us-food-stamp-cuts-strip-4-7-million-of-benefits",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
+          "collected_at": "2026-06-26T15:58:33+09:00",
           "summary": "US food stamp cuts strip 4.7 million of benefits",
           "category": "Unclassified",
           "species": [
@@ -596,7 +615,7 @@
           "title": "Government and regulatory",
           "url": "https://www.thepoultrysite.com/markets-policy-2/policy-and-regulation/government-and-regulatory",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
+          "collected_at": "2026-06-26T15:58:33+09:00",
           "summary": "Government and regulatory",
           "category": "Unclassified",
           "species": [
@@ -615,7 +634,7 @@
           "title": "French heatwave kills hundreds of thousands of poultry",
           "url": "https://www.thepoultrysite.com/news/2026/06/french-heatwave-kills-hundreds-of-thousands-of-poultry",
           "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
+          "collected_at": "2026-06-26T15:58:33+09:00",
           "summary": "French heatwave kills hundreds of thousands of poultry",
           "category": "Unclassified",
           "species": [
@@ -627,27 +646,6 @@
             "poultry"
           ],
           "why_it_matters": "PM 관점에서 제품 포지셔닝, claim, 고객 영향도를 추가 검토해야 합니다."
-        },
-        {
-          "id": "the-poultry-site-20260626-ff291dda",
-          "source": "The Poultry Site",
-          "title": "Australia ramps up avian influenza testing",
-          "url": "https://www.thepoultrysite.com/news/2026/06/australia-ramps-up-avian-influenza-testing",
-          "published_date": "2026-06-26",
-          "collected_at": "2026-06-26T15:30:10+09:00",
-          "summary": "Australia ramps up avian influenza testing",
-          "category": "Disease / Biosecurity",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Medium",
-          "priority_score": 52,
-          "keywords": [
-            "avian influenza",
-            "poultry",
-            "avian"
-          ],
-          "why_it_matters": "Poultry 질병·방역 이슈로, 면역·장건강·스트레스 대응 제품 메시지와 연결 가능성을 검토해야 합니다."
         }
       ]
     }
