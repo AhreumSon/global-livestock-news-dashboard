@@ -1,0 +1,44 @@
+name: Update livestock news JSON
+
+on:
+  # GitHub Actions cron is UTC. 23:00 UTC = 08:00 KST on the next calendar day.
+  schedule:
+    - cron: "0 23 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 feedparser python-dateutil
+
+      - name: Collect news and update JSON
+        run: |
+          python collect_news.py
+
+      - name: Commit updated news-data.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add news-data.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update livestock news data"
+            git push
+          fi
