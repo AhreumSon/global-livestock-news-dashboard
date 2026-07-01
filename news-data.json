@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-06-30T19:44:55+09:00",
+    "data_generated_at": "2026-07-01T19:58:30+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-06-30 19:44 KST",
+  "last_updated": "2026-07-01 19:58 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-06-30T19:44:55+09:00",
-      "last_attempt_at": "2026-06-30T19:44:55+09:00",
+      "last_success_at": "2026-07-01T19:58:30+09:00",
+      "last_attempt_at": "2026-07-01T19:58:30+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "Report shows risks ractopamine poses to dogs - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc1F1eU9vUUdHWVlXLTBZUmEtT0FuYk9DOGNQVElqTmlaSHI0MHFhQWxXZzZzMVBqUFhIdFRyRUtjR2pSQzdvRXZESUt2S2ozUUszZ21WTkdDczQtN19lNHlTcnp2UEZPWFpLVzdCTXF3WWxFekxhUk1GTVJDY0VrYjcxSFo3Rmhwd0ZMSGIwOTlab1dOSV9IZ0NvbV84RWE3NU5yRGxwMzA0YXVWZ3lXQnFrQmxhd3o4LTNSUVZpTkpjQl9RMGJ2RUQ3LWZMODF3aHc?oc=5",
           "published_date": "2026-05-05",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Report shows risks ractopamine poses to dogs Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -41,13 +41,13 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-strategy-20230901-0114a21839",
+          "id": "feed-strategy-20250115-3d9adf2f75",
           "source": "Feed Strategy",
-          "title": "Animal Feed Formulations Library - Feed Strategy",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA5dnBZazZkd2J4VjJVMENlWVItTGNKZXhLQ1FKMThtdVRHaDNEYlhUVjZ2eURJN3JzSFpYUmFmVTExbG5TeTd0YTZKNDk0X2xhMTAwU1ozdGdYbVRzd3FjcnpfVFprV2lUWC1EU0ZB?oc=5",
-          "published_date": "2023-09-01",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Animal Feed Formulations Library Feed Strategy",
+          "title": "Anitox Maxi-Mil From: Anitox - Feed Strategy",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE1sUlFIQ2x3dnhKd3VhdU9QaFU2dnAxOWZLczl2ZkNya2ZZSjJucVdZVXZuZklLTGkzM2poOE1OQzhxUkdTaUIzTXlLQVRPN1M3eU5QdG9ieER5bUtGazlNYXloaWd4Z2d1bDNGUnc2THBhWE9XTjk4aUxiUnZOUnZoTXV6dmxtNGxpNzFMYVMydw?oc=5",
+          "published_date": "2025-01-15",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "Anitox Maxi-Mil From: Anitox Feed Strategy",
           "category": "Unclassified",
           "species": [
             "Multi-species"
@@ -64,7 +64,7 @@
           "title": "Le Gouessant - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ROE5GMW9vcXc2c2YyWUs3MlBiZ3BPZFlvUWV6VFNUY1pXXzhhWVJndVVBdFZSN0xRRmdrMG1DX3pfby1FVGMxakh5bl9uRjFPVGJYMG8tYURlUm5MTjJoUWdDUEc5Y0FGT0FxU0JYQW1MaHBwV3Vz?oc=5",
           "published_date": "2023-06-21",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Le Gouessant Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -77,12 +77,33 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
+          "id": "feed-strategy-20230504-095e218089",
+          "source": "Feed Strategy",
+          "title": "Animal Feed Additives & Ingredients > Feed Additives - Feed Strategy",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa0RIQTNXRDVUc1J2d1NPM3Y2QjlHbllsMGpKLUwzZkVlSmxVS0JuRXZLZnItVVBJS2xSMkZNekJhMnlGbHZ0T1ZBYnVubm5oRzlEUFBhTEF3RkFkRWZPNEx2OUtOUkd5eDNvNDFNLUFKb1daRFJqeXBWR3l6c2EwbEx1WQ?oc=5",
+          "published_date": "2023-05-04",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "Animal Feed Additives & Ingredients > Feed Additives Feed Strategy",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Medium",
+          "priority_score": 52,
+          "keywords": [
+            "feed additive",
+            "additive"
+          ],
+          "why_it_matters": "feed additive, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
+        },
+        {
           "id": "feed-strategy-20230504-1b1d846e27",
           "source": "Feed Strategy",
           "title": "Animal Nutrition > Swine - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xMXo1bHZuRzVydkF3SkR5eV9SUkkxN014Qi1BT1hucWtoWGFleXZ2d0pKcEJmdE1zeGcxV01pT3BqdGZSaV9PVVBlWXV6MnY5Y2FEWk56a2lYc3V5bkVWRg?oc=5",
           "published_date": "2023-05-04",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Animal Nutrition > Swine Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -98,20 +119,22 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-strategy-20230328-3a9b25bb43",
+          "id": "feed-strategy-20230216-3250ae4e27",
           "source": "Feed Strategy",
-          "title": "Feed palatability may be the key to higher performance - Feed Strategy",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPcnhMUnBiLW5RYkx2VDNXbVBvNXlQZWo0eEw1dkV2S0Jid1lkTmZuek9CZzIxTTRuUFIwZnRCYkRDemhXQjFDYmhlYm1XeW01elkzSGVxc1YwamFGc2pOTDA0amJ0VE1EMDJsNV9VQUladERsSS1BS1IyQllpRjloNUV1R2tSOEF3TUhyMW9SNVRRcDJYcGlCZG5FaTRDcTR0ZjU5OTg5QWJkaGE4ODc0R3JiQjRuOExaYXY2Umkwa2dBNVQwd0p3cnNUNWN6cWc4ZS1RYjJvWWpPdXktM2UyaTJPNA?oc=5",
-          "published_date": "2023-03-28",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Feed palatability may be the key to higher performance Feed Strategy",
+          "title": "How a nutribiotic approach can improve gut health [VIDEO] - Feed Strategy",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOcGgyTjNVV21ZUnBWa29rZEFTVXkxRjhhTjRJZHdTbno5OHVxRGR1cFNUU3pBSkY0Z3R5NXA2djR1TmhwWlhuSVhkRzZ4b3pGSkREbHBpQk5BcEczZk5TN2RUUWc3MWo1ZVRHTDNoLWpnbi1hNWtKbkJ5US02aUk0Y3hrcWJqazVzaVdNMlItTGNlTGx3dGxFSC10cEJOUHA5TkRqRGFGVlNxT3FfNE10RjRxa3hScW9uMTVUbWNQa0ppMlVObFNCOVQ3dDJUQWEyU1FkRHloLUNuSzMxVUNyVTJR?oc=5",
+          "published_date": "2023-02-16",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "How a nutribiotic approach can improve gut health [VIDEO] Feed Strategy",
           "category": "Unclassified",
           "species": [
             "Multi-species"
           ],
           "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
+          "priority_score": 40,
+          "keywords": [
+            "gut health"
+          ],
           "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
         },
@@ -121,7 +144,7 @@
           "title": "AB Vista acquires Progres feed additive from Hankkija - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLTVZQTdrZ1lXX1FUUF9mVUpjOHR6Y2FHT09NYTV5ODBHMGozWUd6d0VXTFdYb1FJd05jMjI0RHNjZVRnOERoZEZ4UkJTTURlNHVuRW14TWNoQV9ZY0JLUWwzWUxPZlFUN3MyVENtdDRxMjdjNk5aV1A1QUhzU0drNHlnMEV4cDdCUXdPX3gtLW1hLVEwSkFpa3hiTENnOEJPclpzbmppblI4aTkzeU5yTC13Tm55bTNjVFo2eXBDLXZ6dDZ4RE41QVBrSHNEeEttTS1CMlEzWTdKN3U5Qjl0N0F3?oc=5",
           "published_date": "2023-02-10",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "AB Vista acquires Progres feed additive from Hankkija Feed Strategy",
           "category": "Feed Additives",
           "species": [
@@ -142,7 +165,7 @@
           "title": "40 new feed additive, equipment products released in 2022 - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNWFNfUjFYaTJvQWJCTHlkcFNyVWtMVDRicUR6QTByM0MzWVFMOGs5dElfclJwZktVOWEycUtOcXVGX3AydjNvMjdiMWF1enlublhTTGJoT045b09zQ0NDa3VPX2I1SnVxTnVVNF93TmtuNXdjLTA1WHJaXzJ6dEFHMmhSMWNWWnVXcW9hR3EwVWkzdmVGYlNZclgzelRWMHM2MTFtWGlCMm00MW40M0I4YlFCQXFWLWpfYTlianNsN2N5NWR2Q2Q5OHhvMEpiTmpXa3Y1UzMwU1JmWHJnZzI2OWlta1g1UQ?oc=5",
           "published_date": "2022-11-23",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "40 new feed additive, equipment products released in 2022 Feed Strategy",
           "category": "Feed Additives",
           "species": [
@@ -156,27 +179,6 @@
           ],
           "why_it_matters": "feed additive, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
-        },
-        {
-          "id": "feed-strategy-20220805-dae74806c9",
-          "source": "Feed Strategy",
-          "title": "Study: Yeast may help improve early piglet growth - Feed Strategy",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNUXFKcTdvS1NNbl9VM1FILWRfRjBQMDhyUTVNRG13dVVybWRjN3U4SVZ6WXhJVXlTdjBxckJIZFJic0M1NmdSWXhLTnRuampjUVdBNl9hQWpVbHc3UHRJZGgyV3BQc1BobkxWSV93dGxiblFpLTUxV2w0c2tBTFllZEtybXV3WWYxajRSTmo4MGJCa2pPMGViZjF1Tkg3QXVlZTY4VHhGSi1PVVc4Y3I1bDFkeEhYTlJFRjlhYlZNdDc5ZW1GWVJGT09LaTRDSERVLW9KTHpVRXZMT3c?oc=5",
-          "published_date": "2022-08-05",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Study: Yeast may help improve early piglet growth Feed Strategy",
-          "category": "Animal Nutrition",
-          "species": [
-            "Swine"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "piglet",
-            "pig"
-          ],
-          "why_it_matters": "Swine 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
         }
       ]
     },
@@ -184,8 +186,8 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-06-30T19:44:55+09:00",
-      "last_attempt_at": "2026-06-30T19:44:55+09:00",
+      "last_success_at": "2026-07-01T19:58:30+09:00",
+      "last_attempt_at": "2026-07-01T19:58:30+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -195,7 +197,7 @@
           "title": "Why Russia could be the next big feed additives exporter - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSDFJcXF4Z0didkRmV0xKdXhvRlZWWS1tZEIyQWF2cVNFU1MzZlBiMWtkVnc5ZjFURlc1al8tY01qOVhLNlFTTGl6NFItMzVWNTVvNEdPNm1fTGZVaTFoRS1hVUprdERwUWJ2YUlJTEVfeTNSdDUwaEtjelhuWEEyWllUZWo4d2pBZEtnODlPT2UyRktLUmwwaFB0QUszaDRxYXlhQXB1bTZBaXZIekZST2Q2NUI?oc=5",
           "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Why Russia could be the next big feed additives exporter foodagribusiness.world",
           "category": "Feed Additives",
           "species": [
@@ -217,7 +219,7 @@
           "title": "June feed business wrap-up from around the world - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa21qcXAwNHVobWRmaUdlV1V6WnlSa3lWTE53NlF6Z01zbEJCT09LU0pxbmFZYkV6U1UwMWlGWXRCY0tVaVhqc1ZhcXQzV1l5WGdNQ3pfSkVnUVV3ZnFpZVRfbnRwZVpOQ3B4dmE0NGV4bThLbkc2c1BmX2dNYUw4YlJUMGE1UGhOQlBZ?oc=5",
           "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "June feed business wrap-up from around the world foodagribusiness.world",
           "category": "Unclassified",
           "species": [
@@ -230,12 +232,32 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
+          "id": "all-about-feed-20260625-4587f91552",
+          "source": "All About Feed",
+          "title": "Yeast in animal feed: What nutritionists should know - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5rWVRPcnM0YVhPVXhZQTlBUmFNY0cxUUVwbUlweHl0X3h2X1dacHdJWkV5cG1TV2N4UUdKNjlPc2pVWEc2Nlh6RXF3U2JiVWVMSkxVSU9JVVRTRThQMXdvM1JYX2Zrb3BRQ1NRZTZ4Qnh3RERjRTAwOEIzZG0?oc=5",
+          "published_date": "2026-06-25",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "Yeast in animal feed: What nutritionists should know foodagribusiness.world",
+          "category": "Animal Nutrition",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "nutrition"
+          ],
+          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
+        },
+        {
           "id": "all-about-feed-20260624-60791a660b",
           "source": "All About Feed",
           "title": "Feed Talks: Gut health in poultry - the power of probiotics - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR0xxUmFMT0lPN3pnNXI3VHNpWlpRc3dYbC1XWUp4dXhYMU5Hdl9rbFRFbHZOOElya0w2V3hlNTBrVFZHbl92UkpuOTRaYXpxNFVjWTQyTmNNMFhjSFVfbERtTWxvTklxb1U0aHl4ZThqTGJPd1ZOeE94NG51TkdPNm1mbEM3TFZWaW5WSWM0SVJaZDVjMnBnLS1EaHE?oc=5",
           "published_date": "2026-06-24",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Feed Talks: Gut health in poultry - the power of probiotics foodagribusiness.world",
           "category": "Feed Additives",
           "species": [
@@ -252,34 +274,12 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "all-about-feed-20260624-b60fc52d47",
-          "source": "All About Feed",
-          "title": "Feed amino acid markets slide toward historic lows amid oversupply - foodagribusiness.world",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVWlFWHphTWpGaWliajRCRmxxSnlZeVhYcy1KeXB2eXVsUURPYkVYNm9KakhaQjJfUk9POFNGNlNMdEpROHJMZjlKXzBXYUxUUHVfYkpEOHZQQVl2Y2k5NmYtYUZCT3h0bFlkM3pTR3ROZHEtM3BqZ0w5RE5Od2pwenp0OHlGSEZxby1IMGNGSmtyMWRrY3hIUHk5NVZlRmEzZnJyYg?oc=5",
-          "published_date": "2026-06-24",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Feed amino acid markets slide toward historic lows amid oversupply foodagribusiness.world",
-          "category": "Market / Trade",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "amino acid",
-            "market",
-            "supply"
-          ],
-          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
-          "collection_method": "google_news_rss_fallback"
-        },
-        {
           "id": "all-about-feed-20260622-2eaf684e00",
           "source": "All About Feed",
           "title": "Inside animal nutrition R&D: From science to product performance - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMk8yTFRybXZScmZqSjF4aUpUTTBvdUdGV2VNaF9mTWVDMzlpaTBjVzhWVUNjSU1wczhDTnZKMVZjT19NdDBHSHlLdjBDSXY1LXBJYk5PVDhaUl9TQXBMaTAtUFpjN0pjXzdwa2ZhemMwZ2NuNVJHWlBjLUJ0Q19wWnV0b2lTMUFZN19aNzY4MUViSFliNzFPajhFWV9zN1Vub1NTTnQ0bUJVckk?oc=5",
           "published_date": "2026-06-22",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Inside animal nutrition R&D: From science to product performance foodagribusiness.world",
           "category": "Animal Nutrition",
           "species": [
@@ -299,7 +299,7 @@
           "title": "Feed Talks: Feed sustainability and research - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTHRBU0tveE5VckZEc1RUSC1vUk9BaVY2NXBwektSbGhWNmpSNHVGUmpuN0FScUFNQ09zek5nN1Z4c2xEcXBBSUZic2JEaGNEUUo2VW5xd0p2ZTRudVQxUndYWGNMSzVycXlHZzZLazFKRXE2Rk0tNnd2bkJHYlJNOEdKLTk?oc=5",
           "published_date": "2026-06-18",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Feed Talks: Feed sustainability and research foodagribusiness.world",
           "category": "Sustainability",
           "species": [
@@ -314,32 +314,12 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "all-about-feed-20260617-ab3d29ca26",
-          "source": "All About Feed",
-          "title": "ADM accelerates animal nutrition expansion in South America - foodagribusiness.world",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUmhjT3N2N2RNSU1xdHpBVS1iQ21EYzdLNDVlV0l0djVWcTdqRnNjbElKY2NJdXBsVmoxVUtUN3B0V183em9Kd2U0aGt3bUFuZUFmbDlfUFlLbXFlb05SUEVKR3hacElveEh2MzJEUFJBV1BHSGMyTzlzeVZNeWdORHR1TUg1MTRmNnhBalFZMzNpTnBhd2Q5NHNIdGxaQQ?oc=5",
-          "published_date": "2026-06-17",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "ADM accelerates animal nutrition expansion in South America foodagribusiness.world",
-          "category": "Animal Nutrition",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "nutrition"
-          ],
-          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
-        },
-        {
           "id": "all-about-feed-20260605-eb1242a915",
           "source": "All About Feed",
           "title": "Partners for All About Feed - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01THlpOXR0ZG1pSlZCVUxPZU9yUXNPMHJ6NTAzRDUzX0xpaHR4NEZGRkYtT1BIY212d3hJY294azhYQTRSZDY3cjFkWXBvUVUyYWw0MVN3V1hGR19i?oc=5",
           "published_date": "2026-06-05",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Partners for All About Feed foodagribusiness.world",
           "category": "Unclassified",
           "species": [
@@ -350,6 +330,27 @@
           "keywords": [],
           "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
+        },
+        {
+          "id": "all-about-feed-20260602-24ebf9f12d",
+          "source": "All About Feed",
+          "title": "Feed LCA standard launched for global sustainability - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQTzA3Y193VmdqbnlfVTl0V0NjN251V0VaVm1LWmpPd29UbWtuZlp2Q19sUV95ZFhHdmJSSDdkTUV2ZzVtYTVsODY1X1FybVd2dk03V2xsRDByVkU2SUhuV3F0V0lCUXRRbHpNeVU0Rlg3X01kV1QzVU41cW9UUW9fVF96YTQ0a1hSbjFQZEZiemtNQklsWW1iOE9SOVZZLUNfWGdtTGN3?oc=5",
+          "published_date": "2026-06-02",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "Feed LCA standard launched for global sustainability foodagribusiness.world",
+          "category": "Regulation",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 43,
+          "keywords": [
+            "sustainability",
+            "standard"
+          ],
+          "why_it_matters": "규제·품질·안전 관련 이슈이므로 제품 등록, 표시 claim, 원료 추적성, 고객 커뮤니케이션 리스크를 점검할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
         }
       ]
     },
@@ -357,18 +358,67 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-06-30T19:44:55+09:00",
-      "last_attempt_at": "2026-06-30T19:44:55+09:00",
+      "last_success_at": "2026-07-01T19:58:30+09:00",
+      "last_attempt_at": "2026-07-01T19:58:30+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
+        {
+          "id": "feed-additive-magazine-20260701-166da857a1",
+          "source": "Feed & Additive Magazine",
+          "title": "Study finds spray dried plasma improves overall diet digestibility",
+          "url": "https://www.feedandadditive.com/study-finds-spray-dried-plasma-improves-overall-diet-digestibility/",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "A new study shared by APC reveals that spray dried plasma (SDP) can improve nutrient digestibility beyond its own nutritional value. Researchers found that including 6% SDP enhanced protein and amino acid digestibility in wheat- and barley-based swine diets. A",
+          "category": "Animal Nutrition",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Medium",
+          "priority_score": 46,
+          "keywords": [
+            "digestibility",
+            "amino acid",
+            "nutrition",
+            "additive",
+            "protein",
+            "swine",
+            "diet"
+          ],
+          "why_it_matters": "Swine 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20260701-c5fec89c13",
+          "source": "Feed & Additive Magazine",
+          "title": "Hendrix Genetics expands salmon and trout breeding R&D team",
+          "url": "https://www.feedandadditive.com/hendrix-genetics-expands-salmon-and-trout-breeding-rd-team/",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "Hendrix Genetics‘ Business Unit Salmonids has reinforced its R&D team with diverse global expertise spanning genomics, bioinformatics, and phenotyping. The expanded team is expected to improve the accuracy of breeding value predictions and accelerate genetic p",
+          "category": "Feed Additives",
+          "species": [
+            "Poultry",
+            "Aquaculture"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "additive",
+            "salmon",
+            "hen"
+          ],
+          "why_it_matters": "additive, salmon, hen 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
         {
           "id": "feed-additive-magazine-20260630-bfe3984b6a",
           "source": "Feed & Additive Magazine",
           "title": "Biofractal to host Precision Poultry Symposium at PSA 2026",
           "url": "https://www.feedandadditive.com/biofractal-to-host-precision-poultry-symposium-at-psa-2026/",
           "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Biofractal will host the Precision Poultry Symposium at PSA 2026, bringing together global industry leaders to explore the future of precision poultry nutrition. The event will highlight emerging technologies and nutritional strategies that enhance flock perfo",
           "category": "Feed Additives",
           "species": [
@@ -386,12 +436,83 @@
           "collection_method": "rss"
         },
         {
+          "id": "feed-additive-magazine-20260630-a2640c7353",
+          "source": "Feed & Additive Magazine",
+          "title": "SOFIA 2026: Aquaculture production surpasses 100 million tonnes",
+          "url": "https://www.feedandadditive.com/sofia-2026-aquaculture-production-surpasses-100-million-tonnes/",
+          "published_date": "2026-06-30",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "FAO’s SOFIA 2026 report highlights a historic milestone as global aquaculture production surpasses 100 million tonnes for the first time. The sector continues to drive growth in aquatic food supply while underscoring challenges related to sustainability, equit",
+          "category": "Market / Trade",
+          "species": [
+            "Aquaculture"
+          ],
+          "priority": "Low",
+          "priority_score": 36,
+          "keywords": [
+            "sustainability",
+            "aquaculture",
+            "production",
+            "additive",
+            "climate",
+            "supply",
+            "trade",
+            "fao"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20260630-229f463ecb",
+          "source": "Feed & Additive Magazine",
+          "title": "dsm-firmenich ANH acquires Verax™ to boost AI-driven animal health monitoring",
+          "url": "https://www.feedandadditive.com/dsm-firmenich-anh-acquires-verax-to-boost-ai-driven-animal-health-monitoring/",
+          "published_date": "2026-06-30",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "dsm-firmenich Animal Nutrition & Health has taken full ownership of the Verax™ predictive analytics platform from InsideTracker. The move strengthens ANH’s AI and data-driven capabilities, enabling earlier detection of animal health and husbandry challenges th",
+          "category": "Feed Additives",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "nutrition",
+            "additive",
+            "ban",
+            "hen"
+          ],
+          "why_it_matters": "nutrition, additive, ban, hen 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20260630-b8b40c7334",
+          "source": "Feed & Additive Magazine",
+          "title": "BinSentry and Trouw Nutrition expand AI feed inventory platform across Canada",
+          "url": "https://www.feedandadditive.com/binsentry-and-trouw-nutrition-expand-ai-feed-inventory-platform-across-canada/",
+          "published_date": "2026-06-30",
+          "collected_at": "2026-07-01T19:58:30+09:00",
+          "summary": "BinSentry and Trouw Nutrition Canada are expanding their partnership nationwide, deploying the ProSense Feed platform across all Canadian facilities. The rollout extends AI-driven inventory intelligence from outage prevention to enterprise-wide logistics, orde",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "nutrition",
+            "additive"
+          ],
+          "why_it_matters": "nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
           "id": "feed-additive-magazine-20260629-28274574a8",
           "source": "Feed & Additive Magazine",
           "title": "ALGIECEL names Tove Feld as Chair of the Board of Directors",
           "url": "https://www.feedandadditive.com/algiecel-names-tove-feld-as-chair-of-the-board-of-directors/",
           "published_date": "2026-06-29",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "ALGIECEL has named Tove Feld as Chair of its Board of Directors, succeeding Tina Moe as the company continues its commercialisation efforts and growth plans. ALGIECEL has appointed Tove Feld as Chair of the Board of Directors as the company enters its next pha",
           "category": "Feed Additives",
           "species": [
@@ -411,7 +532,7 @@
           "title": "Mark Moran takes on Chief Product & Technology Officer role at VAS",
           "url": "https://www.feedandadditive.com/mark-moran-takes-on-chief-product-technology-officer-role-at-vas/",
           "published_date": "2026-06-29",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "VAS has named Mark Moran as Chief Product & Technology Officer. Drawing on nearly 30 years of experience in technology and precision agriculture, he will oversee product management, engineering, data and artificial intelligence. VAS, a company specialising in",
           "category": "Feed Additives",
           "species": [
@@ -424,121 +545,6 @@
           ],
           "why_it_matters": "additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260629-4410c1c8bc",
-          "source": "Feed & Additive Magazine",
-          "title": "Bioflytech drives insect protein innovation for aquaculture",
-          "url": "https://www.feedandadditive.com/bioflytech-drives-insect-protein-innovation-for-aquaculture/",
-          "published_date": "2026-06-29",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Bioflytech is contributing to the EU-funded DIVERSYFY4Future project by developing insect-based functional ingredients to support more sustainable aquaculture feed systems. The initiative focuses on black soldier fly biomass trials across key farmed species to",
-          "category": "Feed Additives",
-          "species": [
-            "Aquaculture"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "aquaculture",
-            "additive",
-            "protein"
-          ],
-          "why_it_matters": "aquaculture, additive, protein 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260629-58f76ca224",
-          "source": "Feed & Additive Magazine",
-          "title": "Ecocean and INVE join forces to advance marine biodiversity restoration",
-          "url": "https://www.feedandadditive.com/ecocean-and-inve-join-forces-to-advance-marine-biodiversity-restoration/",
-          "published_date": "2026-06-29",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Ecocean and INVE Aquaculture have joined forces to strengthen marine restoration efforts by combining the science-based BioRestore® restoration program with specialised early-life nutrition to improve the survival of young fish before restocking. Ecocean, a Fr",
-          "category": "Feed Additives",
-          "species": [
-            "Poultry",
-            "Aquaculture"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "aquaculture",
-            "environment",
-            "nutrition",
-            "additive",
-            "fish",
-            "hen"
-          ],
-          "why_it_matters": "aquaculture, environment, nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260626-3d7ca095fa",
-          "source": "Feed & Additive Magazine",
-          "title": "Trouw Nutrition advances poultry nutrition science at WPC 2026",
-          "url": "https://www.feedandadditive.com/trouw-nutrition-advances-poultry-nutrition-science-at-wpc-2026/",
-          "published_date": "2026-06-26",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "Trouw Nutrition will present its latest poultry nutrition research at WPC 2026, highlighting advances in nutrient utilization, predictive modelling and PhytoComplex innovations. The studies aim to improve flock performance, resilience and production efficiency",
-          "category": "Feed Additives",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "production",
-            "nutrition",
-            "additive",
-            "poultry"
-          ],
-          "why_it_matters": "production, nutrition, additive, poultry 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260626-6d737afc4c",
-          "source": "Feed & Additive Magazine",
-          "title": "NOVUS appoints Kelly Sweeney as Senior Technical Services Manager",
-          "url": "https://www.feedandadditive.com/novus-appoints-kelly-sweeney-as-senior-technical-services-manager/",
-          "published_date": "2026-06-26",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "NOVUS has appointed hatchability expert Dr. Kelly Sweeney as Senior Technical Services Manager, where she will support poultry customers with nutrition strategies and production best practices to enhance bird performance and health. Dr. Kelly Sweeney has joine",
-          "category": "Feed Additives",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "production",
-            "nutrition",
-            "additive",
-            "poultry"
-          ],
-          "why_it_matters": "production, nutrition, additive, poultry 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260626-7bc50a3a64",
-          "source": "Feed & Additive Magazine",
-          "title": "Suzanne Harrison to lead AB Agri UK & IE as Managing Director",
-          "url": "https://www.feedandadditive.com/suzanne-harrison-to-lead-ab-agri-uk-ie-as-managing-director/",
-          "published_date": "2026-06-26",
-          "collected_at": "2026-06-30T19:44:55+09:00",
-          "summary": "AB Agri has named Suzanne Harrison as Managing Director of AB Agri UK & IE, where she will provide strategic leadership for company’s UK and Ireland premix and feed operations. AB Agri has appointed Suzanne Harrison as Managing Director for AB Agri UK & IE, pr",
-          "category": "Feed Additives",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "nutrition",
-            "additive"
-          ],
-          "why_it_matters": "nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
         }
       ]
     },
@@ -546,18 +552,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-06-30T19:44:55+09:00",
-      "last_attempt_at": "2026-06-30T19:44:55+09:00",
+      "last_success_at": "2026-07-01T19:58:30+09:00",
+      "last_attempt_at": "2026-07-01T19:58:30+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260630-6e86f2eab8",
+          "id": "the-pig-site-20260701-166d1ea397",
           "source": "The Pig Site",
           "title": "Philippines pushes to commercialise ASF vaccine",
           "url": "https://www.thepigsite.com/news/2026/06/philippines-pushes-to-commercialise-asf-vaccine",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Philippines pushes to commercialise ASF vaccine",
           "category": "Disease / Biosecurity",
           "species": [
@@ -572,12 +578,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-afd2197b1f",
+          "id": "the-pig-site-20260701-d230afec78",
           "source": "The Pig Site",
           "title": "African swine fever",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/african-swine-fever",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "African swine fever",
           "category": "Disease / Biosecurity",
           "species": [
@@ -593,12 +599,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-c8ea3791da",
+          "id": "the-pig-site-20260701-18d895f916",
           "source": "The Pig Site",
           "title": "Policy and regulation",
           "url": "https://www.thepigsite.com/policy-and-regulation",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Policy and regulation",
           "category": "Regulation",
           "species": [
@@ -614,12 +620,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-a20b6bdc92",
+          "id": "the-pig-site-20260701-b942edde16",
           "source": "The Pig Site",
           "title": "Notifiable diseases",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Notifiable diseases",
           "category": "Disease / Biosecurity",
           "species": [
@@ -634,12 +640,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-35fe0e53b3",
+          "id": "the-pig-site-20260701-29bc350eb3",
           "source": "The Pig Site",
           "title": "Coalition urges FDA to end routine antibiotic use in livestock",
           "url": "https://www.thepigsite.com/news/2026/06/coalition-urges-fda-to-end-routine-antibiotic-use-in-livestock",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Coalition urges FDA to end routine antibiotic use in livestock",
           "category": "Regulation",
           "species": [
@@ -654,12 +660,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-d22fc3fed4",
+          "id": "the-pig-site-20260701-d275505905",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -674,12 +680,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-aeb49342d6",
+          "id": "the-pig-site-20260701-515e6b3efd",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -694,12 +700,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260630-56e71bf315",
+          "id": "the-pig-site-20260701-e9fc8afb56",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -717,18 +723,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-06-30T19:44:55+09:00",
-      "last_attempt_at": "2026-06-30T19:44:55+09:00",
+      "last_success_at": "2026-07-01T19:58:30+09:00",
+      "last_attempt_at": "2026-07-01T19:58:30+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260630-2f2503d151",
+          "id": "the-poultry-site-20260701-187421b4c3",
           "source": "The Poultry Site",
           "title": "Policy and regulation",
           "url": "https://www.thepoultrysite.com/markets-policy-2/policy-and-regulation",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Policy and regulation",
           "category": "Regulation",
           "species": [
@@ -744,12 +750,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-cb34c84393",
+          "id": "the-poultry-site-20260701-b0600810ff",
           "source": "The Poultry Site",
           "title": "Coalition urges FDA to end routine antibiotic use in livestock",
           "url": "https://www.thepoultrysite.com/news/2026/06/coalition-urges-fda-to-end-routine-antibiotic-use-in-livestock",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Coalition urges FDA to end routine antibiotic use in livestock",
           "category": "Regulation",
           "species": [
@@ -764,12 +770,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-6dbf4b9ccc",
+          "id": "the-poultry-site-20260701-4aac954918",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -784,12 +790,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-60f9aaf633",
+          "id": "the-poultry-site-20260701-51b68df1af",
           "source": "The Poultry Site",
           "title": "Trouw Nutrition shares scientific research at World’s Poultry Congress 2026",
           "url": "https://www.thepoultrysite.com/news/2026/06/trouw-nutrition-shares-scientific-research-at-worlds-poultry-congress-2026",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Trouw Nutrition shares scientific research at World’s Poultry Congress 2026",
           "category": "Animal Nutrition",
           "species": [
@@ -805,12 +811,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-363a1d965e",
+          "id": "the-poultry-site-20260701-56325d78f3",
           "source": "The Poultry Site",
           "title": "Malaysia warns of rising food costs as energy crisis drags on",
           "url": "https://www.thepoultrysite.com/news/2026/06/malaysia-warns-of-rising-food-costs-as-energy-crisis-drags-on",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Malaysia warns of rising food costs as energy crisis drags on",
           "category": "Animal Nutrition",
           "species": [
@@ -826,12 +832,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-75e1c12201",
+          "id": "the-poultry-site-20260701-fe76925cda",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -844,12 +850,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-d5d2e9f4b5",
+          "id": "the-poultry-site-20260701-891163f4b8",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -862,12 +868,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260630-8a403cc1fa",
+          "id": "the-poultry-site-20260701-31986f7a8c",
           "source": "The Poultry Site",
           "title": "Trump set to start 10-year clock on USMCA wind-down",
           "url": "https://www.thepoultrysite.com/news/2026/06/trump-set-to-start-10-year-clock-on-usmca-wind-down",
-          "published_date": "2026-06-30",
-          "collected_at": "2026-06-30T19:44:55+09:00",
+          "published_date": "2026-07-01",
+          "collected_at": "2026-07-01T19:58:30+09:00",
           "summary": "Trump set to start 10-year clock on USMCA wind-down",
           "category": "Unclassified",
           "species": [
