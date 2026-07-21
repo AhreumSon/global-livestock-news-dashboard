@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-07-20T19:24:30+09:00",
+    "data_generated_at": "2026-07-21T16:56:30+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-07-20 19:24 KST",
+  "last_updated": "2026-07-21 16:56 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-07-20T19:24:30+09:00",
-      "last_attempt_at": "2026-07-20T19:24:30+09:00",
+      "last_success_at": "2026-07-21T16:56:30+09:00",
+      "last_attempt_at": "2026-07-21T16:56:30+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "Report shows risks ractopamine poses to dogs - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc1F1eU9vUUdHWVlXLTBZUmEtT0FuYk9DOGNQVElqTmlaSHI0MHFhQWxXZzZzMVBqUFhIdFRyRUtjR2pSQzdvRXZESUt2S2ozUUszZ21WTkdDczQtN19lNHlTcnp2UEZPWFpLVzdCTXF3WWxFekxhUk1GTVJDY0VrYjcxSFo3Rmhwd0ZMSGIwOTlab1dOSV9IZ0NvbV84RWE3NU5yRGxwMzA0YXVWZ3lXQnFrQmxhd3o4LTNSUVZpTkpjQl9RMGJ2RUQ3LWZMODF3aHc?oc=5",
           "published_date": "2026-05-05",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Report shows risks ractopamine poses to dogs Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -46,7 +46,7 @@
           "title": "Anitox Maxi-Mil From: Anitox - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE1sUlFIQ2x3dnhKd3VhdU9QaFU2dnAxOWZLczl2ZkNya2ZZSjJucVdZVXZuZklLTGkzM2poOE1OQzhxUkdTaUIzTXlLQVRPN1M3eU5QdG9ieER5bUtGazlNYXloaWd4Z2d1bDNGUnc2THBhWE9XTjk4aUxiUnZOUnZoTXV6dmxtNGxpNzFMYVMydw?oc=5",
           "published_date": "2025-01-15",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Anitox Maxi-Mil From: Anitox Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -64,7 +64,7 @@
           "title": "Feed Strategy Seminar Series @ EuroTier 2024 - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNFNXcWYyS2dKdC1oMlBRM3pxdk01UGo0OFFiN2NOVjFucEFVQm5POHpkeThpdmFvbzRXM0p1cGc2RS0zMkNJTnJTZFJSc3RuZ3lrdURURjJwYTR1bDdnSlRXUmZPZFFOREhOd0syQ0l0Q0t5ZFhlSUZNTlJhQVFZdXFVS3JmcjJRaHZRaW9adzBCWkQ0VU5ibUhzeDZZR2F1RXFUU3pKLXVsUENXc2RJX2Rn?oc=5",
           "published_date": "2024-11-12",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Feed Strategy Seminar Series @ EuroTier 2024 Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -82,7 +82,7 @@
           "title": "Animal Nutrition: Page 178 - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sazhZR0pWQUZ3dktyWncxRGkzczNCcFBXaC1lTHZncjNxc0lCSXhVU0h5bmpncmJKWGpSVzRoUzZUVTNCSE1zSDdwZ25nd3YwLXhkYkd6Y3hkWWU1VmxMRmxRakQ?oc=5",
           "published_date": "2023-10-28",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Animal Nutrition: Page 178 Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -102,7 +102,7 @@
           "title": "Le Gouessant - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ROE5GMW9vcXc2c2YyWUs3MlBiZ3BPZFlvUWV6VFNUY1pXXzhhWVJndVVBdFZSN0xRRmdrMG1DX3pfby1FVGMxakh5bl9uRjFPVGJYMG8tYURlUm5MTjJoUWdDUEc5Y0FGT0FxU0JYQW1MaHBwV3Vz?oc=5",
           "published_date": "2023-06-21",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Le Gouessant Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -120,7 +120,7 @@
           "title": "ADM Animal Nutrition - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTzJ2Snk4VEZ4UWFVVUNDS0J2eTZSQkNTX3l2Zk5fQTV4bFVodEoyMjJ3UnhndU1WRnVzeGotYnplWmlvU05FSWtjTE9WUGttY3pKU0ozeEl3Ynprb182MUxfbFJ2U1RYdnUwTllkbWRqMHpNMGZGR1NCNklZREd5ZkEwT3VTa1dIdjBtd0w5NThNUmIx?oc=5",
           "published_date": "2023-05-11",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "ADM Animal Nutrition Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -140,7 +140,7 @@
           "title": "Basics of feed flavoring agents for poultry, ruminants - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNVlRRFpzb3B1YVVBTXQzYldXUlVmU3llelRCR0NGN3ZHd1ExdnNlSGNJS3BDV0RXRldsVFFiSU04a1hiVHpVSTlxbEJMQ0V1Mm85clNBQjRQYzBCbi1lTnRYazlORTFlZU1vbXRZal96VkxvTTVVVFJZOTVmaGllMy13RHlyTzdDQUdpaEROQlREaVl5dmp3RC1xZS1KRHJFUmxTT3lvaU0yWHNMMmxaZDVXdUtxSEk?oc=5",
           "published_date": "2023-05-10",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Basics of feed flavoring agents for poultry, ruminants Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -162,7 +162,7 @@
           "title": "Animal Nutrition > Swine - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xMXo1bHZuRzVydkF3SkR5eV9SUkkxN014Qi1BT1hucWtoWGFleXZ2d0pKcEJmdE1zeGcxV01pT3BqdGZSaV9PVVBlWXV6MnY5Y2FEWk56a2lYc3V5bkVWRg?oc=5",
           "published_date": "2023-05-04",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Animal Nutrition > Swine Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -183,8 +183,8 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-07-20T19:24:30+09:00",
-      "last_attempt_at": "2026-07-20T19:24:30+09:00",
+      "last_success_at": "2026-07-21T16:56:30+09:00",
+      "last_attempt_at": "2026-07-21T16:56:30+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -194,7 +194,7 @@
           "title": "Measuring and verifying soy in animal feed supply chains - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0xCRzJzS0hZQzJFbDNMRzhGM2VBT3JkWUtSbnFXem1GZnJ0MFFRLWNSSVFjd2hyOW1Id3huTnUxTVNjOS1ScG9sSW1Jb3ZrZWx5NGhsR2xXTFg3bGljUTl2TGxyX2JBdy1sTjhSbHVXX0FJT0pPRlFNQjVpTzdtc01vaHJlOW5FQm9IQ3hqTFBWQ3hfTnByc0xsNjI?oc=5",
           "published_date": "2026-07-14",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Measuring and verifying soy in animal feed supply chains foodagribusiness.world",
           "category": "Market / Trade",
           "species": [
@@ -214,7 +214,7 @@
           "title": "Feed production trends in Spain: Pig, poultry, cattle, more - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQVFHNjJTUUFWU0ZvTWhfU2NsTW9iNWd0S0oyQlFZUURCXzVsTHlCYjNkZFhJNTB3czhWSmxwUDFVcTNmQWNSdXBtbDFSZXFZMUVrdklZSm85UUpYeXJFWGpHQVRaVXlOTk42R1k1amkycXVuWWoxREdEZ3dRLW9pV2VrY3pPN2xwdUJZcUpVU2RNaXc?oc=5",
           "published_date": "2026-07-13",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Feed production trends in Spain: Pig, poultry, cattle, more foodagribusiness.world",
           "category": "Market / Trade",
           "species": [
@@ -234,30 +234,12 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "all-about-feed-20260712-d09fad271a",
-          "source": "All About Feed",
-          "title": "zambia - live.allaboutfeed.net",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBITHVoTGRYT29JeUdaZmh0ZEh5US14dlpPUDREdGRiUXJSdlRjeXZFcFJRRzdOQ29CZndDMEdfS2pFbXlJOE96NEZyQUJZQnhHYzlz?oc=5",
-          "published_date": "2026-07-12",
-          "collected_at": "2026-07-20T19:24:30+09:00",
-          "summary": "zambia live.allaboutfeed.net",
-          "category": "Unclassified",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
-        },
-        {
           "id": "all-about-feed-20260712-14f507c69f",
           "source": "All About Feed",
           "title": "botswana - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RN01FWjdSZ3RCZ3prbHpaZFVfVGs3bnpGaGIzX1V3SlQ3M3VJbEJVWkJLSkh4TENQU2NTNlc4QUdncnc3MlBfRjJaTEVwWWtlMldNOWh3?oc=5",
           "published_date": "2026-07-12",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "botswana live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -275,7 +257,7 @@
           "title": "zimbabwe - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RX2hlZ2tzTDhYX3AtVFhSS050UGVSb3dKOHBpYV9ZU01SREliaXdJUnY5SmwyU1FVcW8zajQyWDhjRTYyTndjZlcycVc1dlNxRU4yOFFn?oc=5",
           "published_date": "2026-07-12",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "zimbabwe live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -293,7 +275,7 @@
           "title": "namibia - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBycjhRUDlrZEotYm1hMUZSdl9obXFtSHFBM012ZllaY1FNVlBjQlBfbjBfbS1DQ1BpMU1OeFFuOGZubTJ6QVMtaDNLVkRuUmxpNUVDVA?oc=5",
           "published_date": "2026-07-11",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "namibia live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -311,7 +293,7 @@
           "title": "Kazakhstan’s new Dutch feed mill targets import reduction - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSEloMi1mX21LaFpEYlhMaVl1bFdqYXFiWlpsOEtNNGZySjdfRklYQzBscUhXc0p6VWFRWndob0N2eE9abGFUTG5sSHh3VW5qdTJYbGotQUFfYWFLbW53bzVLVjMxMUZYcW16ZmJTUkF1TFNYbzBTNk12LTctb0JEVlpVaHRkTTQyZHp2Y2dyZXFmdDg2Q3JyRWxJYUpKX3lYZUUw?oc=5",
           "published_date": "2026-07-09",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Kazakhstan’s new Dutch feed mill targets import reduction foodagribusiness.world",
           "category": "Market / Trade",
           "species": [
@@ -331,7 +313,7 @@
           "title": "Inside Animal Nutrition R&D: From analytical science to product performance - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb0tuV0JkZUhNeF9PYXdLalRvZUtXU0xUUGVIU1FCcE1qZGlkVFBqU0taMEZjRE50R0dSZUotV3FjZk9PQ0ZJVzB1TTZKNmZ1a3RRYmxVWVhkWDNIQzRxWmNTZFU0WVQ1Um9VenJUeVhZUHh2N2E5SEhEZVhDaGswWUt5MmtWRTdDbFVPeF9vaFJNUjg2cnpVeUVZVllLcXZvdTIwMEx3N3U5Q29QenFjaFBqaEFFaDV1eWc?oc=5",
           "published_date": "2026-07-08",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Inside Animal Nutrition R&D: From analytical science to product performance foodagribusiness.world",
           "category": "Animal Nutrition",
           "species": [
@@ -344,6 +326,26 @@
           ],
           "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
+        },
+        {
+          "id": "all-about-feed-20260707-791acaf6d5",
+          "source": "All About Feed",
+          "title": "Russian feed industry gains access to Chinese market - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVU8wQWhIRG1nNnhaY2xLZzcyeU1XaTFFVDdSY3BuYUtxUUUwbEtSX2FDTG9uTWpicEFXYmpYRHZMWnhJMWdwRnFsMy1TbzhzZmNVdU81bktOb1hvUlBOdlFoeE5NaFZKY0otZ0NYSTNmQzNrZFp5ZEVHUTZyelV3Y3dWQ3MxX0NW?oc=5",
+          "published_date": "2026-07-07",
+          "collected_at": "2026-07-21T16:56:30+09:00",
+          "summary": "Russian feed industry gains access to Chinese market foodagribusiness.world",
+          "category": "Market / Trade",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "market"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "google_news_rss_fallback"
         }
       ]
     },
@@ -351,18 +353,60 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-07-20T19:24:30+09:00",
-      "last_attempt_at": "2026-07-20T19:24:30+09:00",
+      "last_success_at": "2026-07-21T16:56:30+09:00",
+      "last_attempt_at": "2026-07-21T16:56:30+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
+        {
+          "id": "feed-additive-magazine-20260720-85cce9ed0a",
+          "source": "Feed & Additive Magazine",
+          "title": "Pooch & Mutt launches first freeze-dried products for dogs",
+          "url": "https://www.feedandadditive.com/pooch-mutt-launches-first-freeze-dried-products-for-dogs/",
+          "published_date": "2026-07-20",
+          "collected_at": "2026-07-21T16:56:30+09:00",
+          "summary": "Pooch & Mutt has entered the freeze-dried pet food category with the launch of its first Freeze-Dried Treats and Freeze-Dried Toppers, expanding its Raw range. The products are designed to support training, mealtime enhancement and everyday pet wellbeing. Prem",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "additive"
+          ],
+          "why_it_matters": "additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20260720-7e03db7911",
+          "source": "Feed & Additive Magazine",
+          "title": "WiseLake expands PigOS with Android app for real-time pig farm monitoring",
+          "url": "https://www.feedandadditive.com/wiselake-expands-pigos-with-android-app-for-real-time-pig-farm-monitoring/",
+          "published_date": "2026-07-20",
+          "collected_at": "2026-07-21T16:56:30+09:00",
+          "summary": "WiseLake has unveiled the Android version of PigOS, its AI-powered farm operation platform for swine producers. The mobile app enables on-farm data entry, real-time KPI monitoring, and early operational alerts while synchronizing with the web platform. WiseLak",
+          "category": "Feed Additives",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "additive",
+            "swine",
+            "pig"
+          ],
+          "why_it_matters": "additive, swine, pig 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
         {
           "id": "feed-additive-magazine-20260717-88d1c748f2",
           "source": "Feed & Additive Magazine",
           "title": "Biovet highlights poultry intestinal health advances at WPC 2026",
           "url": "https://www.feedandadditive.com/biovet-highlights-poultry-intestinal-health-advances-at-wpc-2026/",
           "published_date": "2026-07-17",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Biovet S.A. has showcased its scientific advances on natural feed additive strategies to support intestinal health in broiler chickens at the World Poultry Congress (WPC) 2026. The presentation highlighted the potential of activated diatoms, pronutrients and p",
           "category": "Feed Additives",
           "species": [
@@ -374,11 +418,11 @@
             "feed additive",
             "additive",
             "chicken",
-            "poultry",
             "broiler",
+            "poultry",
             "hen"
           ],
-          "why_it_matters": "feed additive, additive, chicken, poultry 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "feed additive, additive, chicken, broiler 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
@@ -387,7 +431,7 @@
           "title": "Royal Canin® unveils its first fresh therapeutic veterinary diet range",
           "url": "https://www.feedandadditive.com/royal-canin-unveils-its-first-fresh-therapeutic-veterinary-diet-range/",
           "published_date": "2026-07-17",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Royal Canin® has introduced its first fresh therapeutic diet portfolio for dogs in the U.S. Available exclusively through veterinarians, the range is designed to support specific health conditions while addressing growing demand for fresh feeding options. Roya",
           "category": "Feed Additives",
           "species": [
@@ -409,7 +453,7 @@
           "title": "Steve Olson appointed Executive Director of Poultry Science Association",
           "url": "https://www.feedandadditive.com/steve-olson-appointed-executive-director-of-poultry-science-association/",
           "published_date": "2026-07-17",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "The Poultry Science Association (PSA) has appointed Steve Olson as its new Executive Director. He brings more than 20 years of poultry industry association management experience to lead the organization’s strategic growth and operations. The Poultry Science As",
           "category": "Feed Additives",
           "species": [
@@ -430,7 +474,7 @@
           "title": "Evonik achieves full integration of global MetAMINO® production network",
           "url": "https://www.feedandadditive.com/evonik-achieves-full-integration-of-global-metamino-production-network/",
           "published_date": "2026-07-17",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Evonik has strengthened its global methionine production network by completing the backward integration of its MetAMINO® production hub in Mobile, Alabama. The project is expected to improve supply security, operational efficiency, and the sustainability of it",
           "category": "Market / Trade",
           "species": [
@@ -454,7 +498,7 @@
           "title": "UConn study highlights postbiotics for safer poultry processing",
           "url": "https://www.feedandadditive.com/uconn-study-highlights-postbiotics-for-safer-poultry-processing/",
           "published_date": "2026-07-16",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Researchers at the University of Connecticut have developed a promising postbiotic-based approach that could help reduce Salmonella contamination during poultry processing. The approach could potentially be integrated into existing poultry processing practices",
           "category": "Feed Additives",
           "species": [
@@ -479,7 +523,7 @@
           "title": "Cornell study links rumen-protected fats with higher milk yield",
           "url": "https://www.feedandadditive.com/cornell-study-links-rumen-protected-fats-with-higher-milk-yield/",
           "published_date": "2026-07-16",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Rumen-protected fats allow dairy producers to increase dietary energy density without disrupting rumen function, explains Dr. Richard Kirkland of Volac Wilmar Feed Ingredients. This benefit is confirmed by recent Cornell University research showing gains in mi",
           "category": "Animal Nutrition",
           "species": [
@@ -495,50 +539,9 @@
             "energy",
             "dairy",
             "rumen",
-            "corn"
+            "diet"
           ],
           "why_it_matters": "Ruminant 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260716-db79f4d26a",
-          "source": "Feed & Additive Magazine",
-          "title": "BinMaster names Seth Korte as Business Development Manager",
-          "url": "https://www.feedandadditive.com/binmaster-names-seth-korte-as-business-development-manager/",
-          "published_date": "2026-07-16",
-          "collected_at": "2026-07-20T19:24:30+09:00",
-          "summary": "BinMaster Sensors and Technologies (BST) has named Seth Korte as Business Development Manager. In his new role, he will oversee business development for the company’s FeedView® inventory management solutions and other technologies serving feed mills and livest",
-          "category": "Feed Additives",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "additive"
-          ],
-          "why_it_matters": "additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260716-9f9ab6a11a",
-          "source": "Feed & Additive Magazine",
-          "title": "United Petfood takes 50% stake in SmartPetPro",
-          "url": "https://www.feedandadditive.com/united-petfood-takes-50-stake-in-smartpetpro/",
-          "published_date": "2026-07-16",
-          "collected_at": "2026-07-20T19:24:30+09:00",
-          "summary": "United Petfood has taken a 50% stake in German premium wet petfood producer SmartPetPro, strengthening its position in Germany. This transaction also enables SmartPetPro to accelerate its growth through access to international expertise, resources and a wider",
-          "category": "Feed Additives",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "additive",
-            "hen"
-          ],
-          "why_it_matters": "additive, hen 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         }
       ]
@@ -547,18 +550,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-07-20T19:24:30+09:00",
-      "last_attempt_at": "2026-07-20T19:24:30+09:00",
+      "last_success_at": "2026-07-21T16:56:30+09:00",
+      "last_attempt_at": "2026-07-21T16:56:30+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260720-43edab4a14",
+          "id": "the-pig-site-20260721-0a00cbc799",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -573,12 +576,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-12077369d1",
+          "id": "the-pig-site-20260721-c9dc1f728b",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -593,12 +596,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-4a2bcf2812",
+          "id": "the-pig-site-20260721-b6296d53e2",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -611,12 +614,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-36f30cb868",
+          "id": "the-pig-site-20260721-01150de16b",
           "source": "The Pig Site",
           "title": "Rising feed costs squeeze Brazil hog producers' margins",
           "url": "https://www.thepigsite.com/news/2026/07/rising-feed-costs-squeeze-brazil-hog-producers-margins",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Rising feed costs squeeze Brazil hog producers' margins",
           "category": "Market / Trade",
           "species": [
@@ -631,12 +634,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-9782e069c5",
+          "id": "the-pig-site-20260721-27389c9120",
           "source": "The Pig Site",
           "title": "Hog futures climb to two-month high - CME",
           "url": "https://www.thepigsite.com/news/2026/07/cattle-futures-fall-for-15th-straight-session-cme",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Hog futures climb to two-month high - CME",
           "category": "Unclassified",
           "species": [
@@ -649,12 +652,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-d1690d30dc",
+          "id": "the-pig-site-20260721-5e65a0a29c",
           "source": "The Pig Site",
           "title": "Russian strikes cut Ukraine grain export capacity by a third",
           "url": "https://www.thepigsite.com/news/2026/07/russian-strikes-cut-ukraine-grain-export-capacity-by-a-third",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Russian strikes cut Ukraine grain export capacity by a third",
           "category": "Market / Trade",
           "species": [
@@ -669,12 +672,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-54232d1b28",
+          "id": "the-pig-site-20260721-f46d353dbe",
           "source": "The Pig Site",
           "title": "Soybean futures slip on milder weather outlook - CBOT",
           "url": "https://www.thepigsite.com/news/2026/07/soybean-futures-slip-on-milder-weather-outlook-cbot",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Soybean futures slip on milder weather outlook - CBOT",
           "category": "Market / Trade",
           "species": [
@@ -689,12 +692,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260720-dedcc8debd",
+          "id": "the-pig-site-20260721-abb4192d8b",
           "source": "The Pig Site",
           "title": "Hog futures mixed as pork cutout price climbs - CME",
           "url": "https://www.thepigsite.com/news/2026/07/cattle-futures-hit-four-month-low-as-cash-prices-slide-cme",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Hog futures mixed as pork cutout price climbs - CME",
           "category": "Market / Trade",
           "species": [
@@ -715,18 +718,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-07-20T19:24:30+09:00",
-      "last_attempt_at": "2026-07-20T19:24:30+09:00",
+      "last_success_at": "2026-07-21T16:56:30+09:00",
+      "last_attempt_at": "2026-07-21T16:56:30+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260720-e4c5be0a3a",
+          "id": "the-poultry-site-20260721-a7102a1e7a",
           "source": "The Poultry Site",
           "title": "Scandi Standard Q2 profit jumps on strong chicken demand",
           "url": "https://www.thepoultrysite.com/news/2026/07/scandi-standard-q2-profit-jumps-on-strong-chicken-demand",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Scandi Standard Q2 profit jumps on strong chicken demand",
           "category": "Regulation",
           "species": [
@@ -743,12 +746,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-aef6a75a72",
+          "id": "the-poultry-site-20260721-1102cb2f43",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -761,12 +764,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-99fb65e2ff",
+          "id": "the-poultry-site-20260721-17529631ad",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -779,12 +782,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-ad140b9ad4",
+          "id": "the-poultry-site-20260721-f663300f07",
           "source": "The Poultry Site",
           "title": "Latin America produces nearly a third of the world's chicken meat",
           "url": "https://www.thepoultrysite.com/news/2026/07/latin-america-produces-nearly-a-third-of-the-worlds-chicken-meat",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Latin America produces nearly a third of the world's chicken meat",
           "category": "Unclassified",
           "species": [
@@ -799,12 +802,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-9d6b6fd197",
+          "id": "the-poultry-site-20260721-9c1b12414f",
           "source": "The Poultry Site",
           "title": "Brazil chicken prices fall on weaker demand in July",
           "url": "https://www.thepoultrysite.com/news/2026/07/brazil-chicken-prices-fall-on-weaker-demand-in-july",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Brazil chicken prices fall on weaker demand in July",
           "category": "Market / Trade",
           "species": [
@@ -821,12 +824,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-7d98218958",
+          "id": "the-poultry-site-20260721-5b968bd5ab",
           "source": "The Poultry Site",
           "title": "Russian strikes cut Ukraine grain export capacity by a third",
           "url": "https://www.thepoultrysite.com/news/2026/07/russian-strikes-cut-ukraine-grain-export-capacity-by-a-third",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Russian strikes cut Ukraine grain export capacity by a third",
           "category": "Market / Trade",
           "species": [
@@ -841,12 +844,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-19763cc4bd",
+          "id": "the-poultry-site-20260721-6f78710cbe",
           "source": "The Poultry Site",
           "title": "Soybean futures slip on milder weather outlook - CBOT",
           "url": "https://www.thepoultrysite.com/news/2026/07/soybean-futures-slip-on-milder-weather-outlook-cbot",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "Soybean futures slip on milder weather outlook - CBOT",
           "category": "Market / Trade",
           "species": [
@@ -861,12 +864,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260720-20a7aa1045",
+          "id": "the-poultry-site-20260721-de1e9bc694",
           "source": "The Poultry Site",
           "title": "H5N1 found in native New Zealand hawk",
           "url": "https://www.thepoultrysite.com/news/2026/07/h5n1-found-in-native-new-zealand-hawk",
-          "published_date": "2026-07-20",
-          "collected_at": "2026-07-20T19:24:30+09:00",
+          "published_date": "2026-07-21",
+          "collected_at": "2026-07-21T16:56:30+09:00",
           "summary": "H5N1 found in native New Zealand hawk",
           "category": "Unclassified",
           "species": [
