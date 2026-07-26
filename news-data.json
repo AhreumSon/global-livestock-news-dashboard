@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-07-26T16:56:11+09:00",
+    "data_generated_at": "2026-07-27T08:58:42+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-07-26 16:56 KST",
+  "last_updated": "2026-07-27 08:58 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-07-26T16:56:11+09:00",
-      "last_attempt_at": "2026-07-26T16:56:11+09:00",
+      "last_success_at": "2026-07-27T08:58:42+09:00",
+      "last_attempt_at": "2026-07-27T08:58:42+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "Report shows risks ractopamine poses to dogs - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc1F1eU9vUUdHWVlXLTBZUmEtT0FuYk9DOGNQVElqTmlaSHI0MHFhQWxXZzZzMVBqUFhIdFRyRUtjR2pSQzdvRXZESUt2S2ozUUszZ21WTkdDczQtN19lNHlTcnp2UEZPWFpLVzdCTXF3WWxFekxhUk1GTVJDY0VrYjcxSFo3Rmhwd0ZMSGIwOTlab1dOSV9IZ0NvbV84RWE3NU5yRGxwMzA0YXVWZ3lXQnFrQmxhd3o4LTNSUVZpTkpjQl9RMGJ2RUQ3LWZMODF3aHc?oc=5",
           "published_date": "2026-05-05",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Report shows risks ractopamine poses to dogs Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -46,7 +46,7 @@
           "title": "Anitox Maxi-Mil From: Anitox - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE1sUlFIQ2x3dnhKd3VhdU9QaFU2dnAxOWZLczl2ZkNya2ZZSjJucVdZVXZuZklLTGkzM2poOE1OQzhxUkdTaUIzTXlLQVRPN1M3eU5QdG9ieER5bUtGazlNYXloaWd4Z2d1bDNGUnc2THBhWE9XTjk4aUxiUnZOUnZoTXV6dmxtNGxpNzFMYVMydw?oc=5",
           "published_date": "2025-01-15",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Anitox Maxi-Mil From: Anitox Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -64,7 +64,7 @@
           "title": "Feed Strategy Seminar Series @ EuroTier 2024 - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNFNXcWYyS2dKdC1oMlBRM3pxdk01UGo0OFFiN2NOVjFucEFVQm5POHpkeThpdmFvbzRXM0p1cGc2RS0zMkNJTnJTZFJSc3RuZ3lrdURURjJwYTR1bDdnSlRXUmZPZFFOREhOd0syQ0l0Q0t5ZFhlSUZNTlJhQVFZdXFVS3JmcjJRaHZRaW9adzBCWkQ0VU5ibUhzeDZZR2F1RXFUU3pKLXVsUENXc2RJX2Rn?oc=5",
           "published_date": "2024-11-12",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Feed Strategy Seminar Series @ EuroTier 2024 Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -82,7 +82,7 @@
           "title": "Animal Nutrition > Poultry - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5HNC1Nd3NRQ1dCSlQ1YXRUckpBU2NwbEF1dThpYU55RW5hMnZ0R0tZOTRkMDVHeXRIM2doZnJwUklfNTZBTFR3emJUcFRpRmptbjFVSWQySkNPQ1JBanpYMm05VE5FQU45eHFMelBR?oc=5",
           "published_date": "2023-12-22",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Animal Nutrition > Poultry Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -103,7 +103,7 @@
           "title": "Animal Nutrition: Page 178 - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sazhZR0pWQUZ3dktyWncxRGkzczNCcFBXaC1lTHZncjNxc0lCSXhVU0h5bmpncmJKWGpSVzRoUzZUVTNCSE1zSDdwZ25nd3YwLXhkYkd6Y3hkWWU1VmxMRmxRakQ?oc=5",
           "published_date": "2023-10-28",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Animal Nutrition: Page 178 Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -123,7 +123,7 @@
           "title": "Le Gouessant - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ROE5GMW9vcXc2c2YyWUs3MlBiZ3BPZFlvUWV6VFNUY1pXXzhhWVJndVVBdFZSN0xRRmdrMG1DX3pfby1FVGMxakh5bl9uRjFPVGJYMG8tYURlUm5MTjJoUWdDUEc5Y0FGT0FxU0JYQW1MaHBwV3Vz?oc=5",
           "published_date": "2023-06-21",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Le Gouessant Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -141,7 +141,7 @@
           "title": "Animal Nutrition > Swine - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xMXo1bHZuRzVydkF3SkR5eV9SUkkxN014Qi1BT1hucWtoWGFleXZ2d0pKcEJmdE1zeGcxV01pT3BqdGZSaV9PVVBlWXV6MnY5Y2FEWk56a2lYc3V5bkVWRg?oc=5",
           "published_date": "2023-05-04",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Animal Nutrition > Swine Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -162,7 +162,7 @@
           "title": "AB Vista acquires Progres feed additive from Hankkija - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNLTVZQTdrZ1lXX1FUUF9mVUpjOHR6Y2FHT09NYTV5ODBHMGozWUd6d0VXTFdYb1FJd05jMjI0RHNjZVRnOERoZEZ4UkJTTURlNHVuRW14TWNoQV9ZY0JLUWwzWUxPZlFUN3MyVENtdDRxMjdjNk5aV1A1QUhzU0drNHlnMEV4cDdCUXdPX3gtLW1hLVEwSkFpa3hiTENnOEJPclpzbmppblI4aTkzeU5yTC13Tm55bTNjVFo2eXBDLXZ6dDZ4RE41QVBrSHNEeEttTS1CMlEzWTdKN3U5Qjl0N0F3?oc=5",
           "published_date": "2023-02-10",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "AB Vista acquires Progres feed additive from Hankkija Feed Strategy",
           "category": "Feed Additives",
           "species": [
@@ -183,8 +183,8 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-07-26T16:56:11+09:00",
-      "last_attempt_at": "2026-07-26T16:56:11+09:00",
+      "last_success_at": "2026-07-27T08:58:42+09:00",
+      "last_attempt_at": "2026-07-27T08:58:42+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -194,7 +194,7 @@
           "title": "number of farms - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBzcDFzYW9FSlJiaDg4WEN4d1Nnb1BvVVpzclF6VGt1NHg4NlY5eFFXNUl4cm4xTWlZSHRId3pUZnFVUThBTHBvc0F6TVNTVzh5Ulczbkh1ZXNUYTZScUFj?oc=5",
           "published_date": "2026-07-22",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "number of farms live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -212,7 +212,7 @@
           "title": "Measuring and verifying soy in animal feed supply chains - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQd0xCRzJzS0hZQzJFbDNMRzhGM2VBT3JkWUtSbnFXem1GZnJ0MFFRLWNSSVFjd2hyOW1Id3huTnUxTVNjOS1ScG9sSW1Jb3ZrZWx5NGhsR2xXTFg3bGljUTl2TGxyX2JBdy1sTjhSbHVXX0FJT0pPRlFNQjVpTzdtc01vaHJlOW5FQm9IQ3hqTFBWQ3hfTnByc0xsNjI?oc=5",
           "published_date": "2026-07-14",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Measuring and verifying soy in animal feed supply chains foodagribusiness.world",
           "category": "Market / Trade",
           "species": [
@@ -232,7 +232,7 @@
           "title": "botswana - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RN01FWjdSZ3RCZ3prbHpaZFVfVGs3bnpGaGIzX1V3SlQ3M3VJbEJVWkJLSkh4TENQU2NTNlc4QUdncnc3MlBfRjJaTEVwWWtlMldNOWh3?oc=5",
           "published_date": "2026-07-12",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "botswana live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -250,7 +250,7 @@
           "title": "namibia - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBycjhRUDlrZEotYm1hMUZSdl9obXFtSHFBM012ZllaY1FNVlBjQlBfbjBfbS1DQ1BpMU1OeFFuOGZubTJ6QVMtaDNLVkRuUmxpNUVDVA?oc=5",
           "published_date": "2026-07-11",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "namibia live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -268,7 +268,7 @@
           "title": "Kazakhstan’s new Dutch feed mill targets import reduction - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSEloMi1mX21LaFpEYlhMaVl1bFdqYXFiWlpsOEtNNGZySjdfRklYQzBscUhXc0p6VWFRWndob0N2eE9abGFUTG5sSHh3VW5qdTJYbGotQUFfYWFLbW53bzVLVjMxMUZYcW16ZmJTUkF1TFNYbzBTNk12LTctb0JEVlpVaHRkTTQyZHp2Y2dyZXFmdDg2Q3JyRWxJYUpKX3lYZUUw?oc=5",
           "published_date": "2026-07-09",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Kazakhstan’s new Dutch feed mill targets import reduction foodagribusiness.world",
           "category": "Market / Trade",
           "species": [
@@ -288,7 +288,7 @@
           "title": "Inside Animal Nutrition R&D: From analytical science to product performance - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb0tuV0JkZUhNeF9PYXdLalRvZUtXU0xUUGVIU1FCcE1qZGlkVFBqU0taMEZjRE50R0dSZUotV3FjZk9PQ0ZJVzB1TTZKNmZ1a3RRYmxVWVhkWDNIQzRxWmNTZFU0WVQ1Um9VenJUeVhZUHh2N2E5SEhEZVhDaGswWUt5MmtWRTdDbFVPeF9vaFJNUjg2cnpVeUVZVllLcXZvdTIwMEx3N3U5Q29QenFjaFBqaEFFaDV1eWc?oc=5",
           "published_date": "2026-07-08",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Inside Animal Nutrition R&D: From analytical science to product performance foodagribusiness.world",
           "category": "Animal Nutrition",
           "species": [
@@ -308,7 +308,7 @@
           "title": "Feed Talks: Forecasting mycotoxin risks - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSS1BVDhhMktyUzNYaXVJSmRoeXRKQUxWR05JNG9mMndjdENrc0dmZkJmQkZLWUVGbGxDTVYzSVZaZ0ZST3lJVmtYSW04V0ZhU1FvY2J0OS0zaXVia09pTUVvcnBzODFNMUljS1pZMTdNNkVPeDJGNGNXLWlZTHYxWmhaZFE?oc=5",
           "published_date": "2026-07-02",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Feed Talks: Forecasting mycotoxin risks foodagribusiness.world",
           "category": "Feed Additives",
           "species": [
@@ -323,21 +323,25 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "all-about-feed-20260630-a01da4ed4e",
+          "id": "all-about-feed-20260630-80ebc13ca7",
           "source": "All About Feed",
-          "title": "June feed business wrap-up from around the world - foodagribusiness.world",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa21qcXAwNHVobWRmaUdlV1V6WnlSa3lWTE53NlF6Z01zbEJCT09LU0pxbmFZYkV6U1UwMWlGWXRCY0tVaVhqc1ZhcXQzV1l5WGdNQ3pfSkVnUVV3ZnFpZVRfbnRwZVpOQ3B4dmE0NGV4bThLbkc2c1BmX2dNYUw4YlJUMGE1UGhOQlBZ?oc=5",
+          "title": "Why Russia could be the next big feed additives exporter - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSDFJcXF4Z0didkRmV0xKdXhvRlZWWS1tZEIyQWF2cVNFU1MzZlBiMWtkVnc5ZjFURlc1al8tY01qOVhLNlFTTGl6NFItMzVWNTVvNEdPNm1fTGZVaTFoRS1hVUprdERwUWJ2YUlJTEVfeTNSdDUwaEtjelhuWEEyWllUZWo4d2pBZEtnODlPT2UyRktLUmwwaFB0QUszaDRxYXlhQXB1bTZBaXZIekZST2Q2NUI?oc=5",
           "published_date": "2026-06-30",
-          "collected_at": "2026-07-26T16:56:11+09:00",
-          "summary": "June feed business wrap-up from around the world foodagribusiness.world",
-          "category": "Unclassified",
+          "collected_at": "2026-07-27T08:58:42+09:00",
+          "summary": "Why Russia could be the next big feed additives exporter foodagribusiness.world",
+          "category": "Feed Additives",
           "species": [
             "Multi-species"
           ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "priority": "Medium",
+          "priority_score": 52,
+          "keywords": [
+            "feed additive",
+            "additive",
+            "export"
+          ],
+          "why_it_matters": "feed additive, additive, export 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
         }
       ]
@@ -346,8 +350,8 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-07-26T16:56:11+09:00",
-      "last_attempt_at": "2026-07-26T16:56:11+09:00",
+      "last_success_at": "2026-07-27T08:58:42+09:00",
+      "last_attempt_at": "2026-07-27T08:58:42+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -357,7 +361,7 @@
           "title": "Celtic Sea Minerals highlights recent research on Acid Buf in feedlot cattle",
           "url": "https://www.feedandadditive.com/celtic-sea-minerals-highlights-recent-research-on-acid-buf-in-feedlot-cattle/",
           "published_date": "2026-07-24",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "A study highlighted by Celtic Sea Minerals suggests that supplementing grain-fed beef steers with Acid Buf may support feed intake, gut health and metabolic resilience during periods of stress. The research, by Sammes et al. (2025), indicates the ingredient’s",
           "category": "Feed Additives",
           "species": [
@@ -381,7 +385,7 @@
           "title": "Purr & Meow introduces new identity and enhanced cat food portfolio",
           "url": "https://www.feedandadditive.com/purr-meow-introduces-new-identity-and-enhanced-cat-food-portfolio/",
           "published_date": "2026-07-24",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Purr & Meow has launched a major rebrand featuring a refreshed identity, upgraded recipes and a new product range. The update brings its wellbeing-focused “All Breeds & Needs” philosophy to cats of every life stage. Purr & Meow, sister brand of Pooch & Mutt, h",
           "category": "Feed Additives",
           "species": [
@@ -401,7 +405,7 @@
           "title": "Rumin8 expands methane reduction options for cattle",
           "url": "https://www.feedandadditive.com/rumin8-expands-methane-reduction-options-for-cattle/",
           "published_date": "2026-07-24",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Rumin8 has introduced a new methane-reducing compound that uses a prodrug approach to generate bromoform inside the rumen. Early laboratory and animal studies indicate the technology could offer an additional option for lowering methane emissions in cattle. A",
           "category": "Sustainability",
           "species": [
@@ -425,7 +429,7 @@
           "title": "Wageningen study identifies gaps in poultry farm biosecurity implementation",
           "url": "https://www.feedandadditive.com/wageningen-study-identifies-gaps-in-poultry-farm-biosecurity-implementation/",
           "published_date": "2026-07-23",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "A new study by Wageningen Bioveterinary Research has found that the implementation of routine biosecurity measures on poultry farms remains inconsistent, highlighting opportunities to reduce the risk of avian influenza and other disease outbreaks through impro",
           "category": "Disease / Biosecurity",
           "species": [
@@ -436,8 +440,8 @@
           "keywords": [
             "avian influenza",
             "biosecurity",
-            "additive",
             "outbreak",
+            "additive",
             "poultry",
             "disease",
             "avian"
@@ -451,7 +455,7 @@
           "title": "Mars names Christina Ruggiero as Regional President for North America Pet Nutrition",
           "url": "https://www.feedandadditive.com/mars-names-christina-ruggiero-as-regional-president-for-north-america-pet-nutrition/",
           "published_date": "2026-07-23",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Mars has named Christina Ruggiero as Regional President of Mars Pet Nutrition North America. In her new role, she will lead the company’s pet nutrition business across North America, managing a portfolio of well-known brands and driving growth, innovation and",
           "category": "Feed Additives",
           "species": [
@@ -472,7 +476,7 @@
           "title": "Symaga strengthens feed silo portfolio",
           "url": "https://www.feedandadditive.com/symaga-strengthens-feed-silo-portfolio/",
           "published_date": "2026-07-23",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Symaga has announced updates to its feed silo portfolio, introducing higher-strength S450GD structural steel and expanding its range of Ø3.80 m models. The changes are aimed at improving structural performance, increasing storage flexibility and strengthening",
           "category": "Feed Additives",
           "species": [
@@ -494,7 +498,7 @@
           "title": "Bioflytech and USC collaborate on BSF humidity control",
           "url": "https://www.feedandadditive.com/bioflytech-and-usc-collaborate-on-bsf-humidity-control/",
           "published_date": "2026-07-22",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Bioflytech has partnered with the University of Santiago de Compostela to develop a humidity monitoring system for black soldier fly rearing. The project combines computer vision, sensors and machine learning to improve production efficiency and standardize in",
           "category": "Feed Additives",
           "species": [
@@ -504,10 +508,10 @@
           "priority_score": 32,
           "keywords": [
             "production",
-            "additive",
-            "standard"
+            "standard",
+            "additive"
           ],
-          "why_it_matters": "production, additive, standard 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "production, standard, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
@@ -516,7 +520,7 @@
           "title": "WOAH members adopt updated Global Action Plan on AMR",
           "url": "https://www.feedandadditive.com/woah-members-adopt-updated-global-action-plan-on-amr/",
           "published_date": "2026-07-22",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "World Organisation for Animal Health (WOAH) members have approved the updated Global Action Plan on Antimicrobial Resistance (GAP-AMR) 2026–2036. The decision reinforces international efforts to combat antimicrobial resistance through a coordinated One Health",
           "category": "Feed Additives",
           "species": [
@@ -536,18 +540,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-07-26T16:56:11+09:00",
-      "last_attempt_at": "2026-07-26T16:56:11+09:00",
+      "last_success_at": "2026-07-27T08:58:42+09:00",
+      "last_attempt_at": "2026-07-27T08:58:42+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260726-7f700bb03f",
+          "id": "the-pig-site-20260727-8e254588dd",
           "source": "The Pig Site",
           "title": "Industry and legislation",
           "url": "https://www.thepigsite.com/industry-and-legislation",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Industry and legislation",
           "category": "Regulation",
           "species": [
@@ -562,12 +566,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-776e1cabad",
+          "id": "the-pig-site-20260727-9cd72cc653",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -582,12 +586,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-e6e46b2215",
+          "id": "the-pig-site-20260727-8f89f8e31b",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -602,12 +606,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-f36fc66a16",
+          "id": "the-pig-site-20260727-69e849fe09",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -620,12 +624,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-f9788e9ea7",
+          "id": "the-pig-site-20260727-ee22526dbc",
           "source": "The Pig Site",
           "title": "PRV restrictions hit US pork exports to Mexico - USMEF",
           "url": "https://www.thepigsite.com/news/2026/07/prv-restrictions-hit-us-pork-exports-to-mexico-usmef",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "PRV restrictions hit US pork exports to Mexico - USMEF",
           "category": "Market / Trade",
           "species": [
@@ -641,12 +645,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-b4ebb3739c",
+          "id": "the-pig-site-20260727-b964077188",
           "source": "The Pig Site",
           "title": "Imports and Exports",
           "url": "https://www.thepigsite.com/markets-2/imports-and-exports",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Imports and Exports",
           "category": "Market / Trade",
           "species": [
@@ -655,19 +659,19 @@
           "priority": "Low",
           "priority_score": 20,
           "keywords": [
-            "import",
-            "export"
+            "export",
+            "import"
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-63d278c2e9",
+          "id": "the-pig-site-20260727-939f9f8a48",
           "source": "The Pig Site",
           "title": "Feeder cattle futures recover after hitting fresh lows - CME",
           "url": "https://www.thepigsite.com/news/2026/07/feeder-cattle-futures-recover-after-hitting-fresh-lows-cme",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Feeder cattle futures recover after hitting fresh lows - CME",
           "category": "Unclassified",
           "species": [
@@ -682,12 +686,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260726-253999596d",
+          "id": "the-pig-site-20260727-4399b277b7",
           "source": "The Pig Site",
           "title": "Canada invests in Saskatchewan livestock processing capacity",
           "url": "https://www.thepigsite.com/news/2026/07/canada-invests-in-saskatchewan-livestock-processing-capacity",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Canada invests in Saskatchewan livestock processing capacity",
           "category": "Unclassified",
           "species": [
@@ -705,18 +709,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-07-26T16:56:11+09:00",
-      "last_attempt_at": "2026-07-26T16:56:11+09:00",
+      "last_success_at": "2026-07-27T08:58:42+09:00",
+      "last_attempt_at": "2026-07-27T08:58:42+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260726-5c5b9d91af",
+          "id": "the-poultry-site-20260727-cfa8507b8a",
           "source": "The Poultry Site",
           "title": "South Korea imports eggs to stabilise prices after HPAI shortfall",
           "url": "https://www.thepoultrysite.com/news/2026/07/south-korea-imports-eggs-to-stabilise-prices-after-hpai-shortfall",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "South Korea imports eggs to stabilise prices after HPAI shortfall",
           "category": "Market / Trade",
           "species": [
@@ -734,12 +738,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260726-b8e5e37efa",
+          "id": "the-poultry-site-20260727-5bb7c1c83d",
           "source": "The Poultry Site",
           "title": "1.6M dozen US eggs recalled over Salmonella risk",
           "url": "https://www.thepoultrysite.com/news/2026/07/1-6m-dozen-us-eggs-recalled-over-salmonella-risk",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "1.6M dozen US eggs recalled over Salmonella risk",
           "category": "Disease / Biosecurity",
           "species": [
@@ -757,36 +761,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260726-d091b1962f",
-          "source": "The Poultry Site",
-          "title": "FDA recalls 1.6M dozen eggs over Salmonella risk",
-          "url": "https://www.thepoultrysite.com/news/2026/07/fda-recalls-1-6m-dozen-eggs-over-salmonella-risk",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
-          "summary": "FDA recalls 1.6M dozen eggs over Salmonella risk",
-          "category": "Disease / Biosecurity",
-          "species": [
-            "Poultry",
-            "Aquaculture"
-          ],
-          "priority": "Low",
-          "priority_score": 35,
-          "keywords": [
-            "salmonella",
-            "salmon",
-            "egg",
-            "fda"
-          ],
-          "why_it_matters": "Poultry, Aquaculture 질병·방역 이슈로 생산성 저하, 면역, 장건강, 사료섭취 유지 관련 제품 메시지를 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20260726-240765a9bc",
+          "id": "the-poultry-site-20260727-22f5651d26",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -801,12 +781,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260726-d137571ecd",
+          "id": "the-poultry-site-20260727-3bd4d4f9c1",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -819,12 +799,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260726-2dc7846417",
+          "id": "the-poultry-site-20260727-386843d1ca",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -837,12 +817,30 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260726-0b5e19914b",
+          "id": "the-poultry-site-20260727-2e88ff704a",
+          "source": "The Poultry Site",
+          "title": "Australia confirms fourth case of H5N1 in Queensland",
+          "url": "https://www.thepoultrysite.com/news/2026/07/australia-confirms-fourth-case-of-h5n1-in-queensland",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
+          "summary": "Australia confirms fourth case of H5N1 in Queensland",
+          "category": "Unclassified",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20260727-4a492d5352",
           "source": "The Poultry Site",
           "title": "South Korea targets US eggs under government import scheme",
           "url": "https://www.thepoultrysite.com/news/2026/07/south-korea-targets-us-eggs-under-government-import-scheme",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "South Korea targets US eggs under government import scheme",
           "category": "Market / Trade",
           "species": [
@@ -858,12 +856,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260726-a3949f65e5",
+          "id": "the-poultry-site-20260727-25ac74a8eb",
           "source": "The Poultry Site",
           "title": "Product quality and safety",
           "url": "https://www.thepoultrysite.com/processing/product-quality-and-safety",
-          "published_date": "2026-07-26",
-          "collected_at": "2026-07-26T16:56:11+09:00",
+          "published_date": "2026-07-27",
+          "collected_at": "2026-07-27T08:58:42+09:00",
           "summary": "Product quality and safety",
           "category": "Unclassified",
           "species": [
