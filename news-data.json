@@ -1,26 +1,26 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-08-22T08:22:38+09:00",
+    "data_generated_at": "2026-08-23T08:19:52+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
     "sources_checked": 5,
-    "sources_success": 5,
+    "sources_success": 3,
     "sources_failed": 0,
-    "sources_stale": 0,
-    "run_status": "success"
+    "sources_stale": 2,
+    "run_status": "partial"
   },
-  "last_updated": "2026-08-22 08:22 KST",
+  "last_updated": "2026-08-23 08:19 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-08-22T08:22:38+09:00",
-      "last_attempt_at": "2026-08-22T08:22:38+09:00",
-      "collection_method": "google_news_rss_fallback",
-      "error_message": "",
+      "last_attempt_at": "2026-08-23T08:19:52+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss failed | https://www.feedstrategy.com/feed/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/feed/ | https://www.feedstrategy.com/rss: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/rss | listing failed | https://www.feedstrategy.com/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/ | https://www.feedstrategy.com/latest-news/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/latest-news/ | google_news_rss_fallback failed: no relevant entries",
       "articles": [
         {
           "id": "feed-strategy-20260505-8588a543d5",
@@ -186,11 +186,11 @@
     {
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-08-22T08:22:38+09:00",
-      "last_attempt_at": "2026-08-22T08:22:38+09:00",
-      "collection_method": "google_news_rss_fallback",
-      "error_message": "",
+      "last_attempt_at": "2026-08-23T08:19:52+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss failed | https://www.allaboutfeed.net/feed/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/feed/ | https://www.allaboutfeed.net/rss: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/rss | https://www.foodagribusiness.world/feed/rss: 403 Client Error: Forbidden for url: https://www.foodagribusiness.world/feed/rss | listing failed | https://www.allaboutfeed.net/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/ | https://www.foodagribusiness.world/feed: 403 Client Error: Forbidden for url: https://www.foodagribusiness.world/feed | google_news_rss_fallback failed: no relevant entries",
       "articles": [
         {
           "id": "all-about-feed-20260806-081baf1c3d",
@@ -356,8 +356,8 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-08-22T08:22:38+09:00",
-      "last_attempt_at": "2026-08-22T08:22:38+09:00",
+      "last_success_at": "2026-08-23T08:19:52+09:00",
+      "last_attempt_at": "2026-08-23T08:19:52+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -367,7 +367,7 @@
           "title": "Biochem reduces material use with optimized packaging",
           "url": "https://www.feedandadditive.com/biochem-reduces-material-use-with-optimized-packaging/",
           "published_date": "2026-08-21",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Biochem has optimized the dimensions of its paper sack packaging to reduce material use. The change also improves transport efficiency and supports more efficient handling across its supply chain. Biochem, an international animal nutrition company specializing",
           "category": "Feed Additives",
           "species": [
@@ -391,7 +391,7 @@
           "title": "Pooch & Mutt adds Calm & Relaxed Hemp Oil to Wellbeing range",
           "url": "https://www.feedandadditive.com/pooch-mutt-adds-calm-relaxed-hemp-oil-to-wellbeing-range/",
           "published_date": "2026-08-21",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Pooch & Mutt has expanded its Wellbeing range with Calm & Relaxed Hemp Oil, a hemp oil supplement formulated for dogs and designed to support everyday wellbeing. Pooch & Mutt, a pet health brand, has launched its new Calm & Relaxed Hemp Oil, designed for dogs",
           "category": "Feed Additives",
           "species": [
@@ -411,7 +411,7 @@
           "title": "Hill’s Pet Nutrition appoints new customer development leaders",
           "url": "https://www.feedandadditive.com/hills-pet-nutrition-appoints-new-customer-development-leaders/",
           "published_date": "2026-08-20",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Hill’s Pet Nutrition has appointed Keith Wilkinson as Senior Vice President, Global Customer Development, and Carolyn Belloni as Senior Vice President, Customer Development, Hill’s US. The appointments aim to support the company’s customer development strategy",
           "category": "Feed Additives",
           "species": [
@@ -433,7 +433,7 @@
           "title": "Pirbright and Roslin Institutes launch second phase of Livestock Antibody Hub",
           "url": "https://www.feedandadditive.com/pirbright-and-roslin-institutes-launch-second-phase-of-livestock-antibody-hub/",
           "published_date": "2026-08-20",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Pirbright Institute researchers have come together with Roslin Institute counterparts to launch the next phase of the Livestock Antibody Hub, backed by a renewed five-year Gates Foundation grant. The hub aims to support livestock vaccine and diagnostic develop",
           "category": "Feed Additives",
           "species": [
@@ -453,7 +453,7 @@
           "title": "University of Miami researchers explore Black Soldier Flies as a sargassum solution",
           "url": "https://www.feedandadditive.com/university-of-miami-researchers-explore-black-soldier-flies-as-a-sargassum-solution/",
           "published_date": "2026-08-20",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Researchers at the University of Miami Rosenstiel School of Marine, Atmospheric, and Earth Science are investigating Black Soldier Fly larvae as a potential way to process beached sargassum. The research could support new applications in aquaculture and agricu",
           "category": "Feed Additives",
           "species": [
@@ -474,7 +474,7 @@
           "title": "RVC study examines antimicrobial residues in poultry across Asia",
           "url": "https://www.feedandadditive.com/rvc-study-examines-antimicrobial-residues-in-poultry-across-asia/",
           "published_date": "2026-08-20",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "New research from the Royal Veterinary College and international partners has assessed antimicrobial residues in poultry across Bangladesh, India and Vietnam, identifying some samples above internationally recognised safety limits. New research from the Royal",
           "category": "Feed Additives",
           "species": [
@@ -496,7 +496,7 @@
           "title": "C.P. Vietnam opens fourth aquaculture feed mill in Vietnam",
           "url": "https://www.feedandadditive.com/c-p-vietnam-opens-fourth-aquaculture-feed-mill-in-vietnam/",
           "published_date": "2026-08-20",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "C.P. Vietnam has inaugurated a new aquaculture feed mill in Ca Mau, Vietnam, expanding its aquaculture feed production capacity in Vietnam to more than 650,000 tons per year. The facility will produce shrimp feed and provide technical support to the farmers. C",
           "category": "Feed Additives",
           "species": [
@@ -519,7 +519,7 @@
           "title": "University of Bristol study finds new approach to reduce antibiotic use in poultry",
           "url": "https://www.feedandadditive.com/university-of-bristol-study-finds-new-approach-to-reduce-antibiotic-use-in-poultry/",
           "published_date": "2026-08-19",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Research led by University of Bristol has found that a naturally occurring gut molecule, sodium butyrate, can boost chickens’ immune defences against major bacterial pathogens, offering a potential path to reducing antibiotic use in poultry farming. University",
           "category": "Disease / Biosecurity",
           "species": [
@@ -528,10 +528,10 @@
           "priority": "Low",
           "priority_score": 35,
           "keywords": [
-            "additive",
             "pathogen",
-            "poultry",
+            "additive",
             "chicken",
+            "poultry",
             "hen"
           ],
           "why_it_matters": "Poultry 질병·방역 이슈로 생산성 저하, 면역, 장건강, 사료섭취 유지 관련 제품 메시지를 검토할 필요가 있습니다.",
@@ -543,18 +543,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-08-22T08:22:38+09:00",
-      "last_attempt_at": "2026-08-22T08:22:38+09:00",
+      "last_success_at": "2026-08-23T08:19:52+09:00",
+      "last_attempt_at": "2026-08-23T08:19:52+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260822-7f929a114b",
+          "id": "the-pig-site-20260823-b5a128b1c8",
           "source": "The Pig Site",
           "title": "ASF outbreaks push Serbia into state of emergency",
           "url": "https://www.thepigsite.com/news/2026/08/asf-outbreaks-push-serbia-into-state-of-emergency",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "ASF outbreaks push Serbia into state of emergency",
           "category": "Disease / Biosecurity",
           "species": [
@@ -570,12 +570,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-7325891d96",
+          "id": "the-pig-site-20260823-888d650e82",
           "source": "The Pig Site",
           "title": "Poland's ASF outbreaks in commercial herds triple in 2026",
           "url": "https://www.thepigsite.com/news/2026/08/polands-asf-outbreaks-in-commercial-herds-triple-in-2026",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Poland's ASF outbreaks in commercial herds triple in 2026",
           "category": "Disease / Biosecurity",
           "species": [
@@ -591,12 +591,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-f2761f01cc",
+          "id": "the-pig-site-20260823-89d465dde3",
           "source": "The Pig Site",
           "title": "African swine fever",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/african-swine-fever",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "African swine fever",
           "category": "Disease / Biosecurity",
           "species": [
@@ -612,12 +612,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-a73f3b30f2",
+          "id": "the-pig-site-20260823-4218d6dac8",
           "source": "The Pig Site",
           "title": "Notifiable diseases",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Notifiable diseases",
           "category": "Disease / Biosecurity",
           "species": [
@@ -632,12 +632,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-5b303f5155",
+          "id": "the-pig-site-20260823-e6834cb25a",
           "source": "The Pig Site",
           "title": "Foot and mouth disease (FMD)",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/foot-and-mouth-disease-fmd",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Foot and mouth disease (FMD)",
           "category": "Disease / Biosecurity",
           "species": [
@@ -652,12 +652,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-a054b70278",
+          "id": "the-pig-site-20260823-a4a769a018",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -672,12 +672,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-92052561e7",
+          "id": "the-pig-site-20260823-58755a1763",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -692,12 +692,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260822-d1f59a72b1",
+          "id": "the-pig-site-20260823-49ff9c3ff3",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -715,18 +715,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-08-22T08:22:38+09:00",
-      "last_attempt_at": "2026-08-22T08:22:38+09:00",
+      "last_success_at": "2026-08-23T08:19:52+09:00",
+      "last_attempt_at": "2026-08-23T08:19:52+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260822-d29e61708e",
+          "id": "the-poultry-site-20260823-158b31ecdc",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -741,12 +741,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-b04b54f2bb",
+          "id": "the-poultry-site-20260823-0a13006532",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -759,12 +759,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-f51a3a4b39",
+          "id": "the-poultry-site-20260823-cd00108892",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -777,12 +777,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-70d2462ee8",
+          "id": "the-poultry-site-20260823-0201b24f5c",
           "source": "The Poultry Site",
           "title": "Rainbow Chicken sets sights on export growth across Africa",
           "url": "https://www.thepoultrysite.com/news/2026/08/rainbow-chicken-sets-sights-on-export-growth-across-africa",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Rainbow Chicken sets sights on export growth across Africa",
           "category": "Market / Trade",
           "species": [
@@ -798,12 +798,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-dacf50f55c",
+          "id": "the-poultry-site-20260823-e7395c5657",
           "source": "The Poultry Site",
           "title": "Ukraine's poultry sector grows despite war-related risks",
           "url": "https://www.thepoultrysite.com/news/2026/08/ukraines-poultry-sector-grows-despite-war-related-risks",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Ukraine's poultry sector grows despite war-related risks",
           "category": "Unclassified",
           "species": [
@@ -818,12 +818,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-095a88514d",
+          "id": "the-poultry-site-20260823-40e9377c04",
           "source": "The Poultry Site",
           "title": "Pro Farmer crop tour points to smaller US corn crop than 2025",
           "url": "https://www.thepoultrysite.com/news/2026/08/pro-farmer-crop-tour-points-to-smaller-us-corn-crop-than-2025",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Pro Farmer crop tour points to smaller US corn crop than 2025",
           "category": "Market / Trade",
           "species": [
@@ -838,12 +838,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-fe9c39707a",
+          "id": "the-poultry-site-20260823-28c5b66ed4",
           "source": "The Poultry Site",
           "title": "Japan chicken imports to hold flat in 2027",
           "url": "https://www.thepoultrysite.com/news/2026/08/japan-chicken-imports-to-hold-flat-in-2027",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Japan chicken imports to hold flat in 2027",
           "category": "Market / Trade",
           "species": [
@@ -859,12 +859,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260822-b16c7c11ea",
+          "id": "the-poultry-site-20260823-624537051e",
           "source": "The Poultry Site",
           "title": "Perdue Farms names Drew Getty as new general counsel",
           "url": "https://www.thepoultrysite.com/news/2026/08/perdue-farms-names-drew-getty-as-new-general-counsel",
-          "published_date": "2026-08-22",
-          "collected_at": "2026-08-22T08:22:38+09:00",
+          "published_date": "2026-08-23",
+          "collected_at": "2026-08-23T08:19:52+09:00",
           "summary": "Perdue Farms names Drew Getty as new general counsel",
           "category": "Unclassified",
           "species": [
