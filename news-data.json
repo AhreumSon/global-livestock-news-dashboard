@@ -1,26 +1,26 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-08-26T08:24:14+09:00",
+    "data_generated_at": "2026-08-27T13:17:17+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
     "sources_checked": 5,
-    "sources_success": 5,
+    "sources_success": 3,
     "sources_failed": 0,
-    "sources_stale": 0,
-    "run_status": "success"
+    "sources_stale": 2,
+    "run_status": "partial"
   },
-  "last_updated": "2026-08-26 08:24 KST",
+  "last_updated": "2026-08-27 13:17 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-08-26T08:24:14+09:00",
-      "last_attempt_at": "2026-08-26T08:24:14+09:00",
-      "collection_method": "google_news_rss_fallback",
-      "error_message": "",
+      "last_attempt_at": "2026-08-27T13:17:17+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss failed | https://www.feedstrategy.com/feed/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/feed/ | https://www.feedstrategy.com/rss: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/rss | listing failed | https://www.feedstrategy.com/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/ | https://www.feedstrategy.com/latest-news/: 403 Client Error: Forbidden for url: https://www.feedstrategy.com/latest-news/ | google_news_rss_fallback failed: no relevant entries",
       "articles": [
         {
           "id": "feed-strategy-20260709-23bbb7177d",
@@ -185,11 +185,11 @@
     {
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-08-26T08:24:14+09:00",
-      "last_attempt_at": "2026-08-26T08:24:14+09:00",
-      "collection_method": "google_news_rss_fallback",
-      "error_message": "",
+      "last_attempt_at": "2026-08-27T13:17:17+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss failed | https://www.allaboutfeed.net/feed/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/feed/ | https://www.allaboutfeed.net/rss: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/rss | https://www.foodagribusiness.world/feed/rss: 403 Client Error: Forbidden for url: https://www.foodagribusiness.world/feed/rss | listing failed | https://www.allaboutfeed.net/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/ | https://www.foodagribusiness.world/feed: 403 Client Error: Forbidden for url: https://www.foodagribusiness.world/feed | google_news_rss_fallback failed: no relevant entries",
       "articles": [
         {
           "id": "all-about-feed-20260812-1bb7dcb3e9",
@@ -353,18 +353,39 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-08-26T08:24:14+09:00",
-      "last_attempt_at": "2026-08-26T08:24:14+09:00",
+      "last_success_at": "2026-08-27T13:17:17+09:00",
+      "last_attempt_at": "2026-08-27T13:17:17+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
+        {
+          "id": "feed-additive-magazine-20260826-ba8ef4a3a5",
+          "source": "Feed & Additive Magazine",
+          "title": "dsm-firmenich introduces updated Digital SalmoFan™ for trout color measurement",
+          "url": "https://www.feedandadditive.com/dsm-firmenich-introduces-updated-digital-salmofan-for-trout-color-measurement/",
+          "published_date": "2026-08-26",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "dsm-firmenich Animal Nutrition & Health has introduced an updated version of its Digital SalmoFan™ color measurement software. The update adds an algorithm designed specifically to support trout fillet color assessment. dsm-firmenich Animal Nutrition & Health",
+          "category": "Feed Additives",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "nutrition",
+            "additive"
+          ],
+          "why_it_matters": "nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
         {
           "id": "feed-additive-magazine-20260825-7c3a7ffc66",
           "source": "Feed & Additive Magazine",
           "title": "SEGES trial tests Vilofoss FreshFoss Premium for TMR stability",
           "url": "https://www.feedandadditive.com/seges-trial-tests-vilofoss-freshfoss-premium-for-tmr-stability/",
           "published_date": "2026-08-25",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "A new SEGES trial has evaluated Vilofoss FreshFoss Premium for its effect on TMR aerobic stability. The results showed that treated feed remained stable more than eight hours longer than untreated feed. A new SEGES study has investigated whether dry acid produ",
           "category": "Feed Additives",
           "species": [
@@ -384,7 +405,7 @@
           "title": "Dyke Addis joins Alltech U.S. Poultry team",
           "url": "https://www.feedandadditive.com/dyke-addis-joins-alltech-u-s-poultry-team/",
           "published_date": "2026-08-25",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Dyke Addis has joined Alltech’s U.S. Poultry team as Poultry Strategic Account Manager, adding more than three decades of poultry industry experience to the team. Alltech’s U.S. Poultry has welcomed Dyke Addis as Poultry Strategic Account Manager. According to",
           "category": "Feed Additives",
           "species": [
@@ -405,7 +426,7 @@
           "title": "BinSentry appoints Justin Wong as VP of Corporate Development",
           "url": "https://www.feedandadditive.com/binsentry-appoints-justin-wong-as-vp-of-corporate-development/",
           "published_date": "2026-08-25",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "BinSentry has appointed Justin Wong as Vice President of Corporate Development. Wong brings more than 14 years of experience in ag-tech, corporate finance, M&A, and strategic growth initiatives to the company’s leadership team. BinSentry, a provider of AI-driv",
           "category": "Feed Additives",
           "species": [
@@ -425,7 +446,7 @@
           "title": "Abby Tierney takes on global policy role at AFIA",
           "url": "https://www.feedandadditive.com/abby-tierney-takes-on-global-policy-role-at-afia/",
           "published_date": "2026-08-24",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Abby Tierney has been named the AFIA‘s new manager of global policy. She will lead the association’s international policy and trade efforts, including advocating for science-based regulations and reducing non-tariff trade barriers. The American Feed Industry A",
           "category": "Regulation",
           "species": [
@@ -448,7 +469,7 @@
           "title": "Harbro acquires Cargill Animal Nutrition & Health Business in Dalton, North Yorkshire",
           "url": "https://www.feedandadditive.com/harbro-acquires-cargill-animal-nutrition-health-business-in-dalton-north-yorkshire/",
           "published_date": "2026-08-24",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Harbro has acquired Cargill Animal Nutrition & Health’s business in Dalton, North Yorkshire, England, including the feed plant and associated operations. The acquisition will expand Harbro’s manufacturing capacity, product offering, technical expertise, and su",
           "category": "Feed Additives",
           "species": [
@@ -470,7 +491,7 @@
           "title": "Queen’s University Belfast joins €4.8 Million ruminant research project",
           "url": "https://www.feedandadditive.com/queens-university-belfast-joins-e4-8-million-ruminant-research-project/",
           "published_date": "2026-08-24",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Queen’s University Belfast is joining a €4.8 million European research project investigating how the ruminant microbiome could support more sustainable livestock production and improve understanding of animal nutrition and health. Queen’s University Belfast is",
           "category": "Feed Additives",
           "species": [
@@ -481,10 +502,10 @@
           "keywords": [
             "production",
             "nutrition",
-            "ruminant",
-            "additive"
+            "additive",
+            "ruminant"
           ],
-          "why_it_matters": "production, nutrition, ruminant, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "production, nutrition, additive, ruminant 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
@@ -493,7 +514,7 @@
           "title": "Biochem reduces material use with optimized packaging",
           "url": "https://www.feedandadditive.com/biochem-reduces-material-use-with-optimized-packaging/",
           "published_date": "2026-08-21",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Biochem has optimized the dimensions of its paper sack packaging to reduce material use. The change also improves transport efficiency and supports more efficient handling across its supply chain. Biochem, an international animal nutrition company specializing",
           "category": "Feed Additives",
           "species": [
@@ -510,26 +531,6 @@
           ],
           "why_it_matters": "feed additive, nutrition, additive, supply 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20260821-28606ffa5d",
-          "source": "Feed & Additive Magazine",
-          "title": "Pooch & Mutt adds Calm & Relaxed Hemp Oil to Wellbeing range",
-          "url": "https://www.feedandadditive.com/pooch-mutt-adds-calm-relaxed-hemp-oil-to-wellbeing-range/",
-          "published_date": "2026-08-21",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "Pooch & Mutt has expanded its Wellbeing range with Calm & Relaxed Hemp Oil, a hemp oil supplement formulated for dogs and designed to support everyday wellbeing. Pooch & Mutt, a pet health brand, has launched its new Calm & Relaxed Hemp Oil, designed for dogs",
-          "category": "Feed Additives",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "additive"
-          ],
-          "why_it_matters": "additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
         }
       ]
     },
@@ -537,18 +538,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-08-26T08:24:14+09:00",
-      "last_attempt_at": "2026-08-26T08:24:14+09:00",
+      "last_success_at": "2026-08-27T13:17:17+09:00",
+      "last_attempt_at": "2026-08-27T13:17:17+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260826-e3f3161d30",
+          "id": "the-pig-site-20260827-ee9cddd9ab",
           "source": "The Pig Site",
           "title": "Policy and regulation",
           "url": "https://www.thepigsite.com/policy-and-regulation",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Policy and regulation",
           "category": "Regulation",
           "species": [
@@ -564,32 +565,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260826-8ad430a5b0",
-          "source": "The Pig Site",
-          "title": "Feed and nutrition",
-          "url": "https://www.thepigsite.com/hardware",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "Feed and nutrition",
-          "category": "Animal Nutrition",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "nutrition"
-          ],
-          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-pig-site-20260826-919dde1739",
+          "id": "the-pig-site-20260827-b8972f76d3",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -604,12 +585,32 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260826-ec2159f652",
+          "id": "the-pig-site-20260827-810f8deae4",
+          "source": "The Pig Site",
+          "title": "Feed and nutrition",
+          "url": "https://www.thepigsite.com/hardware",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Feed and nutrition",
+          "category": "Animal Nutrition",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "nutrition"
+          ],
+          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-pig-site-20260827-79aa97714e",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -624,12 +625,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260826-2882a47a24",
+          "id": "the-pig-site-20260827-63b94489cf",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -642,59 +643,61 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260826-5d4e026934",
+          "id": "the-pig-site-20260827-869f26ccf7",
           "source": "The Pig Site",
-          "title": "ADM expands feed logistics network in Scotland",
-          "url": "https://www.thepigsite.com/news/2026/08/adm-expands-feed-logistics-network-in-scotland",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "ADM expands feed logistics network in Scotland",
-          "category": "Unclassified",
+          "title": "Livestock breeding gains could offset climate change losses",
+          "url": "https://www.thepigsite.com/news/2026/08/livestock-breeding-gains-could-offset-climate-change-losses",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Livestock breeding gains could offset climate change losses",
+          "category": "Sustainability",
           "species": [
             "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-pig-site-20260826-971b412095",
-          "source": "The Pig Site",
-          "title": "JBS's Seara launches digital platform for integrated producers",
-          "url": "https://www.thepigsite.com/news/2026/08/jbss-seara-launches-digital-platform-for-integrated-producers",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "JBS's Seara launches digital platform for integrated producers",
-          "category": "Unclassified",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-pig-site-20260826-e53ac2cec0",
-          "source": "The Pig Site",
-          "title": "USDA pork purchase draws praise from producer group",
-          "url": "https://www.thepigsite.com/news/2026/08/usda-pork-purchase-draws-praise-from-producer-group",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "USDA pork purchase draws praise from producer group",
-          "category": "Unclassified",
-          "species": [
-            "Swine"
           ],
           "priority": "Low",
           "priority_score": 20,
           "keywords": [
-            "pork"
+            "climate"
           ],
+          "why_it_matters": "지속가능성 claim은 FCR, 배출 저감, 자원 효율 등 측정 가능한 지표와 연결해 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-pig-site-20260827-ec66a732b7",
+          "source": "The Pig Site",
+          "title": "Digital Innovation",
+          "url": "https://www.thepigsite.com/digital-innovation",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Digital Innovation",
+          "category": "Unclassified",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [],
           "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-pig-site-20260827-144d3d2e27",
+          "source": "The Pig Site",
+          "title": "COFCO Joycome swings to H1 loss on falling hog prices",
+          "url": "https://www.thepigsite.com/news/2026/08/cofco-joycome-swings-to-h1-loss-on-falling-hog-prices",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "COFCO Joycome swings to H1 loss on falling hog prices",
+          "category": "Market / Trade",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "price"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "listing"
         }
       ]
@@ -703,18 +706,85 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-08-26T08:24:14+09:00",
-      "last_attempt_at": "2026-08-26T08:24:14+09:00",
+      "last_success_at": "2026-08-27T13:17:17+09:00",
+      "last_attempt_at": "2026-08-27T13:17:17+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260826-a3162e5622",
+          "id": "the-poultry-site-20260827-2550eeda5f",
+          "source": "The Poultry Site",
+          "title": "Belgian egg farm salmonella outbreak infects 306 people",
+          "url": "https://www.thepoultrysite.com/news/2026/08/belgian-egg-farm-salmonella-outbreak-infects-306-people",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Belgian egg farm salmonella outbreak infects 306 people",
+          "category": "Disease / Biosecurity",
+          "species": [
+            "Poultry",
+            "Aquaculture"
+          ],
+          "priority": "Medium",
+          "priority_score": 60,
+          "keywords": [
+            "salmonella",
+            "outbreak",
+            "salmon",
+            "egg"
+          ],
+          "why_it_matters": "Poultry, Aquaculture 질병·방역 이슈로 생산성 저하, 면역, 장건강, 사료섭취 유지 관련 제품 메시지를 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20260827-eab9a7a453",
+          "source": "The Poultry Site",
+          "title": "Imports set to supply most of Angola's chicken market through 2027",
+          "url": "https://www.thepoultrysite.com/news/2026/08/imports-set-to-supply-most-of-angolas-chicken-market-through-2027",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Imports set to supply most of Angola's chicken market through 2027",
+          "category": "Market / Trade",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "chicken",
+            "market",
+            "import",
+            "supply"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20260827-609d551eff",
+          "source": "The Poultry Site",
+          "title": "Markets and economics",
+          "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Markets and economics",
+          "category": "Market / Trade",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "market"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20260827-323955448b",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -727,12 +797,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260826-c8c2154ae5",
+          "id": "the-poultry-site-20260827-6622928566",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -745,51 +815,32 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260826-a492518118",
+          "id": "the-poultry-site-20260827-f42b26d00f",
           "source": "The Poultry Site",
-          "title": "ADM expands feed logistics network in Scotland",
-          "url": "https://www.thepoultrysite.com/news/2026/08/adm-expands-feed-logistics-network-in-scotland",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "ADM expands feed logistics network in Scotland",
-          "category": "Unclassified",
+          "title": "Livestock breeding gains could offset climate change losses",
+          "url": "https://www.thepoultrysite.com/news/2026/08/livestock-breeding-gains-could-offset-climate-change-losses",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Livestock breeding gains could offset climate change losses",
+          "category": "Sustainability",
           "species": [
             "Multi-species"
           ],
           "priority": "Low",
           "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20260826-fe8488d711",
-          "source": "The Poultry Site",
-          "title": "UK egg producer trials acoustic technology to monitor hen welfare",
-          "url": "https://www.thepoultrysite.com/news/2026/08/uk-egg-producer-trials-acoustic-technology-to-monitor-hen-welfare",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "UK egg producer trials acoustic technology to monitor hen welfare",
-          "category": "Unclassified",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
           "keywords": [
-            "egg",
-            "hen"
+            "climate"
           ],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "why_it_matters": "지속가능성 claim은 FCR, 배출 저감, 자원 효율 등 측정 가능한 지표와 연결해 검토할 필요가 있습니다.",
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260826-13f0a6bace",
+          "id": "the-poultry-site-20260827-60dfebf8c6",
           "source": "The Poultry Site",
           "title": "Digital innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation/digital-innovation",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
           "summary": "Digital innovation",
           "category": "Unclassified",
           "species": [
@@ -802,53 +853,13 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260826-ebcab2771b",
+          "id": "the-poultry-site-20260827-0f66bff108",
           "source": "The Poultry Site",
-          "title": "Chicken consumption in Angola set to rise 3% in 2027",
-          "url": "https://www.thepoultrysite.com/news/2026/08/chicken-consumption-in-angola-set-to-rise-3-in-2027",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "Chicken consumption in Angola set to rise 3% in 2027",
-          "category": "Unclassified",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [
-            "chicken"
-          ],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20260826-674cd99c8b",
-          "source": "The Poultry Site",
-          "title": "Poultry consumption in Ukraine set to rise again in 2027",
-          "url": "https://www.thepoultrysite.com/news/2026/08/poultry-consumption-in-ukraine-set-to-rise-again-in-2027",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "Poultry consumption in Ukraine set to rise again in 2027",
-          "category": "Unclassified",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [
-            "poultry"
-          ],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20260826-4718c4b64d",
-          "source": "The Poultry Site",
-          "title": "JBS's Seara launches digital platform for integrated producers",
-          "url": "https://www.thepoultrysite.com/news/2026/08/jbss-seara-launches-digital-platform-for-integrated-producers",
-          "published_date": "2026-08-26",
-          "collected_at": "2026-08-26T08:24:14+09:00",
-          "summary": "JBS's Seara launches digital platform for integrated producers",
+          "title": "Product quality and safety",
+          "url": "https://www.thepoultrysite.com/processing/product-quality-and-safety",
+          "published_date": "2026-08-27",
+          "collected_at": "2026-08-27T13:17:17+09:00",
+          "summary": "Product quality and safety",
           "category": "Unclassified",
           "species": [
             "Multi-species"
