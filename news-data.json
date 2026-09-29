@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-09-28T10:25:18+09:00",
+    "data_generated_at": "2026-09-29T11:29:18+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-09-28 10:25 KST",
+  "last_updated": "2026-09-29 11:29 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-09-28T10:25:18+09:00",
-      "last_attempt_at": "2026-09-28T10:25:18+09:00",
+      "last_success_at": "2026-09-29T11:29:18+09:00",
+      "last_attempt_at": "2026-09-29T11:29:18+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "6 feed additive frontiers for improving poultry gut health - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMFFNTlZ0Um16T0l5Q3UzOE04ZjFEc01fMW9UT0hlTDhPenJHSnRoRGZULUtVNk5DWmwzUE1CNTZtcFl2b2JlN3dhMHZHS183SGYySmZDbWFNbGNESF95ZVc4aHRTVTRGdjN0N3RCRE5rdjVabkNUZXRQODhWVnRVSkd1b0M0YWRjYkVJNWxnMVZTTWhodFNfd3NGZEJNRlZqTTNBRTh0S3F4bVEyUnBzTFg1U1lyWGJjNDU1X3owMnVLMkVWOXhV?oc=5",
           "published_date": "2026-08-05",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "6 feed additive frontiers for improving poultry gut health Feed Strategy",
           "category": "Feed Additives",
           "species": [
@@ -51,7 +51,7 @@
           "title": "ABN to withdraw from poultry, pig feed production - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObGdnUEgyaHQ5SlhMQVNNMnNqQTY5T1BVNkRDcGUxUEVjS1F3NjFldDJ5LTVHSWRmU3V0VWlqbUU0Z3hMV1hwZG1NcktlcGVPTFdldURjN3RscXVwcUpDeVh6YlctM01jcUwxSUs4MXhuWUd5OXpBUjFyVGoyTUtURzZsRHlRTlZ4aGpuUkFoNDdYanNRQUhNdGtSUmg4TkplRUNZSXFMYmZHXzFpazI0WEt6bW1DNmt3WVBPNVptTUlSQmtkamVBbE1QYm9BblIxMXd6T2JSc0ZYQjg?oc=5",
           "published_date": "2026-07-29",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "ABN to withdraw from poultry, pig feed production Feed Strategy",
           "category": "Market / Trade",
           "species": [
@@ -74,7 +74,7 @@
           "title": "Report shows risks ractopamine poses to dogs - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc1F1eU9vUUdHWVlXLTBZUmEtT0FuYk9DOGNQVElqTmlaSHI0MHFhQWxXZzZzMVBqUFhIdFRyRUtjR2pSQzdvRXZESUt2S2ozUUszZ21WTkdDczQtN19lNHlTcnp2UEZPWFpLVzdCTXF3WWxFekxhUk1GTVJDY0VrYjcxSFo3Rmhwd0ZMSGIwOTlab1dOSV9IZ0NvbV84RWE3NU5yRGxwMzA0YXVWZ3lXQnFrQmxhd3o4LTNSUVZpTkpjQl9RMGJ2RUQ3LWZMODF3aHc?oc=5",
           "published_date": "2026-05-05",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Report shows risks ractopamine poses to dogs Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -92,7 +92,7 @@
           "title": "Animal Feed Additives & Ingredients > Alternative Protein - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORFBGQVdlNGxGWDU4RmVmbXR6V2xyMTctdXcybmRzUEM0SWY4UHhVN0ZySVhTUks2aE1yMjFiM0JSb3dWb3JSbUJVWDkzVUducVpha3BnYlVKUm1fdW4wclJQTXo0YXQ1NWRBeDNjYUpmb2pJSzNaVHNFcTRaODR2RmZaUkJKM3ByQ25SYWlsNkFJZjA?oc=5",
           "published_date": "2026-05-01",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Animal Feed Additives & Ingredients > Alternative Protein Feed Strategy",
           "category": "Feed Additives",
           "species": [
@@ -114,7 +114,7 @@
           "title": "Anitox - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05SDV6T3daNVVwdmVPZzY3dWZaUWdLZmk0cmQ1LU1jSV92di1QQXI5dzNMSV9GanA2RjFNZEg4bExRczMwaldMUk50aUUwaGM3dUFMVVl4Ykh6ZmlMTG1Rdy1KcFBTNmRa?oc=5",
           "published_date": "2025-01-15",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Anitox Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -132,7 +132,7 @@
           "title": "Anitox Maxi-Mil From: Anitox - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTE1sUlFIQ2x3dnhKd3VhdU9QaFU2dnAxOWZLczl2ZkNya2ZZSjJucVdZVXZuZklLTGkzM2poOE1OQzhxUkdTaUIzTXlLQVRPN1M3eU5QdG9ieER5bUtGazlNYXloaWd4Z2d1bDNGUnc2THBhWE9XTjk4aUxiUnZOUnZoTXV6dmxtNGxpNzFMYVMydw?oc=5",
           "published_date": "2025-01-15",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Anitox Maxi-Mil From: Anitox Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -150,7 +150,7 @@
           "title": "Feed Strategy Seminar Series @ EuroTier 2024 - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNFNXcWYyS2dKdC1oMlBRM3pxdk01UGo0OFFiN2NOVjFucEFVQm5POHpkeThpdmFvbzRXM0p1cGc2RS0zMkNJTnJTZFJSc3RuZ3lrdURURjJwYTR1bDdnSlRXUmZPZFFOREhOd0syQ0l0Q0t5ZFhlSUZNTlJhQVFZdXFVS3JmcjJRaHZRaW9adzBCWkQ0VU5ibUhzeDZZR2F1RXFUU3pKLXVsUENXc2RJX2Rn?oc=5",
           "published_date": "2024-11-12",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Feed Strategy Seminar Series @ EuroTier 2024 Feed Strategy",
           "category": "Unclassified",
           "species": [
@@ -168,7 +168,7 @@
           "title": "Animal Nutrition > Poultry - Feed Strategy",
           "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tODVhQnZ5VTFMdlNoWE9yclFTR1JCOG1FOFZ4WEZJOFlsLUdsSFliZFprV0dGRnlhcWlIUGh4TEtQVHFxVWZGUFlRdno3SFN4cW5qdHFncFJLYXBZNFpoRXFmcFljTkp5N2pqbDR3?oc=5",
           "published_date": "2024-01-05",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Animal Nutrition > Poultry Feed Strategy",
           "category": "Animal Nutrition",
           "species": [
@@ -189,19 +189,73 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-09-28T10:25:18+09:00",
-      "last_attempt_at": "2026-09-28T10:25:18+09:00",
+      "last_success_at": "2026-09-29T11:29:18+09:00",
+      "last_attempt_at": "2026-09-29T11:29:18+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
+        {
+          "id": "all-about-feed-20260928-160eea081e",
+          "source": "All About Feed",
+          "title": "UK harvest variation highlights need for closer feed analysis - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTW1MNHNmOU1XTGtENkVtUE15OGFsUWtwd2J1N0Ftb0daeWF5bVl6X0phdy16OXMyRmR6dGNDMkxHbkEwY2UzOHFpOTU3aVFUaDI2X2RRa0dtdGhTZ3F3Q0V0SEFwQmhoR1dZMnBBUlZIWUVuOTB2cHh4SGFZU1NacmhXX0NqYUh6TGItdVVNemNERG54Nnc?oc=5",
+          "published_date": "2026-09-28",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "UK harvest variation highlights need for closer feed analysis foodagribusiness.world",
+          "category": "Unclassified",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
+        },
+        {
+          "id": "all-about-feed-20260923-ccbd563374",
+          "source": "All About Feed",
+          "title": "German compound-feed output rises as producer numbers fall - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaHpCNVhlTGY4cjhYQTBDbUp3SkhiN2NYSEVWV0ZkSmFKOTFfbTA1N1drVEs2cjZQbEVhSm9pNDhYaHBDbTNGeEJ4SXRtTFd0UDVXRExDel9EUjloU3Q5a0NnWDRkWkRreEZGa2dLd2NDcDk4YkdTZGt2cGRUaEVSRFhRTjhMZndIMEdiZTExdldKQ2M?oc=5",
+          "published_date": "2026-09-23",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "German compound-feed output rises as producer numbers fall foodagribusiness.world",
+          "category": "Unclassified",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
+        },
         {
           "id": "all-about-feed-20260921-c3d1d4c819",
           "source": "All About Feed",
           "title": "Agricultural isolationism is reshaping the global feed industry - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUVkzb1ZxYlNlMWFuZ3A4ZUlHQ3FLTDJ2bHNIWVROSDN0eVNPajMxRThBYlpJeWYteXBnVkNySGFwZVFLZHAyUzhZS3llaWdPOU9IREJKVWIxV1pCRVJ4dDc5QlZKcDFyZ0cxbng3RF9BV211OXkxMDV2VWpIQjczTlZPRGR0eDk1UG9QUTV1Q2Q?oc=5",
           "published_date": "2026-09-21",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Agricultural isolationism is reshaping the global feed industry foodagribusiness.world",
+          "category": "Unclassified",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
+        },
+        {
+          "id": "all-about-feed-20260907-d0694af25c",
+          "source": "All About Feed",
+          "title": "Creating value across the animal feed chain through integrated expertise - foodagribusiness.world",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUjFLRnk2cElvUHVzMVdRZmVObjAxUDZOSnc2TUdBTkVsUjRvVFVXTjg0VWNXWnRfcmdWaUpoa3pJZ2xwTGpCYTAtR0paZkp4S2xkS24ydlppRWc1cVFOeEhCVzdKV2VpNUJtSFhUSnFzV0dSa2lSVFhyUmZscUFIY2lSZFJILWI1TF9hMEtuSmNtT3ZUd1lRT0hReDdKZnZKRVVpUmtxeE1rUE8xMGpVVVJB?oc=5",
+          "published_date": "2026-09-07",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "Creating value across the animal feed chain through integrated expertise foodagribusiness.world",
           "category": "Unclassified",
           "species": [
             "Multi-species"
@@ -218,7 +272,7 @@
           "title": "zambia - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBITHVoTGRYT29JeUdaZmh0ZEh5US14dlpPUDREdGRiUXJSdlRjeXZFcFJRRzdOQ29CZndDMEdfS2pFbXlJOE96NEZyQUJZQnhHYzlz?oc=5",
           "published_date": "2026-07-12",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "zambia live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
@@ -236,44 +290,8 @@
           "title": "zimbabwe - live.allaboutfeed.net",
           "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RX2hlZ2tzTDhYX3AtVFhSS050UGVSb3dKOHBpYV9ZU01SREliaXdJUnY5SmwyU1FVcW8zajQyWDhjRTYyTndjZlcycVc1dlNxRU4yOFFn?oc=5",
           "published_date": "2026-07-12",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "zimbabwe live.allaboutfeed.net",
-          "category": "Unclassified",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
-        },
-        {
-          "id": "all-about-feed-20260712-14f507c69f",
-          "source": "All About Feed",
-          "title": "botswana - live.allaboutfeed.net",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1RN01FWjdSZ3RCZ3prbHpaZFVfVGs3bnpGaGIzX1V3SlQ3M3VJbEJVWkJLSkh4TENQU2NTNlc4QUdncnc3MlBfRjJaTEVwWWtlMldNOWh3?oc=5",
-          "published_date": "2026-07-12",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "botswana live.allaboutfeed.net",
-          "category": "Unclassified",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
-        },
-        {
-          "id": "all-about-feed-20260711-db870979c5",
-          "source": "All About Feed",
-          "title": "namibia - live.allaboutfeed.net",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBycjhRUDlrZEotYm1hMUZSdl9obXFtSHFBM012ZllaY1FNVlBjQlBfbjBfbS1DQ1BpMU1OeFFuOGZubTJ6QVMtaDNLVkRuUmxpNUVDVA?oc=5",
-          "published_date": "2026-07-11",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "namibia live.allaboutfeed.net",
           "category": "Unclassified",
           "species": [
             "Multi-species"
@@ -290,7 +308,7 @@
           "title": "Inside Animal Nutrition R&D: From analytical science to product performance - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb0tuV0JkZUhNeF9PYXdLalRvZUtXU0xUUGVIU1FCcE1qZGlkVFBqU0taMEZjRE50R0dSZUotV3FjZk9PQ0ZJVzB1TTZKNmZ1a3RRYmxVWVhkWDNIQzRxWmNTZFU0WVQ1Um9VenJUeVhZUHh2N2E5SEhEZVhDaGswWUt5MmtWRTdDbFVPeF9vaFJNUjg2cnpVeUVZVllLcXZvdTIwMEx3N3U5Q29QenFjaFBqaEFFaDV1eWc?oc=5",
           "published_date": "2026-07-08",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Inside Animal Nutrition R&D: From analytical science to product performance foodagribusiness.world",
           "category": "Animal Nutrition",
           "species": [
@@ -310,7 +328,7 @@
           "title": "Feed Talks: Forecasting mycotoxin risks - foodagribusiness.world",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSS1BVDhhMktyUzNYaXVJSmRoeXRKQUxWR05JNG9mMndjdENrc0dmZkJmQkZLWUVGbGxDTVYzSVZaZ0ZST3lJVmtYSW04V0ZhU1FvY2J0OS0zaXVia09pTUVvcnBzODFNMUljS1pZMTdNNkVPeDJGNGNXLWlZTHYxWmhaZFE?oc=5",
           "published_date": "2026-07-02",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Feed Talks: Forecasting mycotoxin risks foodagribusiness.world",
           "category": "Feed Additives",
           "species": [
@@ -323,28 +341,6 @@
           ],
           "why_it_matters": "mycotoxin 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
-        },
-        {
-          "id": "all-about-feed-20260624-60791a660b",
-          "source": "All About Feed",
-          "title": "Feed Talks: Gut health in poultry - the power of probiotics - foodagribusiness.world",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNR0xxUmFMT0lPN3pnNXI3VHNpWlpRc3dYbC1XWUp4dXhYMU5Hdl9rbFRFbHZOOElya0w2V3hlNTBrVFZHbl92UkpuOTRaYXpxNFVjWTQyTmNNMFhjSFVfbERtTWxvTklxb1U0aHl4ZThqTGJPd1ZOeE94NG51TkdPNm1mbEM3TFZWaW5WSWM0SVJaZDVjMnBnLS1EaHE?oc=5",
-          "published_date": "2026-06-24",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "Feed Talks: Gut health in poultry - the power of probiotics foodagribusiness.world",
-          "category": "Feed Additives",
-          "species": [
-            "Poultry"
-          ],
-          "priority": "Medium",
-          "priority_score": 52,
-          "keywords": [
-            "gut health",
-            "probiotic",
-            "poultry"
-          ],
-          "why_it_matters": "gut health, probiotic, poultry 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
         }
       ]
     },
@@ -352,19 +348,19 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-09-28T10:25:18+09:00",
-      "last_attempt_at": "2026-09-28T10:25:18+09:00",
+      "last_success_at": "2026-09-29T11:29:18+09:00",
+      "last_attempt_at": "2026-09-29T11:29:18+09:00",
       "collection_method": "google_news_rss_fallback",
       "error_message": "",
       "articles": [
         {
-          "id": "feed-additive-magazine-20260925-cff2df936f",
+          "id": "feed-additive-magazine-20260925-75918ba7fc",
           "source": "Feed & Additive Magazine",
-          "title": "Lallemand Animal Nutrition introduces SMART GROWS program for young ruminants - Feed & Additive Magazine",
+          "title": "Lallemand Animal Nutrition introduces SMART GROWS program for young ruminants - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeTlrUTgyTjRya0FWSUhLRGZJbnBHeTh5cXo2bGJ4OGpmQWc1eEMxdVdFaUhUNXl0VTRWTGFZc3N4bUJabWJyZTNROVMyQWFnTkhXdmlEdDJHaTI3Qk1iYm1VQWZpTVZiTm5nRnlJYWxZUlV4c2F1SUlrbkdLU0lwalFnRXZFRV9KZFlYUU9rNVRpblp3aWluTkJ2ZzdVUllBN3ljc2t4YldwTUIySWVn?oc=5",
           "published_date": "2026-09-25",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "Lallemand Animal Nutrition introduces SMART GROWS program for young ruminants Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "Lallemand Animal Nutrition introduces SMART GROWS program for young ruminants feedandadditive.com",
           "category": "Feed Additives",
           "species": [
             "Ruminant"
@@ -373,20 +369,20 @@
           "priority_score": 32,
           "keywords": [
             "nutrition",
-            "ruminant",
-            "additive"
+            "additive",
+            "ruminant"
           ],
-          "why_it_matters": "nutrition, ruminant, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "nutrition, additive, ruminant 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-additive-magazine-20260923-83af34eb5d",
+          "id": "feed-additive-magazine-20260923-79eafd2038",
           "source": "Feed & Additive Magazine",
-          "title": "Dr. Eckel prepares for next-generation leadership transition - Feed & Additive Magazine",
+          "title": "Dr. Eckel prepares for next-generation leadership transition - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWG5CLXA3aXVkTTJoVG55MHBwWjVnQ2xXbTlkUEU3ZXg2WnU3cVJrSFI5SGJ0dXVyYnpxdTJkMFdjWFJ3UklpdjNFQl83NWV1LWc4V0gwSURjTXhEY1BRamFIRUJxdERsNWszNnIwc3hMSFloc2lVaW1TWmlqTWNaTHFUekFpVU1seXNwVFRCdDYwbFNqZWpr?oc=5",
           "published_date": "2026-09-23",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "Dr. Eckel prepares for next-generation leadership transition Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "Dr. Eckel prepares for next-generation leadership transition feedandadditive.com",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -400,13 +396,13 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-additive-magazine-20260923-a2ccac7bbd",
+          "id": "feed-additive-magazine-20260923-98a3745c0e",
           "source": "Feed & Additive Magazine",
-          "title": "NOVUS unveils new organic trace mineral nutrition - Feed & Additive Magazine",
+          "title": "NOVUS unveils new organic trace mineral nutrition - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaXBjd2pBTkExUVlSVHoxNTVXTnVUWWRHSE9EdG1iZWQ4bktjUHAtcDkyMFFZcWR4RURoLTBmUWtGWHJWVU9FWTJsMGhnenVDOE5wRDhKVDlPdEw0NmJlQUl2akhxUnVyU2UxWXhCX0FMbW5TQmwycHlqQXBzQjZfM0FDY3pSVFlkeHc?oc=5",
           "published_date": "2026-09-23",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "NOVUS unveils new organic trace mineral nutrition Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "NOVUS unveils new organic trace mineral nutrition feedandadditive.com",
           "category": "Animal Nutrition",
           "species": [
             "Multi-species"
@@ -422,34 +418,13 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-additive-magazine-20260916-4b96cdc651",
+          "id": "feed-additive-magazine-20260904-a894d15f3a",
           "source": "Feed & Additive Magazine",
-          "title": "CCPA Group, Lallemand Animal Nutrition and IRSET establish SCAN partnership - Feed & Additive Magazine",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWHNoVGFvX09TM2RkNjBWMm9rZ0xnQjI1dXhLQ0hUeUVEdE4xX29kNFhPMjhJSFVnTXplYkp6UDduNDRuQU5GRmdtaHlramNBcmc3S05IZUxTZVJnMTRmTkllbFVVQUFtb3Y4anlYWnFZT3NiZHhwcUNOZWJkX2VNR1Q5ay1oVldLaVp0M01JV0oxSGtQdXRBZXBLUFZpd1pNc0stZUx1Q1RqWDQ?oc=5",
-          "published_date": "2026-09-16",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "CCPA Group, Lallemand Animal Nutrition and IRSET establish SCAN partnership Feed & Additive Magazine",
-          "category": "Feed Additives",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "nutrition",
-            "additive"
-          ],
-          "why_it_matters": "nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "google_news_rss_fallback"
-        },
-        {
-          "id": "feed-additive-magazine-20260904-84b102dee4",
-          "source": "Feed & Additive Magazine",
-          "title": "A phytogenic feed additive as a low-inclusion alternative to choline chloride - Feed & Additive Magazine",
+          "title": "A phytogenic feed additive as a low-inclusion alternative to choline chloride - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdmtyUU1aVHQ2Z2JsY0pOSFBpREdzOGtydm8zZzVxM2JXUmo2WkVjZEJFUmR5ZFF6dGVLdm1DZzUycUJPTGNOZmhwb1AxUWY5LVQteTFPSl9jcG1LbGFkN3I2TnI3NDZLeld2VW5GcVlNVFpMeFlqTS1LdGJRZFpVSGplVWxFQm5nWDdTUmxjdGZUbVRhWkJ1blM4a2RqWUZ4VWtwczBCTFQwWVFYVG9z?oc=5",
           "published_date": "2026-09-04",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "A phytogenic feed additive as a low-inclusion alternative to choline chloride Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "A phytogenic feed additive as a low-inclusion alternative to choline chloride feedandadditive.com",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -465,13 +440,13 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-additive-magazine-20260904-caefd11081",
+          "id": "feed-additive-magazine-20260904-18cef5eba0",
           "source": "Feed & Additive Magazine",
-          "title": "A New Era in Animal Nutrition: Innovations from Nature to Technology - Feed & Additive Magazine",
+          "title": "A New Era in Animal Nutrition: Innovations from Nature to Technology - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOS2lic0wzaHh3Z1VKTlhvamVNN2g4bkdMWUVEQzBSTW5NQkJabzZSbEgzXy1zdDNpQktwQWliNEE5ZjFfMG9BY3BLaHQ1bDlZaHVVNjBxMFhIYjR1emRLSWVLLU1MNkJNRnlLUmRFLVFUZHh4eDJBbG8zRzRTLUtOU0liMzM5Zl9RS1pnQW5TeUE1RWhkcktIaGs3dzZCdDRMbVE?oc=5",
           "published_date": "2026-09-04",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "A New Era in Animal Nutrition: Innovations from Nature to Technology Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "A New Era in Animal Nutrition: Innovations from Nature to Technology feedandadditive.com",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -486,13 +461,13 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-additive-magazine-20260806-aaac8772f8",
+          "id": "feed-additive-magazine-20260806-dfc6ea7633",
           "source": "Feed & Additive Magazine",
-          "title": "Beyond feed efficiency: Feed additives for sustainable animal production - Feed & Additive Magazine",
+          "title": "Beyond feed efficiency: Feed additives for sustainable animal production - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNSkhuRWNpWGV0RUZTM0dWLVBkYl8ycWZScmh3LUw5cC1fVmIxY00wYXc0TVBWQXNsRHJpQUdpclJweE15ZDdYdlQ0Vmx0S3FxTm93QjQzd2lXOFRoWVk3MU1aT0J1ZWZ3NlpnZUtFamJ6QmZjZjVJMWtYcnhKV25uY0xQb19XRWEtTkZTdDBrbzhBQXpvOXNvOEZKV3NHNEc5MHJfZzdxaw?oc=5",
           "published_date": "2026-08-06",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "Beyond feed efficiency: Feed additives for sustainable animal production Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "Beyond feed efficiency: Feed additives for sustainable animal production feedandadditive.com",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -509,13 +484,13 @@
           "collection_method": "google_news_rss_fallback"
         },
         {
-          "id": "feed-additive-magazine-20260223-30164856ea",
+          "id": "feed-additive-magazine-20260223-715cf5803c",
           "source": "Feed & Additive Magazine",
-          "title": "Phytobiotics unveils third generation Sangrovit® formulation - Feed & Additive Magazine",
+          "title": "Phytobiotics unveils third generation Sangrovit® formulation - feedandadditive.com",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNWxQM2QxRVBTUDh6YmVyMWZkTS1EUnVCUGZGSmRYYUpHaHJ3TzE2Wlhod3JjMkc4cG42cnVNR0pWejFDTTVJTXFWZk5IWTgyYlR1OGFqbDNWRmFtbkh5aUJvUWxyTndkZ3ZmUHdfN1AxZ2hyam1vb0NURXlUNTJJWFZlRzA0R183MFpsOWUxT3BRdnhKX3JV?oc=5",
           "published_date": "2026-02-23",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "Phytobiotics unveils third generation Sangrovit® formulation Feed & Additive Magazine",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "Phytobiotics unveils third generation Sangrovit® formulation feedandadditive.com",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -527,6 +502,29 @@
           ],
           "why_it_matters": "additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "google_news_rss_fallback"
+        },
+        {
+          "id": "feed-additive-magazine-20260211-e56e3dea0d",
+          "source": "Feed & Additive Magazine",
+          "title": "What will define 2026 for animal protein and nutrition markets? - feedandadditive.com",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRTRXZnpNRDRjZ19hNjQ1dlR6TDdGc0ZKRUJnVURGdV9tY3FGQU5pMEhRMFRQU2poTGJBQTFnMXB1VmNEVENLZjlzaUJtdnotV0M2TncxSEhiaWhqT1YwMWN5blQxdU1zMHI3QW9ZU3RWOGh5YUJIZGdpaVdMMUFlVXZ4TUM5WlFNMDFrYVNWcVl2dERCS25KR0NFQQ?oc=5",
+          "published_date": "2026-02-11",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "What will define 2026 for animal protein and nutrition markets? feedandadditive.com",
+          "category": "Animal Nutrition",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 36,
+          "keywords": [
+            "nutrition",
+            "additive",
+            "protein",
+            "market"
+          ],
+          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
+          "collection_method": "google_news_rss_fallback"
         }
       ]
     },
@@ -534,18 +532,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-09-28T10:25:18+09:00",
-      "last_attempt_at": "2026-09-28T10:25:18+09:00",
+      "last_success_at": "2026-09-29T11:29:18+09:00",
+      "last_attempt_at": "2026-09-29T11:29:18+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20260928-594e82f80b",
+          "id": "the-pig-site-20260929-a193ec15d9",
           "source": "The Pig Site",
           "title": "Namibia confirms FMD outbreak, suspends livestock trade",
           "url": "https://www.thepigsite.com/news/2026/09/namibia-confirms-fmd-outbreak-suspends-livestock-trade",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Namibia confirms FMD outbreak, suspends livestock trade",
           "category": "Disease / Biosecurity",
           "species": [
@@ -561,33 +559,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260928-b8c9d1b959",
-          "source": "The Pig Site",
-          "title": "Policy and regulation",
-          "url": "https://www.thepigsite.com/policy-and-regulation",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
-          "summary": "Policy and regulation",
-          "category": "Regulation",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Medium",
-          "priority_score": 53,
-          "keywords": [
-            "regulation",
-            "policy"
-          ],
-          "why_it_matters": "규제·품질·안전 관련 이슈이므로 제품 등록, 표시 claim, 원료 추적성, 고객 커뮤니케이션 리스크를 점검할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-pig-site-20260928-abfd86d325",
+          "id": "the-pig-site-20260929-cc605f9529",
           "source": "The Pig Site",
           "title": "Notifiable diseases",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Notifiable diseases",
           "category": "Disease / Biosecurity",
           "species": [
@@ -602,12 +579,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260928-d384a4de42",
+          "id": "the-pig-site-20260929-1b9eb18527",
           "source": "The Pig Site",
           "title": "Foot and mouth disease (FMD)",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/foot-and-mouth-disease-fmd",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Foot and mouth disease (FMD)",
           "category": "Disease / Biosecurity",
           "species": [
@@ -622,12 +599,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260928-fe6d11c6bc",
+          "id": "the-pig-site-20260929-38805408b4",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -642,12 +619,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260928-3299b36f25",
+          "id": "the-pig-site-20260929-0697d08cf1",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -662,12 +639,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260928-aa76af9bcf",
+          "id": "the-pig-site-20260929-e944393c85",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -680,12 +657,32 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20260928-5ba77c1004",
+          "id": "the-pig-site-20260929-2be72659e8",
+          "source": "The Pig Site",
+          "title": "Hog futures dip as pork belly stocks fall 35% - CME",
+          "url": "https://www.thepigsite.com/news/2026/09/cattle-futures-rise-on-tight-us-supplies-cme",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
+          "summary": "Hog futures dip as pork belly stocks fall 35% - CME",
+          "category": "Unclassified",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "pork"
+          ],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-pig-site-20260929-05dbb153b0",
           "source": "The Pig Site",
           "title": "Canada's food and beverage sector faces margin pressure",
           "url": "https://www.thepigsite.com/news/2026/09/canadas-food-and-beverage-sector-faces-margin-pressure",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Canada's food and beverage sector faces margin pressure",
           "category": "Unclassified",
           "species": [
@@ -703,18 +700,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-09-28T10:25:18+09:00",
-      "last_attempt_at": "2026-09-28T10:25:18+09:00",
+      "last_success_at": "2026-09-29T11:29:18+09:00",
+      "last_attempt_at": "2026-09-29T11:29:18+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20260928-ee29d225fb",
+          "id": "the-poultry-site-20260929-959230c722",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -729,12 +726,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-9a4f2ffe84",
+          "id": "the-poultry-site-20260929-17bd14897b",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -747,12 +744,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-47a6f23991",
+          "id": "the-poultry-site-20260929-ec6eed001e",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -765,12 +762,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-95d7a5a42b",
+          "id": "the-poultry-site-20260929-2ed0dd4b9b",
           "source": "The Poultry Site",
           "title": "ORKA Food Technology releases new mobile app for seamless egg quality data management",
           "url": "https://www.thepoultrysite.com/news/2026/09/orka-food-technology-releases-new-mobile-app-for-seamless-egg-quality-data-management",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "ORKA Food Technology releases new mobile app for seamless egg quality data management",
           "category": "Unclassified",
           "species": [
@@ -785,12 +782,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-e9a6bd13d4",
+          "id": "the-poultry-site-20260929-9cfced9ba9",
           "source": "The Poultry Site",
           "title": "Canada's food and beverage sector faces margin pressure",
           "url": "https://www.thepoultrysite.com/news/2026/09/canadas-food-and-beverage-sector-faces-margin-pressure",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Canada's food and beverage sector faces margin pressure",
           "category": "Unclassified",
           "species": [
@@ -803,12 +800,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-bb26459d96",
+          "id": "the-poultry-site-20260929-da297a6eeb",
           "source": "The Poultry Site",
           "title": "Olymel opens $142 million integrated plant in Quebec",
           "url": "https://www.thepoultrysite.com/news/2026/09/olymel-opens-142-million-integrated-plant-in-quebec",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Olymel opens $142 million integrated plant in Quebec",
           "category": "Unclassified",
           "species": [
@@ -821,12 +818,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-becf4b2aa8",
+          "id": "the-poultry-site-20260929-a475adcff7",
           "source": "The Poultry Site",
           "title": "Cobb-Vantress announces global leadership transition",
           "url": "https://www.thepoultrysite.com/news/2026/09/cobb-vantress-announces-global-leadership-transition",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "Cobb-Vantress announces global leadership transition",
           "category": "Unclassified",
           "species": [
@@ -839,12 +836,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20260928-5750f0f1ad",
+          "id": "the-poultry-site-20260929-571780100b",
           "source": "The Poultry Site",
           "title": "France's chicken production edges up on domestic demand",
           "url": "https://www.thepoultrysite.com/news/2026/09/frances-chicken-production-edges-up-on-domestic-demand",
-          "published_date": "2026-09-28",
-          "collected_at": "2026-09-28T10:25:18+09:00",
+          "published_date": "2026-09-29",
+          "collected_at": "2026-09-29T11:29:18+09:00",
           "summary": "France's chicken production edges up on domestic demand",
           "category": "Market / Trade",
           "species": [
