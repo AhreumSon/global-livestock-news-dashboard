@@ -1,24 +1,24 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-10-17T10:04:56+09:00",
+    "data_generated_at": "2026-10-18T09:40:15+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
     "sources_checked": 5,
-    "sources_success": 5,
+    "sources_success": 4,
     "sources_failed": 0,
-    "sources_stale": 0,
-    "run_status": "success"
+    "sources_stale": 1,
+    "run_status": "partial"
   },
-  "last_updated": "2026-10-17 10:04 KST",
+  "last_updated": "2026-10-18 09:40 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-10-17T10:04:56+09:00",
-      "last_attempt_at": "2026-10-17T10:04:56+09:00",
+      "last_success_at": "2026-10-18T09:40:15+09:00",
+      "last_attempt_at": "2026-10-18T09:40:15+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "New analysis finds recycled phosphorus is safe for use in livestock feed",
           "url": "https://www.feedstrategy.com/animal-feed-regulations-safety/article/15837133/new-analysis-finds-recycled-phosphorus-is-safe-for-use-in-livestock-feed",
           "published_date": "2026-10-13",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "A new process for extracting phosphorus from sewage sludge ash appears to effectively remove heavy metals and organic contaminants...",
           "category": "Unclassified",
           "species": [
@@ -46,7 +46,7 @@
           "title": "Pork raised on soy-free diet served in Swedish restaurant",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/alternative-protein/article/15837029/pork-raised-on-soyfree-diet-served-in-swedish-restaurant",
           "published_date": "2026-10-09",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "The end-to-end demonstration project was intended to prove the feasibility of locally produced animal feed made with alternative...",
           "category": "Animal Nutrition",
           "species": [
@@ -55,8 +55,8 @@
           "priority": "Low",
           "priority_score": 28,
           "keywords": [
-            "pork",
-            "diet"
+            "diet",
+            "pork"
           ],
           "why_it_matters": "Swine 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
           "collection_method": "rss"
@@ -67,7 +67,7 @@
           "title": "US egg prices hit 20-year lows as feed costs expected to rise",
           "url": "https://www.feedstrategy.com/business-markets/article/15836070/us-egg-prices-hit-20year-lows-as-feed-costs-expected-to-rise",
           "published_date": "2026-09-29",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Producer values are below production costs, and an expected 8% increase in feed costs could further pressure layer margins.",
           "category": "Market / Trade",
           "species": [
@@ -77,8 +77,8 @@
           "priority_score": 20,
           "keywords": [
             "production",
-            "price",
             "layer",
+            "price",
             "cost",
             "egg"
           ],
@@ -91,7 +91,7 @@
           "title": "Application for FDA approval of hemp ruminant feed expected this year",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/feed-ingredients/article/15835746/fda-hemp-ruminant-feed-application-coming-this-year-coalition-says",
           "published_date": "2026-09-24",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "The Hemp Feed Coalition has launched a research webinar series to promote the ingredient and raise funds for future ingredient...",
           "category": "Regulation",
           "species": [
@@ -100,8 +100,8 @@
           "priority": "Medium",
           "priority_score": 51,
           "keywords": [
-            "approval",
             "ruminant",
+            "approval",
             "fda"
           ],
           "why_it_matters": "규제·품질·안전 관련 이슈이므로 제품 등록, 표시 claim, 원료 추적성, 고객 커뮤니케이션 리스크를 점검할 필요가 있습니다.",
@@ -113,7 +113,7 @@
           "title": "Poultry, egg, feed leaders: What does sustainability mean?",
           "url": "https://www.feedstrategy.com/sustainability-in-feed-production/article/15835565/what-sustainability-really-means-for-poultry-producers",
           "published_date": "2026-09-23",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "null",
           "category": "Sustainability",
           "species": [
@@ -135,7 +135,7 @@
           "title": "Salmon don't retain PFAS 'forever chemicals' like other animals, study finds",
           "url": "https://www.feedstrategy.com/animal-nutrition/aquaculture/article/15835083/salmon-resist-pfas-buildup-unlike-other-animals-study-finds",
           "published_date": "2026-09-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Although marine ingredients frequently contain “forever chemicals,\" salmon do not readily absorb PFAS from their feed.",
           "category": "Unclassified",
           "species": [
@@ -155,7 +155,7 @@
           "title": "Poultry producers face another spike in feed costs",
           "url": "https://www.feedstrategy.com/business-markets/article/15835008/poultry-producers-face-another-spike-in-feed-costs",
           "published_date": "2026-09-16",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "null",
           "category": "Market / Trade",
           "species": [
@@ -176,7 +176,7 @@
           "title": "Corn, soybean prices rising on escalating conflicts in Ukraine, Iran",
           "url": "https://www.feedstrategy.com/business-markets/commodities/article/15834700/ukraine-war-drives-corn-and-soybean-prices-higher",
           "published_date": "2026-09-12",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "But the elevated prices may be fragile due to large quantities of investor-held corn and soybean stocks, analyst says.",
           "category": "Market / Trade",
           "species": [
@@ -197,11 +197,11 @@
     {
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
-      "status": "success",
+      "status": "stale",
       "last_success_at": "2026-10-17T10:04:56+09:00",
-      "last_attempt_at": "2026-10-17T10:04:56+09:00",
-      "collection_method": "google_news_rss_fallback",
-      "error_message": "",
+      "last_attempt_at": "2026-10-18T09:40:15+09:00",
+      "collection_method": "previous_json_fallback",
+      "error_message": "rss failed | https://www.allaboutfeed.net/feed/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/feed/ | https://www.allaboutfeed.net/rss: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/rss | https://www.foodagribusiness.world/feed/rss: 403 Client Error: Forbidden for url: https://www.foodagribusiness.world/feed/rss | listing failed | https://www.allaboutfeed.net/: 403 Client Error: Forbidden for url: https://www.allaboutfeed.net/ | https://www.foodagribusiness.world/feed: 403 Client Error: Forbidden for url: https://www.foodagribusiness.world/feed | google_news_rss_fallback failed: no relevant entries",
       "articles": [
         {
           "id": "all-about-feed-20261002-956a529f4b",
@@ -368,8 +368,8 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-10-17T10:04:56+09:00",
-      "last_attempt_at": "2026-10-17T10:04:56+09:00",
+      "last_success_at": "2026-10-18T09:40:15+09:00",
+      "last_attempt_at": "2026-10-18T09:40:15+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -379,7 +379,7 @@
           "title": "Trouw Nutrition to present livestock nutrition technologies at EuroTier 2026",
           "url": "https://www.feedandadditive.com/trouw-nutrition-to-present-livestock-nutrition-technologies-at-eurotier-2026/",
           "published_date": "2026-10-16",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Trouw Nutrition will present precision nutrition tools, digital technologies and sustainability programmes at EuroTier 2026. The programme will include product demonstrations, expert presentations and the launch of two initiatives. Trouw Nutrition, Nutreco’s l",
           "category": "Feed Additives",
           "species": [
@@ -401,7 +401,7 @@
           "title": "EDA names Koert Verkerk as new President",
           "url": "https://www.feedandadditive.com/eda-names-koert-verkerk-as-new-president/",
           "published_date": "2026-10-16",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "The European Dairy Association (EDA) has named Koert Verkerk as its new President, succeeding Albert de Groot. Verkerk will focus on strengthening the competitiveness, sustainability and resilience of Europe’s dairy sector. The European Dairy Association (EDA)",
           "category": "Feed Additives",
           "species": [
@@ -425,7 +425,7 @@
           "title": "K-State study assesses soybean meal composition",
           "url": "https://www.feedandadditive.com/k-state-study-assesses-soybean-meal-composition/",
           "published_date": "2026-10-16",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Kansas State University researchers have assessed soybean meal composition and laboratory testing methods to better understand nutrient variation. The findings provide updated data to support ingredient evaluation and swine diet formulation. Researchers in K-S",
           "category": "Feed Additives",
           "species": [
@@ -448,7 +448,7 @@
           "title": "ADDCON names new CEO and Monogastrics Product Manager",
           "url": "https://www.feedandadditive.com/addcon-names-new-ceo-and-monogastrics-product-manager/",
           "published_date": "2026-10-16",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "ADDCON has appointed Per Ove Jakobsen as CEO of the ADDCON Group and Regina-Maria Edo i Arderiu as Product Manager Monogastrics. The appointments aim to strengthen the company’s leadership team and its focus on poultry and swine nutrition. ADDCON has announced",
           "category": "Feed Additives",
           "species": [
@@ -473,7 +473,7 @@
           "title": "FDA expands Kemin chromium propionate approval",
           "url": "https://www.feedandadditive.com/fda-expands-kemin-chromium-propionate-approval/",
           "published_date": "2026-10-15",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Kemin Industries has received FDA approval for its chromium propionate in broiler breeder chicken and laying hen diets. The approval expands the ingredient’s applications across livestock and poultry species. Kemin Industries, a global ingredient manufacturer,",
           "category": "Animal Nutrition",
           "species": [
@@ -484,12 +484,12 @@
           "keywords": [
             "additive",
             "approval",
-            "poultry",
-            "broiler",
             "chicken",
+            "broiler",
+            "poultry",
             "diet",
-            "hen",
-            "fda"
+            "fda",
+            "hen"
           ],
           "why_it_matters": "Poultry 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
           "collection_method": "rss"
@@ -500,7 +500,7 @@
           "title": "House of Raeford Farms names Hannah Cagle as Corporate HR Manager",
           "url": "https://www.feedandadditive.com/house-of-raeford-farms-names-hannah-cagle-as-corporate-hr-manager/",
           "published_date": "2026-10-15",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "House of Raeford Farms has appointed Hannah Cagle as Corporate Human Resources Manager. She brings more than 15 years of HR experience to the role and will lead HR functions across the company’s operations in four states. House of Raeford Farms, a U.S.-based p",
           "category": "Feed Additives",
           "species": [
@@ -521,7 +521,7 @@
           "title": "BioMar introduces BioRetain for aquafeed formulation",
           "url": "https://www.feedandadditive.com/biomar-introduces-bioretain-for-aquafeed-formulation/",
           "published_date": "2026-10-15",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "BioMar has unveiled BioRetain, a formulation concept developed through decades of research. The approach focuses on nutrient utilisation and retention while offering greater flexibility in aquafeed formulation. BioMar has launched BioRetain, a new step in the",
           "category": "Feed Additives",
           "species": [
@@ -541,7 +541,7 @@
           "title": "NOVUS International Teaching Award recognizes José Henrique Stringhini",
           "url": "https://www.feedandadditive.com/novus-international-teaching-award-recognizes-jose-henrique-stringhini/",
           "published_date": "2026-10-15",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "José Henrique Stringhini, professor at the Federal University of Goiás in Brazil, has received the 2026 NOVUS International Teaching Award in recognition of his contributions to poultry science education and student development. Dr. José Henrique Stringhini ha",
           "category": "Feed Additives",
           "species": [
@@ -563,18 +563,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-10-17T10:04:56+09:00",
-      "last_attempt_at": "2026-10-17T10:04:56+09:00",
+      "last_success_at": "2026-10-18T09:40:15+09:00",
+      "last_attempt_at": "2026-10-18T09:40:15+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20261017-4fdadf38b4",
+          "id": "the-pig-site-20261018-dd78ac8620",
           "source": "The Pig Site",
           "title": "ASF remains a hurdle for Ukraine’s pig sector expansion",
           "url": "https://www.thepigsite.com/news/2026/10/asf-remains-a-hurdle-for-ukraines-pig-sector-expansion",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "ASF remains a hurdle for Ukraine’s pig sector expansion",
           "category": "Disease / Biosecurity",
           "species": [
@@ -583,19 +583,19 @@
           "priority": "Medium",
           "priority_score": 70,
           "keywords": [
-            "pig",
-            "asf"
+            "asf",
+            "pig"
           ],
           "why_it_matters": "Swine 질병·방역 이슈로 생산성 저하, 면역, 장건강, 사료섭취 유지 관련 제품 메시지를 검토할 필요가 있습니다.",
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-b8e656fc8e",
+          "id": "the-pig-site-20261018-8f40b9f944",
           "source": "The Pig Site",
           "title": "African swine fever",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/african-swine-fever",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "African swine fever",
           "category": "Disease / Biosecurity",
           "species": [
@@ -611,12 +611,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-7d8cd442d3",
+          "id": "the-pig-site-20261018-fa084a3bcf",
           "source": "The Pig Site",
           "title": "Notifiable diseases",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Notifiable diseases",
           "category": "Disease / Biosecurity",
           "species": [
@@ -631,12 +631,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-e4b0ab57b1",
+          "id": "the-pig-site-20261018-9a9927c69b",
           "source": "The Pig Site",
           "title": "Ukraine pork sector shrinks as small farms exit the market",
           "url": "https://www.thepigsite.com/news/2026/10/ukraine-pork-sector-shrinks-as-small-farms-exit-the-market",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Ukraine pork sector shrinks as small farms exit the market",
           "category": "Market / Trade",
           "species": [
@@ -652,12 +652,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-7dd3a78ba3",
+          "id": "the-pig-site-20261018-dce2290706",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -672,12 +672,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-2ecb6b73c3",
+          "id": "the-pig-site-20261018-653ec43504",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -692,12 +692,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-0fcbdbb495",
+          "id": "the-pig-site-20261018-d4ea91914a",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -710,12 +710,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261017-ba969a7762",
+          "id": "the-pig-site-20261018-813b1036de",
           "source": "The Pig Site",
           "title": "Japan hog herd to hold steady in 2027 as feed costs bite",
           "url": "https://www.thepigsite.com/news/2026/10/japan-hog-herd-to-hold-steady-in-2027-as-feed-costs-bite",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Japan hog herd to hold steady in 2027 as feed costs bite",
           "category": "Market / Trade",
           "species": [
@@ -735,18 +735,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-10-17T10:04:56+09:00",
-      "last_attempt_at": "2026-10-17T10:04:56+09:00",
+      "last_success_at": "2026-10-18T09:40:15+09:00",
+      "last_attempt_at": "2026-10-18T09:40:15+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20261017-e78212c65e",
+          "id": "the-poultry-site-20261018-5c26fb88c1",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -761,12 +761,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-c6e1026886",
+          "id": "the-poultry-site-20261018-f25d7d3ca9",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -779,12 +779,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-00e7a1764e",
+          "id": "the-poultry-site-20261018-5d0123f5a7",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -797,12 +797,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-04e71cd203",
+          "id": "the-poultry-site-20261018-2a6f58065e",
           "source": "The Poultry Site",
           "title": "Canada chicken output to rise 2% in 2027 on solid demand",
           "url": "https://www.thepoultrysite.com/news/2026/10/canada-chicken-output-to-rise-2-in-2027-on-solid-demand",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Canada chicken output to rise 2% in 2027 on solid demand",
           "category": "Market / Trade",
           "species": [
@@ -818,12 +818,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-b333b3a0fd",
+          "id": "the-poultry-site-20261018-f326bcb6d1",
           "source": "The Poultry Site",
           "title": "Philippines chicken output to rise 5.8% in 2027",
           "url": "https://www.thepoultrysite.com/news/2026/10/philippines-chicken-output-to-rise-5-8-in-2027",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Philippines chicken output to rise 5.8% in 2027",
           "category": "Unclassified",
           "species": [
@@ -838,12 +838,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-1abb84084c",
+          "id": "the-poultry-site-20261018-b851ac37a3",
           "source": "The Poultry Site",
           "title": "Brazil egg consumption more than doubles in 20 years - ABPA",
           "url": "https://www.thepoultrysite.com/news/2026/10/brazil-egg-consumption-more-than-doubles-in-20-years-abpa",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "Brazil egg consumption more than doubles in 20 years - ABPA",
           "category": "Unclassified",
           "species": [
@@ -858,12 +858,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-703d898ce5",
+          "id": "the-poultry-site-20261018-70b6b5288c",
           "source": "The Poultry Site",
           "title": "South Korea chicken consumption to hold steady in 2027",
           "url": "https://www.thepoultrysite.com/news/2026/10/south-korea-chicken-consumption-to-hold-steady-in-2027",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "South Korea chicken consumption to hold steady in 2027",
           "category": "Unclassified",
           "species": [
@@ -878,12 +878,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261017-36f79ef402",
+          "id": "the-poultry-site-20261018-451549572b",
           "source": "The Poultry Site",
           "title": "UAE poultry imports forecast to rise 17% in 2027",
           "url": "https://www.thepoultrysite.com/news/2026/10/uae-poultry-imports-forecast-to-rise-17-in-2027",
-          "published_date": "2026-10-17",
-          "collected_at": "2026-10-17T10:04:56+09:00",
+          "published_date": "2026-10-18",
+          "collected_at": "2026-10-18T09:40:15+09:00",
           "summary": "UAE poultry imports forecast to rise 17% in 2027",
           "category": "Market / Trade",
           "species": [
