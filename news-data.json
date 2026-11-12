@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-11-11T11:32:51+09:00",
+    "data_generated_at": "2026-11-12T12:37:23+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,24 +11,44 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-11-11 11:32 KST",
+  "last_updated": "2026-11-12 12:37 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-11-11T11:32:51+09:00",
-      "last_attempt_at": "2026-11-11T11:32:51+09:00",
+      "last_success_at": "2026-11-12T12:37:23+09:00",
+      "last_attempt_at": "2026-11-12T12:37:23+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
+        {
+          "id": "feed-strategy-20261112-dd5c602780",
+          "source": "Feed Strategy",
+          "title": "The path to a PRRS-free world: Managing and overcoming virus challenges",
+          "url": "https://www.feedstrategy.com/animal-health-veterinary/livestock-poultry-diseases/pig-health-disease/article/16425325/the-path-to-a-prrsfree-world-managing-and-overcoming-virus-challenges",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Dr. Scott Dee shares research on virus spread via fomites, air and contaminated feed, and explains how a next-generation biosecurity...",
+          "category": "Disease / Biosecurity",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Medium",
+          "priority_score": 60,
+          "keywords": [
+            "biosecurity"
+          ],
+          "why_it_matters": "Multi-species 질병·방역 이슈로 생산성 저하, 면역, 장건강, 사료섭취 유지 관련 제품 메시지를 검토할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
         {
           "id": "feed-strategy-20261109-6e1f898c53",
           "source": "Feed Strategy",
           "title": "Single-cell protein's breakthrough remains stuck in the slow lane",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834251/scp-feed-technology-struggles-to-scale",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "High costs, thin supply chains and cautious buyers keep single-cell protein a niche play, despite decades of research pointing...",
           "category": "Market / Trade",
           "species": [
@@ -50,7 +70,7 @@
           "title": "How the feed industry is rethinking mycotoxin risk",
           "url": "https://www.feedstrategy.com/animal-health-veterinary/mycotoxins/article/15834635/mycotoxin-testing-evolution-from-compliance-to-strategy",
           "published_date": "2026-11-06",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Approaches to mycotoxin management are evolving as newer technology allows for frequent testing and broader data to improve animal...",
           "category": "Feed Additives",
           "species": [
@@ -70,7 +90,7 @@
           "title": "2026 World's Top Feed Companies: 145 global feed manufacturers rank",
           "url": "https://www.feedstrategy.com/animal-feed-manufacturing/article/15834859/2026-worlds-top-feed-companies-142-global-feed-manufacturers-rank",
           "published_date": "2026-11-04",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "The 2026 edition of Feed Strategy’s World’s Top Feed Companies listing reports 145 companies with more than 1 million metric tons...",
           "category": "Unclassified",
           "species": [
@@ -88,7 +108,7 @@
           "title": "Animal feed shortage threatens Middle East, Gulf states",
           "url": "https://www.feedstrategy.com/animal-feed-manufacturing/article/15834252/animal-feed-shortage-threatens-middle-east-gulf-states",
           "published_date": "2026-11-04",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Iran war continues to put serious pressure on the Middle East's feed sector.",
           "category": "Unclassified",
           "species": [
@@ -106,7 +126,7 @@
           "title": "Why probiotics do not always deliver consistent results",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/feed-additives/article/15834039/why-probiotics-do-not-always-deliver-consistent-results",
           "published_date": "2026-11-01",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Probiotics may not always deliver consistent results because we ask them to behave like non-living additives in systems that are...",
           "category": "Feed Additives",
           "species": [
@@ -127,7 +147,7 @@
           "title": "Can coarser sorghum support broiler performance while lowering costs?",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834037/can-coarser-sorghum-support-broiler-performance-while-lowering-costs",
           "published_date": "2026-11-01",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "A recent study finds modern US grain sorghum supports broiler performance, gizzard development, improved ingredient flowability...",
           "category": "Animal Nutrition",
           "species": [
@@ -148,7 +168,7 @@
           "title": "From automation to autonomy: What holds feed mills back?",
           "url": "https://www.feedstrategy.com/feed-mill-of-the-future/article/15834312/feed-mill-autonomy-technology-vs-real-barriers",
           "published_date": "2026-11-01",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Robots, digital twins and predictive maintenance are ready, but legacy infrastructure, unclear ROI and integration hurdles keep...",
           "category": "Unclassified",
           "species": [
@@ -159,28 +179,6 @@
           "keywords": [],
           "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
           "collection_method": "rss"
-        },
-        {
-          "id": "feed-strategy-20261029-996fdceac6",
-          "source": "Feed Strategy",
-          "title": "IFFO: Industry-based data gives more accurate view of carbon emissions",
-          "url": "https://www.feedstrategy.com/animal-nutrition/aquaculture/article/16050240/industry-data-improves-aquaculture-sustainability-accuracy",
-          "published_date": "2026-10-29",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "An industry-led initiative to provide updated environmental data slashed the reported carbon footprint of some marine feed ingredients...",
-          "category": "Sustainability",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [
-            "environment",
-            "emission",
-            "carbon"
-          ],
-          "why_it_matters": "지속가능성 claim은 FCR, 배출 저감, 자원 효율 등 측정 가능한 지표와 연결해 검토할 필요가 있습니다.",
-          "collection_method": "rss"
         }
       ]
     },
@@ -188,43 +186,40 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-11-11T11:32:51+09:00",
-      "last_attempt_at": "2026-11-11T11:32:51+09:00",
+      "last_success_at": "2026-11-12T12:37:23+09:00",
+      "last_attempt_at": "2026-11-12T12:37:23+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "all-about-feed-20261111-a40d96cc90",
+          "id": "all-about-feed-20261112-a154fedcbc",
           "source": "All About Feed",
-          "title": "Nov 10 News All About Feed Award for mycotoxin research Prof Dr Gunther Antonissen of Ghent University in Belgium has become the recipient of the NextGen Award. The award was presented to him at the initiative of DSM-Firmenich, at the recent World Nutrition Forum in Kuala Lumpur, Malaysia. Prof Antonissen is the university’s chair of poultry health sciences and is a globally recognised scientist with over 120 publications on mycotoxins, gut health and poultry production. Next generation of poultry research He was awarded the prize, because he was “inspiring and developing the next generation of poultry research through research, education and mentorship.” The award came with a cheque of US$1...",
+          "title": "Nov 10 News All About Feed Award for mycotoxin research Ghent University's Prof. Dr. Gunther Antonissen received the DSM-Firmenich-initiated NextGen Award at the World Nutrition Forum in Kuala Lumpur.",
           "url": "https://www.foodagribusiness.world/feed/award-for-mycotoxin-research",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Nov 10 News All About Feed Award for mycotoxin research Prof Dr Gunther Antonissen of Ghent University in Belgium has become the recipient of the NextGen Award. The award was presented to him at the initiative of DSM-Firmenich, at the recent World Nutrition Fo",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Nov 10 News All About Feed Award for mycotoxin research Ghent University's Prof. Dr. Gunther Antonissen received the DSM-Firmenich-initiated NextGen Award at the World Nutrition Forum in Kuala Lumpur.",
           "category": "Feed Additives",
           "species": [
             "Poultry"
           ],
           "priority": "Medium",
-          "priority_score": 70,
+          "priority_score": 50,
           "keywords": [
-            "production",
-            "gut health",
             "nutrition",
             "mycotoxin",
-            "poultry",
             "hen"
           ],
-          "why_it_matters": "production, gut health, nutrition, mycotoxin 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "nutrition, mycotoxin, hen 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261111-de98044a1b",
+          "id": "all-about-feed-20261112-c7746832fb",
           "source": "All About Feed",
           "title": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-forecasting-mycotoxin-risks",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "category": "Feed Additives",
           "species": [
@@ -239,12 +234,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261111-a0d4532e4e",
+          "id": "all-about-feed-20261112-02494b238e",
           "source": "All About Feed",
           "title": "All About Feed Partner Phytase, an important tool for sustainable livestock production Oct 27",
           "url": "https://www.foodagribusiness.world/feed/phytase-an-important-tool-for-sustainable-livestock-production",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "All About Feed Partner Phytase, an important tool for sustainable livestock production Oct 27",
           "category": "Market / Trade",
           "species": [
@@ -261,13 +256,13 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261111-b2542daefe",
+          "id": "all-about-feed-20261112-329e21b1aa",
           "source": "All About Feed",
-          "title": "Nov 9 Video All About Feed Feed Talks: The power of phytogenics In this Feed Talks episode, discover how phytogenics support animal resilience and help livestock maintain performance.",
+          "title": "All About Feed Feed Talks: The power of phytogenics Nov 9 Video",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-the-power-of-phytogenics",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Nov 9 Video All About Feed Feed Talks: The power of phytogenics In this Feed Talks episode, discover how phytogenics support animal resilience and help livestock maintain performance.",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "All About Feed Feed Talks: The power of phytogenics Nov 9 Video",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -281,12 +276,57 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261111-7b2a6373d5",
+          "id": "all-about-feed-20261112-d667936a51",
+          "source": "All About Feed",
+          "title": "Nov 11 Analysis All About Feed Amino acid markets: Stable prices, low levels and cautious buying Prices are mostly stable, with several amino acids near historic lows and methionine showing a slightly weaker tone. Q4 is largely contracted, while buyers remain cautious on Q1 amid uncertainty over future supply.Highlights: Lysine: Prices remain stable at low levels in China, while US and European prices are elevated due to anti-dumping duties, with Q4 and Q1 largely contracted. Threonine: The market remains stable across regions, with uncertainty around new capacity expansions and Q4 and most of Q1 already contracted. DL-Methionine: The market shows a slightly weaker sentiment, with suppliers defending prices while buyers remain cautio...",
+          "url": "https://www.foodagribusiness.world/feed/amino-acid-markets-stable-prices-low-levels-and-cautious-buying",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Nov 11 Analysis All About Feed Amino acid markets: Stable prices, low levels and cautious buying Prices are mostly stable, with several amino acids near historic lows and methionine showing a slightly weaker tone. Q4 is largely contracted, while buyers remain",
+          "category": "Market / Trade",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "amino acid",
+            "supply",
+            "market",
+            "price"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "all-about-feed-20261112-417c8ec8e8",
+          "source": "All About Feed",
+          "title": "Nov 11 Analysis All About Feed Premium Vitamin markets remain mixed as price declines ease Vitamin E, D-Calpan and biotin prices remain under pressure, while vitamin C firms and several other markets stabilise.",
+          "url": "https://www.foodagribusiness.world/feed/vitamin-markets-remain-mixed-as-price-declines-ease",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Nov 11 Analysis All About Feed Premium Vitamin markets remain mixed as price declines ease Vitamin E, D-Calpan and biotin prices remain under pressure, while vitamin C firms and several other markets stabilise.",
+          "category": "Market / Trade",
+          "species": [
+            "Multi-species"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "vitamin",
+            "market",
+            "price"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "all-about-feed-20261112-75681fc589",
           "source": "All About Feed",
           "title": "All About Feed Partner Bioavailability: Where mineral nutrition becomes performance Oct 30",
           "url": "https://www.foodagribusiness.world/feed/bioavailability-where-mineral-nutrition-becomes-performance",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "All About Feed Partner Bioavailability: Where mineral nutrition becomes performance Oct 30",
           "category": "Animal Nutrition",
           "species": [
@@ -302,12 +342,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261111-2d84bd0cc3",
+          "id": "all-about-feed-20261112-a724fabbb6",
           "source": "All About Feed",
           "title": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "url": "https://www.foodagribusiness.world/feed/recognising-excellence-in-sustainability-the-sustainability-impact-award-debut",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "category": "Sustainability",
           "species": [
@@ -320,44 +360,6 @@
           ],
           "why_it_matters": "지속가능성 claim은 FCR, 배출 저감, 자원 효율 등 측정 가능한 지표와 연결해 검토할 필요가 있습니다.",
           "collection_method": "listing"
-        },
-        {
-          "id": "all-about-feed-20261111-f1aba0dd6b",
-          "source": "All About Feed",
-          "title": "All About Feed Partner Jul 8 Video Inside Animal Nutrition R&D: From analytical science to product performance",
-          "url": "https://www.foodagribusiness.world/feed/inside-animal-nutrition-r-amp-d-from-analytical-science-to-product-performance",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "All About Feed Partner Jul 8 Video Inside Animal Nutrition R&D: From analytical science to product performance",
-          "category": "Animal Nutrition",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "nutrition"
-          ],
-          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "all-about-feed-20261111-3d83a2b71c",
-          "source": "All About Feed",
-          "title": "Nov 8 Article All About Feed FeedTechnoVision: Shaping Asia’s future All About Feed reports from FeedTechnoVision 2026 in Jaipur, where 180 stakeholders explored feed industry challenges and opportunities.",
-          "url": "https://www.foodagribusiness.world/feed/feedtechnovision-shaping-asia-s-future",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Nov 8 Article All About Feed FeedTechnoVision: Shaping Asia’s future All About Feed reports from FeedTechnoVision 2026 in Jaipur, where 180 stakeholders explored feed industry challenges and opportunities.",
-          "category": "Unclassified",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [],
-          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
-          "collection_method": "listing"
         }
       ]
     },
@@ -365,69 +367,19 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-11-11T11:32:51+09:00",
-      "last_attempt_at": "2026-11-11T11:32:51+09:00",
+      "last_success_at": "2026-11-12T12:37:23+09:00",
+      "last_attempt_at": "2026-11-12T12:37:23+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
         {
-          "id": "feed-additive-magazine-20261110-d6b96cb4b1",
+          "id": "feed-additive-magazine-20261111-c468a47c44",
           "source": "Feed & Additive Magazine",
-          "title": "The role of probiotics and enzymes in antibiotic reduction",
-          "url": "https://www.feedandadditive.com/the-role-of-probiotics-and-enzymes-in-antibiotic-reduction/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Probiotics and enzymes can reduce the amount of undigested substrate that reaches the hindgut and support a more favourable microbiota. Selected probiotics can encourage beneficial bacteria, short-chain fatty acid production and gut-barrier function, while pro",
-          "category": "Feed Additives",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Medium",
-          "priority_score": 68,
-          "keywords": [
-            "digestibility",
-            "production",
-            "nutrition",
-            "probiotic",
-            "additive",
-            "protease",
-            "enzyme"
-          ],
-          "why_it_matters": "digestibility, production, nutrition, probiotic 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20261110-63960ed7f8",
-          "source": "Feed & Additive Magazine",
-          "title": "dsm-firmenich ANH unveils MaxiFicient Shield for pig stress management",
-          "url": "https://www.feedandadditive.com/dsm-firmenich-anh-unveils-maxificient-shield-for-pig-stress-management/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "dsm-firmenich Animal Nutrition & Health has introduced MaxiFicient™ Shield to support pigs in managing stressful situations and curbing aggressive behavior. The launch will cover selected markets in Europe, the Middle East and Africa. dsm-firmenich Animal Nutr",
-          "category": "Feed Additives",
-          "species": [
-            "Swine"
-          ],
-          "priority": "Medium",
-          "priority_score": 60,
-          "keywords": [
-            "feed additive",
-            "nutrition",
-            "additive",
-            "market",
-            "pig"
-          ],
-          "why_it_matters": "feed additive, nutrition, additive, market 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20261110-a77d483bcd",
-          "source": "Feed & Additive Magazine",
-          "title": "Targeted nutrition and antimicrobial resistance",
-          "url": "https://www.feedandadditive.com/targeted-nutrition-and-antimicrobial-resistance/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Addressing antimicrobial resistance (AMR) requires responsible antibiotic use and a stronger focus on animal health. Targeted nutrition can support gut health and physiological resilience, while drinking water offers a flexible route for nutritional supplement",
+          "title": "Small particles, big questions for animal nutrition",
+          "url": "https://www.feedandadditive.com/small-particles-big-questions-for-animal-nutrition/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Nanotechnology is opening new possibilities for how feed additives are protected, delivered and used by animals. From nanoencapsulation and nanoemulsions to more advanced release systems, researchers and manufacturers are exploring ways to improve the stabilit",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -435,69 +387,67 @@
           "priority": "Medium",
           "priority_score": 52,
           "keywords": [
-            "gut health",
+            "feed additive",
             "nutrition",
             "additive"
           ],
-          "why_it_matters": "gut health, nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "feed additive, nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
-          "id": "feed-additive-magazine-20261110-0adcfac473",
+          "id": "feed-additive-magazine-20261111-11256b6005",
           "source": "Feed & Additive Magazine",
-          "title": "Securing the start: Protecting digestive health from birth to weaning",
-          "url": "https://www.feedandadditive.com/securing-the-start-protecting-digestive-health-from-birth-to-weaning/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "The first weeks of life are critical for a calf’s digestive development, immune protection and future performance. As the intestinal barrier and microbiota mature, calves remain vulnerable to infectious and nutritional diarrhoea. This article explores how colo",
-          "category": "Animal Nutrition",
-          "species": [
-            "Swine",
-            "Ruminant"
-          ],
-          "priority": "Medium",
-          "priority_score": 46,
-          "keywords": [
-            "nutrition",
-            "additive",
-            "weaning",
-            "calf"
-          ],
-          "why_it_matters": "Swine, Ruminant 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20261110-8b7b25e2fb",
-          "source": "Feed & Additive Magazine",
-          "title": "Supporting Coccidiosis Control and Antibiotic Reduction with Phytomolecules",
-          "url": "https://www.feedandadditive.com/supporting-coccidiosis-control-and-antibiotic-reduction-with-phytomolecules/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "References: 1. Abbas, R.Z., D.D. Colwell, and J. Gilleard. “Botanicals: An Alternative Approach for the Control of Avian Coccidiosis.” World’s Poultry Science Journal 68, no. 2 (June 1, 2012): 203–15. https://doi.org/10.1017/s0043933912000268. 2. Alam, K., M.N",
+          "title": "Alltech and ProGnosis partner to advance mycotoxin testing",
+          "url": "https://www.feedandadditive.com/alltech-and-prognosis-partner-to-advance-mycotoxin-testing/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Alltech and ProGnosis Biotech have formed an alliance to strengthen mycotoxin testing and risk management. The collaboration will initially focus on Europe, the Middle East and Africa. Alltech, a global animal health and nutrition company, has announced an all",
           "category": "Feed Additives",
           "species": [
             "Poultry"
           ],
-          "priority": "Low",
-          "priority_score": 32,
+          "priority": "Medium",
+          "priority_score": 50,
           "keywords": [
+            "nutrition",
+            "mycotoxin",
             "additive",
-            "poultry",
-            "carbon",
-            "avian",
-            "ban"
+            "hen"
           ],
-          "why_it_matters": "additive, poultry, carbon, avian 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "nutrition, mycotoxin, additive, hen 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
-          "id": "feed-additive-magazine-20261110-4eb8828577",
+          "id": "feed-additive-magazine-20261111-a55127f9c3",
           "source": "Feed & Additive Magazine",
-          "title": "Evonik showcases MetAMINO and Specialty Nutrition solutions at EuroTier",
-          "url": "https://www.feedandadditive.com/evonik-showcases-metamino-and-specialty-nutrition-solutions-at-eurotier/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Evonik is highlighting its “Power of 65” campaign and new Specialty Nutrition solutions at EuroTier 2026. Live demonstrations also showcase digital tools for more precise feed production. Evonik is presenting its “Power of 65” campaign, highlighting the bioeff",
+          "title": "EW Nutrition launches Pretect Max at EuroTier 2026",
+          "url": "https://www.feedandadditive.com/ew-nutrition-launches-pretect-max-at-eurotier-2026/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "EW Nutrition has introduced Pretect Max, a natural solution targeting gut health in broilers under coccidial challenge. The product combines multiple modes of action and offers flexible application options. EW Nutrition has launched Pretect Max at EuroTier 202",
+          "category": "Animal Nutrition",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Medium",
+          "priority_score": 48,
+          "keywords": [
+            "gut health",
+            "nutrition",
+            "additive",
+            "broiler"
+          ],
+          "why_it_matters": "Poultry 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20261111-603d26b55e",
+          "source": "Feed & Additive Magazine",
+          "title": "EFPRA calls for wider use of animal proteins in EU feed",
+          "url": "https://www.feedandadditive.com/efpra-calls-for-wider-use-of-animal-proteins-in-eu-feed/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "EFPRA is calling for regulatory changes to expand the use of processed animal proteins in European feed production. The association says existing resources could help reduce the EU’s protein deficit. Europe faces a protein deficit, with more protein used in li",
           "category": "Feed Additives",
           "species": [
             "Multi-species"
@@ -506,53 +456,102 @@
           "priority_score": 32,
           "keywords": [
             "production",
-            "nutrition",
-            "additive"
+            "additive",
+            "protein"
           ],
-          "why_it_matters": "production, nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "production, additive, protein 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
-          "id": "feed-additive-magazine-20261110-034fd45d5b",
+          "id": "feed-additive-magazine-20261111-0da82d7f67",
           "source": "Feed & Additive Magazine",
-          "title": "Brenntag showcases animal nutrition portfolio at EuroTier 2026",
-          "url": "https://www.feedandadditive.com/brenntag-showcases-animal-nutrition-portfolio-at-eurotier-2026/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Brenntag Animal Nutrition is showcasing its feed and pet food portfolio at EuroTier 2026 in Hanover. Its stand highlights ingredients, technical expertise and value-added services for animal nutrition. Brenntag Animal Nutrition is participating in EuroTier 202",
+          "title": "IPMC 2027 to focus on precision poultry production",
+          "url": "https://www.feedandadditive.com/ipmc-2027-to-focus-on-precision-poultry-production/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "The 8th International Poultry Meat Congress will bring together poultry industry stakeholders in Antalya, Türkiye, in April 2027. Discussions will focus on efficient and precision poultry production technologies. Organised biennially since 2011 by the Turkish",
           "category": "Feed Additives",
           "species": [
-            "Multi-species"
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "production",
+            "additive",
+            "poultry"
+          ],
+          "why_it_matters": "production, additive, poultry 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20261111-ee5ce03fca",
+          "source": "Feed & Additive Magazine",
+          "title": "Trouw Nutrition introduces Sow Excellence Programme at EuroTier 2026",
+          "url": "https://www.feedandadditive.com/trouw-nutrition-introduces-sow-excellence-programme-at-eurotier-2026/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Trouw Nutrition is introducing its Sow Excellence Programme at EuroTier 2026 in Hanover, Germany. The initiative takes a life-cycle approach to sow productivity, combining nutrition, technical expertise and digital solutions. Trouw Nutrition, Nutreco’s livesto",
+          "category": "Feed Additives",
+          "species": [
+            "Swine"
           ],
           "priority": "Low",
           "priority_score": 32,
           "keywords": [
             "nutrition",
-            "additive"
+            "additive",
+            "sow"
           ],
-          "why_it_matters": "nutrition, additive 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "nutrition, additive, sow 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
-          "id": "feed-additive-magazine-20261110-ad63f22ec3",
+          "id": "feed-additive-magazine-20261111-6b20d027d7",
           "source": "Feed & Additive Magazine",
-          "title": "Kemin launches LYSOFORTE ENFUSIO at EuroTier 2026",
-          "url": "https://www.feedandadditive.com/kemin-launches-lysoforte-enfusio-at-eurotier-2026/",
-          "published_date": "2026-11-10",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Kemin is introducing LYSOFORTE ENFUSIO for monogastric nutrition at EuroTier 2026. The solution targets amino acid digestion and lipid absorption, with flexible application in feed formulation. Kemin Industries, a global ingredient manufacturer, has launched L",
-          "category": "Animal Nutrition",
+          "title": "Adisseo updates its technical methionine reference book",
+          "url": "https://www.feedandadditive.com/adisseo-updates-its-technical-methionine-reference-book/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Adisseo has released the third edition of Methiopedia, its technical reference book on methionine, incorporating new research and additional information on swine and aquaculture nutrition. Adisseo has announced the publication of the 3rd edition of Methiopedia",
+          "category": "Feed Additives",
           "species": [
-            "Multi-species"
+            "Swine",
+            "Aquaculture"
+          ],
+          "priority": "Low",
+          "priority_score": 32,
+          "keywords": [
+            "aquaculture",
+            "nutrition",
+            "additive",
+            "swine"
+          ],
+          "why_it_matters": "aquaculture, nutrition, additive, swine 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
+        {
+          "id": "feed-additive-magazine-20261111-310f37aac2",
+          "source": "Feed & Additive Magazine",
+          "title": "Saudi arabia and the united arab emirates: Two distinct models of growth in the gulf feed market",
+          "url": "https://www.feedandadditive.com/saudi-arabia-and-the-united-arab-emirates-two-distinct-models-of-growth-in-the-gulf-feed-market/",
+          "published_date": "2026-11-11",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Saudi Arabia and the United Arab Emirates, two major economies in the Gulf region, hold strategic positions in the feed industry, shaped by food security policies, investments in animal production, and reliance on imported feed raw materials. While Saudi Arabi",
+          "category": "Market / Trade",
+          "species": [
+            "Poultry"
           ],
           "priority": "Low",
           "priority_score": 28,
           "keywords": [
-            "amino acid",
-            "nutrition",
-            "additive"
+            "production",
+            "additive",
+            "poultry",
+            "market",
+            "import"
           ],
-          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "rss"
         }
       ]
@@ -561,18 +560,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-11-11T11:32:51+09:00",
-      "last_attempt_at": "2026-11-11T11:32:51+09:00",
+      "last_success_at": "2026-11-12T12:37:23+09:00",
+      "last_attempt_at": "2026-11-12T12:37:23+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20261111-9b10a60ab6",
+          "id": "the-pig-site-20261112-6df3d4470e",
           "source": "The Pig Site",
           "title": "Spain’s ASF outbreaks have reshaped the EU's pig sector, says USDA",
           "url": "https://www.thepigsite.com/news/2026/11/spains-asf-outbreaks-have-reshaped-the-eus-pig-sector-says-usda",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Spain’s ASF outbreaks have reshaped the EU's pig sector, says USDA",
           "category": "Disease / Biosecurity",
           "species": [
@@ -589,12 +588,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261111-8d756aa549",
+          "id": "the-pig-site-20261112-62fc0d330f",
           "source": "The Pig Site",
           "title": "African swine fever",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/african-swine-fever",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "African swine fever",
           "category": "Disease / Biosecurity",
           "species": [
@@ -610,33 +609,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261111-ae0ba4693e",
-          "source": "The Pig Site",
-          "title": "Policy and regulation",
-          "url": "https://www.thepigsite.com/policy-and-regulation",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "Policy and regulation",
-          "category": "Regulation",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Medium",
-          "priority_score": 53,
-          "keywords": [
-            "regulation",
-            "policy"
-          ],
-          "why_it_matters": "규제·품질·안전 관련 이슈이므로 제품 등록, 표시 claim, 원료 추적성, 고객 커뮤니케이션 리스크를 점검할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-pig-site-20261111-498692b9db",
+          "id": "the-pig-site-20261112-8180f2424c",
           "source": "The Pig Site",
           "title": "Notifiable diseases",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Notifiable diseases",
           "category": "Disease / Biosecurity",
           "species": [
@@ -651,12 +629,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261111-54a4e10ba4",
+          "id": "the-pig-site-20261112-4e96cfbc01",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -671,12 +649,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261111-896b5521bb",
+          "id": "the-pig-site-20261112-a96f7aa398",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -691,12 +669,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261111-4828ebfd5e",
+          "id": "the-pig-site-20261112-6a697f68be",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -709,13 +687,34 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261111-79823fb027",
+          "id": "the-pig-site-20261112-c2752cda6d",
           "source": "The Pig Site",
-          "title": "JBS third-quarter profit misses as oversupply hits meat units",
-          "url": "https://www.thepigsite.com/news/2026/11/jbs-third-quarter-profit-misses-as-oversupply-hits-meat-units",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "JBS third-quarter profit misses as oversupply hits meat units",
+          "title": "US pork exports fall for fifth straight month in September - USMEF",
+          "url": "https://www.thepigsite.com/news/2026/11/us-pork-exports-fall-for-fifth-straight-month-in-september-usmef",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "US pork exports fall for fifth straight month in September - USMEF",
+          "category": "Market / Trade",
+          "species": [
+            "Swine"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "export",
+            "pork"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-pig-site-20261112-60180e6ca2",
+          "source": "The Pig Site",
+          "title": "Imports and Exports",
+          "url": "https://www.thepigsite.com/markets-2/imports-and-exports",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Imports and Exports",
           "category": "Market / Trade",
           "species": [
             "Multi-species"
@@ -723,7 +722,8 @@
           "priority": "Low",
           "priority_score": 20,
           "keywords": [
-            "supply"
+            "export",
+            "import"
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "listing"
@@ -734,38 +734,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-11-11T11:32:51+09:00",
-      "last_attempt_at": "2026-11-11T11:32:51+09:00",
+      "last_success_at": "2026-11-12T12:37:23+09:00",
+      "last_attempt_at": "2026-11-12T12:37:23+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20261111-e5407dd7a0",
-          "source": "The Poultry Site",
-          "title": "South Korea reports H5N9 bird flu outbreak on Gyeonggi farm",
-          "url": "https://www.thepoultrysite.com/news/2026/11/south-korea-reports-h5n9-bird-flu-outbreak-on-gyeonggi-farm",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
-          "summary": "South Korea reports H5N9 bird flu outbreak on Gyeonggi farm",
-          "category": "Disease / Biosecurity",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Medium",
-          "priority_score": 60,
-          "keywords": [
-            "outbreak"
-          ],
-          "why_it_matters": "Multi-species 질병·방역 이슈로 생산성 저하, 면역, 장건강, 사료섭취 유지 관련 제품 메시지를 검토할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20261111-e69865b3e4",
+          "id": "the-poultry-site-20261112-5102ad35fc",
           "source": "The Poultry Site",
           "title": "Policy and regulation",
           "url": "https://www.thepoultrysite.com/markets-policy-2/policy-and-regulation",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Policy and regulation",
           "category": "Regulation",
           "species": [
@@ -781,12 +761,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261111-bc1c72021e",
+          "id": "the-poultry-site-20261112-3484df2e90",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -801,12 +781,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261111-193824474e",
+          "id": "the-poultry-site-20261112-6c45b71cd2",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -819,12 +799,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261111-21b81157a1",
+          "id": "the-poultry-site-20261112-a19cc3626a",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -837,12 +817,32 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261111-b8893f56e4",
+          "id": "the-poultry-site-20261112-01b90dfcba",
+          "source": "The Poultry Site",
+          "title": "Bird flu confirmed in small Brandenburg poultry holding",
+          "url": "https://www.thepoultrysite.com/news/2026/11/bird-flu-confirmed-in-small-brandenburg-poultry-holding",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
+          "summary": "Bird flu confirmed in small Brandenburg poultry holding",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20261112-180467b1bf",
           "source": "The Poultry Site",
           "title": "Canada chicken exports to hold at 110,000 tonnes in 2027",
           "url": "https://www.thepoultrysite.com/news/2026/11/canada-chicken-exports-to-hold-at-110-000-tonnes-in-2027",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "Canada chicken exports to hold at 110,000 tonnes in 2027",
           "category": "Market / Trade",
           "species": [
@@ -858,12 +858,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261111-82d03bbc1d",
+          "id": "the-poultry-site-20261112-15bb05a59a",
           "source": "The Poultry Site",
           "title": "JBS third-quarter profit misses as oversupply hits meat units",
           "url": "https://www.thepoultrysite.com/news/2026/11/jbs-third-quarter-profit-misses-as-oversupply-hits-meat-units",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "JBS third-quarter profit misses as oversupply hits meat units",
           "category": "Market / Trade",
           "species": [
@@ -878,12 +878,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261111-75f9d48d69",
+          "id": "the-poultry-site-20261112-3ee3954b70",
           "source": "The Poultry Site",
           "title": "China’s soybean imports in October lowest since 2023",
           "url": "https://www.thepoultrysite.com/news/2026/11/chinas-soybean-imports-in-october-lowest-since-2023",
-          "published_date": "2026-11-11",
-          "collected_at": "2026-11-11T11:32:51+09:00",
+          "published_date": "2026-11-12",
+          "collected_at": "2026-11-12T12:37:23+09:00",
           "summary": "China’s soybean imports in October lowest since 2023",
           "category": "Market / Trade",
           "species": [
