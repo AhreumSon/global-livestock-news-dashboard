@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-11-14T11:54:58+09:00",
+    "data_generated_at": "2026-11-15T11:24:45+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-11-14 11:54 KST",
+  "last_updated": "2026-11-15 11:24 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-11-14T11:54:58+09:00",
-      "last_attempt_at": "2026-11-14T11:54:58+09:00",
+      "last_success_at": "2026-11-15T11:24:45+09:00",
+      "last_attempt_at": "2026-11-15T11:24:45+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "The path to a PRRS-free world: Managing and overcoming virus challenges",
           "url": "https://www.feedstrategy.com/animal-health-veterinary/livestock-poultry-diseases/pig-health-disease/article/16425325/the-path-to-a-prrsfree-world-managing-and-overcoming-virus-challenges",
           "published_date": "2026-11-12",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Dr. Scott Dee shares research on virus spread via fomites, air and contaminated feed, and explains how a next-generation biosecurity...",
           "category": "Disease / Biosecurity",
           "species": [
@@ -48,7 +48,7 @@
           "title": "Single-cell protein's breakthrough remains stuck in the slow lane",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834251/scp-feed-technology-struggles-to-scale",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "High costs, thin supply chains and cautious buyers keep single-cell protein a niche play, despite decades of research pointing...",
           "category": "Market / Trade",
           "species": [
@@ -70,7 +70,7 @@
           "title": "How the feed industry is rethinking mycotoxin risk",
           "url": "https://www.feedstrategy.com/animal-health-veterinary/mycotoxins/article/15834635/mycotoxin-testing-evolution-from-compliance-to-strategy",
           "published_date": "2026-11-06",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Approaches to mycotoxin management are evolving as newer technology allows for frequent testing and broader data to improve animal...",
           "category": "Feed Additives",
           "species": [
@@ -90,7 +90,7 @@
           "title": "2026 World's Top Feed Companies: 145 global feed manufacturers rank",
           "url": "https://www.feedstrategy.com/animal-feed-manufacturing/article/15834859/2026-worlds-top-feed-companies-142-global-feed-manufacturers-rank",
           "published_date": "2026-11-04",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "The 2026 edition of Feed Strategy’s World’s Top Feed Companies listing reports 145 companies with more than 1 million metric tons...",
           "category": "Unclassified",
           "species": [
@@ -108,7 +108,7 @@
           "title": "Animal feed shortage threatens Middle East, Gulf states",
           "url": "https://www.feedstrategy.com/animal-feed-manufacturing/article/15834252/animal-feed-shortage-threatens-middle-east-gulf-states",
           "published_date": "2026-11-04",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Iran war continues to put serious pressure on the Middle East's feed sector.",
           "category": "Unclassified",
           "species": [
@@ -126,7 +126,7 @@
           "title": "Why probiotics do not always deliver consistent results",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/feed-additives/article/15834039/why-probiotics-do-not-always-deliver-consistent-results",
           "published_date": "2026-11-01",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Probiotics may not always deliver consistent results because we ask them to behave like non-living additives in systems that are...",
           "category": "Feed Additives",
           "species": [
@@ -147,7 +147,7 @@
           "title": "Can coarser sorghum support broiler performance while lowering costs?",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834037/can-coarser-sorghum-support-broiler-performance-while-lowering-costs",
           "published_date": "2026-11-01",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "A recent study finds modern US grain sorghum supports broiler performance, gizzard development, improved ingredient flowability...",
           "category": "Animal Nutrition",
           "species": [
@@ -168,7 +168,7 @@
           "title": "From automation to autonomy: What holds feed mills back?",
           "url": "https://www.feedstrategy.com/feed-mill-of-the-future/article/15834312/feed-mill-autonomy-technology-vs-real-barriers",
           "published_date": "2026-11-01",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Robots, digital twins and predictive maintenance are ready, but legacy infrastructure, unclear ROI and integration hurdles keep...",
           "category": "Unclassified",
           "species": [
@@ -186,18 +186,18 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-11-14T11:54:58+09:00",
-      "last_attempt_at": "2026-11-14T11:54:58+09:00",
+      "last_success_at": "2026-11-15T11:24:45+09:00",
+      "last_attempt_at": "2026-11-15T11:24:45+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "all-about-feed-20261114-9860034e51",
+          "id": "all-about-feed-20261115-da0a41ed69",
           "source": "All About Feed",
           "title": "All About Feed Award for mycotoxin research Nov 10 News",
           "url": "https://www.foodagribusiness.world/feed/award-for-mycotoxin-research",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Award for mycotoxin research Nov 10 News",
           "category": "Feed Additives",
           "species": [
@@ -212,12 +212,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261114-cdf75bc424",
+          "id": "all-about-feed-20261115-db8611bedc",
           "source": "All About Feed",
           "title": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-forecasting-mycotoxin-risks",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "category": "Feed Additives",
           "species": [
@@ -232,12 +232,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261114-303ae44e17",
+          "id": "all-about-feed-20261115-f53525e59c",
           "source": "All About Feed",
           "title": "All About Feed Feed Talks: The power of phytogenics Nov 9 Video",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-the-power-of-phytogenics",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Feed Talks: The power of phytogenics Nov 9 Video",
           "category": "Feed Additives",
           "species": [
@@ -252,12 +252,39 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261114-9cbea63a62",
+          "id": "all-about-feed-20261115-38e1e3914f",
+          "source": "All About Feed",
+          "title": "Nov 14 News All About Feed UK seeks to strengthen protein supply chains by boosting home-grown pulses The UK is stepping up efforts to increase domestic pulse production as policymakers, researchers and food industry stakeholders look to build more resilient protein supply chains. While peas and faba beans are already familiar crops across many arable rotations, growing interest in chickpeas and lentils is creating fresh opportunities for both human food markets and livestock feed manufacturers seeking alternatives to imported protein sources. The push comes at a time when British agriculture faces mounting pressure from climate change, rising input costs and concerns about supply chain security. Pulses are increasingly being viewed as a...",
+          "url": "https://www.foodagribusiness.world/feed/uk-seeks-to-strengthen-protein-supply-chains-by-boosting-home-grown-pulses",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
+          "summary": "Nov 14 News All About Feed UK seeks to strengthen protein supply chains by boosting home-grown pulses The UK is stepping up efforts to increase domestic pulse production as policymakers, researchers and food industry stakeholders look to build more resilient p",
+          "category": "Market / Trade",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 28,
+          "keywords": [
+            "production",
+            "protein",
+            "climate",
+            "supply",
+            "market",
+            "import",
+            "policy",
+            "cost"
+          ],
+          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "all-about-feed-20261115-12b5b07aa4",
           "source": "All About Feed",
           "title": "All About Feed Amino acid markets: Stable prices, low levels and cautious buying Nov 11 Analysis",
           "url": "https://www.foodagribusiness.world/feed/amino-acid-markets-stable-prices-low-levels-and-cautious-buying",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Amino acid markets: Stable prices, low levels and cautious buying Nov 11 Analysis",
           "category": "Market / Trade",
           "species": [
@@ -274,12 +301,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261114-2170eb24b9",
+          "id": "all-about-feed-20261115-d5a0bc1d54",
           "source": "All About Feed",
           "title": "All About Feed Premium Vitamin markets remain mixed as price declines ease Nov 11 Analysis",
           "url": "https://www.foodagribusiness.world/feed/vitamin-markets-remain-mixed-as-price-declines-ease",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Premium Vitamin markets remain mixed as price declines ease Nov 11 Analysis",
           "category": "Market / Trade",
           "species": [
@@ -296,12 +323,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261114-e41e4c2296",
+          "id": "all-about-feed-20261115-8ed1c55d6d",
           "source": "All About Feed",
           "title": "All About Feed Partner Bioavailability: Where mineral nutrition becomes performance Oct 30",
           "url": "https://www.foodagribusiness.world/feed/bioavailability-where-mineral-nutrition-becomes-performance",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Partner Bioavailability: Where mineral nutrition becomes performance Oct 30",
           "category": "Animal Nutrition",
           "species": [
@@ -317,12 +344,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261114-84b97a54a8",
+          "id": "all-about-feed-20261115-06a7668253",
           "source": "All About Feed",
           "title": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "url": "https://www.foodagribusiness.world/feed/recognising-excellence-in-sustainability-the-sustainability-impact-award-debut",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "category": "Sustainability",
           "species": [
@@ -335,26 +362,6 @@
           ],
           "why_it_matters": "지속가능성 claim은 FCR, 배출 저감, 자원 효율 등 측정 가능한 지표와 연결해 검토할 필요가 있습니다.",
           "collection_method": "listing"
-        },
-        {
-          "id": "all-about-feed-20261114-d49239cfc8",
-          "source": "All About Feed",
-          "title": "All About Feed Partner Jul 8 Video Inside Animal Nutrition R&D: From analytical science to product performance",
-          "url": "https://www.foodagribusiness.world/feed/inside-animal-nutrition-r-amp-d-from-analytical-science-to-product-performance",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
-          "summary": "All About Feed Partner Jul 8 Video Inside Animal Nutrition R&D: From analytical science to product performance",
-          "category": "Animal Nutrition",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "nutrition"
-          ],
-          "why_it_matters": "Multi-species 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "listing"
         }
       ]
     },
@@ -362,18 +369,42 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-11-14T11:54:58+09:00",
-      "last_attempt_at": "2026-11-14T11:54:58+09:00",
+      "last_success_at": "2026-11-15T11:24:45+09:00",
+      "last_attempt_at": "2026-11-15T11:24:45+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
+        {
+          "id": "feed-additive-magazine-20261114-141a5a6861",
+          "source": "Feed & Additive Magazine",
+          "title": "UF research investigates soy solubles as dairy feed",
+          "url": "https://www.feedandadditive.com/uf-research-investigates-soy-solubles-as-dairy-feed/",
+          "published_date": "2026-11-14",
+          "collected_at": "2026-11-15T11:24:45+09:00",
+          "summary": "University of Florida Ph.D. student Charese A. Hammond is investigating soy solubles as an alternative feed ingredient for dairy cattle. Using a laboratory rumen simulation, her research examines their effects on rumen fermentation, nutrient digestibility and",
+          "category": "Feed Additives",
+          "species": [
+            "Ruminant"
+          ],
+          "priority": "Medium",
+          "priority_score": 50,
+          "keywords": [
+            "digestibility",
+            "additive",
+            "cattle",
+            "dairy",
+            "rumen"
+          ],
+          "why_it_matters": "digestibility, additive, cattle, dairy 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
         {
           "id": "feed-additive-magazine-20261113-571e485097",
           "source": "Feed & Additive Magazine",
           "title": "Premier Nutrition survey highlights wheat straw variation in dry cow diets",
           "url": "https://www.feedandadditive.com/premier-nutrition-survey-highlights-wheat-straw-variation-in-dry-cow-diets/",
           "published_date": "2026-11-13",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "A UK survey by Premier Nutrition has identified substantial differences in wheat straw digestibility and mineral composition. The findings highlight potential implications for dry cow ration formulation and transition management. Wheat straw is a fundamental c",
           "category": "Animal Nutrition",
           "species": [
@@ -398,7 +429,7 @@
           "title": "Ivy Farm gains UK approval for cultivated Wagyu in pet food",
           "url": "https://www.feedandadditive.com/ivy-farm-gains-uk-approval-for-cultivated-wagyu-in-pet-food/",
           "published_date": "2026-11-13",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Cultivated Wagyu beef from Ivy Farm Technologies can now be offered to UK pet food manufacturers following regulatory approval. The company expects to complete its first commercial-scale production run in early 2027. British cultivated meat company Ivy Farm Te",
           "category": "Market / Trade",
           "species": [
@@ -408,8 +439,8 @@
           "priority_score": 36,
           "keywords": [
             "production",
-            "additive",
             "approval",
+            "additive",
             "supply",
             "beef"
           ],
@@ -422,7 +453,7 @@
           "title": "Hill’s report highlights distinct nutritional and health needs of small dogs",
           "url": "https://www.feedandadditive.com/hills-report-highlights-distinct-nutritional-and-health-needs-of-small-dogs/",
           "published_date": "2026-11-13",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Hill’s Pet Nutrition has released its 2026 World of the Small Dog Report, examining the biological, metabolic and clinical differences of small breeds. The findings highlight implications for targeted nutrition and preventive care. Small dogs have distinct ana",
           "category": "Feed Additives",
           "species": [
@@ -443,7 +474,7 @@
           "title": "AFIA event highlights AI applications in feed manufacturing",
           "url": "https://www.feedandadditive.com/afia-event-highlights-ai-applications-in-feed-manufacturing/",
           "published_date": "2026-11-13",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Feed industry professionals met in Puerto Rico for AFIA’s annual Equipment Manufacturers Conference. The discussions focused on artificial intelligence and its applications in efficiency, business growth and security across the industry. Feed industry professi",
           "category": "Feed Additives",
           "species": [
@@ -463,7 +494,7 @@
           "title": "Donau Soja forecasts 20% decline in EU soybean production",
           "url": "https://www.feedandadditive.com/donau-soja-forecasts-20-decline-in-eu-soybean-production/",
           "published_date": "2026-11-13",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Donau Soja Organisation expects EU soybean production to fall to 2.4 million tonnes in 2026 as heat and drought affect yields. The organisation highlights growing import dependence and the need for stronger regional protein supply chains. Europe’s soybean harv",
           "category": "Market / Trade",
           "species": [
@@ -474,10 +505,10 @@
           "keywords": [
             "production",
             "additive",
-            "protein",
             "soybean",
-            "import",
-            "supply"
+            "protein",
+            "supply",
+            "import"
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "rss"
@@ -488,7 +519,7 @@
           "title": "ADM expands East African presence with Nairobi office",
           "url": "https://www.feedandadditive.com/adm-expands-east-african-presence-with-nairobi-office/",
           "published_date": "2026-11-12",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "ADM is strengthening its regional supply chain connections through a new destination marketing office in Nairobi, providing East African customers with access to food ingredients, feedstuffs and animal nutrition products. ADM, a global agricultural supply chai",
           "category": "Market / Trade",
           "species": [
@@ -499,8 +530,8 @@
           "keywords": [
             "nutrition",
             "additive",
-            "market",
             "supply",
+            "market",
             "hen"
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
@@ -512,7 +543,7 @@
           "title": "Nutrimin to transition to Trouw Nutrition Denmark",
           "url": "https://www.feedandadditive.com/nutrimin-to-transition-to-trouw-nutrition-denmark/",
           "published_date": "2026-11-12",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Nutrimin will transition to Trouw Nutrition Denmark, following its acquisition by Nutreco in 2021. The Nutrimin brand will continue to focus on swine mineral nutrition, while Trouw Nutrition Denmark will expand its dairy and beef offering. Nutrimin, a long-sta",
           "category": "Animal Nutrition",
           "species": [
@@ -525,34 +556,11 @@
             "nutrition",
             "additive",
             "mineral",
-            "dairy",
             "swine",
+            "dairy",
             "beef"
           ],
           "why_it_matters": "Swine, Ruminant 영양 전략과 성장성, FCR, 소화율, nutrient utilization claim 연결 가능성을 검토할 필요가 있습니다.",
-          "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20261112-ffe43ba03d",
-          "source": "Feed & Additive Magazine",
-          "title": "BioMar releases its Climate Transition Plan",
-          "url": "https://www.feedandadditive.com/biomar-releases-its-climate-transition-plan/",
-          "published_date": "2026-11-12",
-          "collected_at": "2026-11-14T11:54:58+09:00",
-          "summary": "BioMar has released its Climate Transition Plan, detailing its targets and planned actions to reduce greenhouse gas emissions across its operations and supply chain by 2030. The company says the plan has undergone independent third-party limited assurance. Bio",
-          "category": "Sustainability",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [
-            "emission",
-            "additive",
-            "climate",
-            "supply"
-          ],
-          "why_it_matters": "지속가능성 claim은 FCR, 배출 저감, 자원 효율 등 측정 가능한 지표와 연결해 검토할 필요가 있습니다.",
           "collection_method": "rss"
         }
       ]
@@ -561,18 +569,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-11-14T11:54:58+09:00",
-      "last_attempt_at": "2026-11-14T11:54:58+09:00",
+      "last_success_at": "2026-11-15T11:24:45+09:00",
+      "last_attempt_at": "2026-11-15T11:24:45+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20261114-4a15a38fa2",
+          "id": "the-pig-site-20261115-dda84a9c64",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -587,12 +595,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-442c404a9b",
+          "id": "the-pig-site-20261115-01f5f7ea9b",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -607,12 +615,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-fd2ebd9626",
+          "id": "the-pig-site-20261115-707886586c",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -625,12 +633,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-34457ea37b",
+          "id": "the-pig-site-20261115-0aa9b6a114",
           "source": "The Pig Site",
           "title": "Value of EU agricultural output hits record €558.7bn in 2025",
           "url": "https://www.thepigsite.com/news/2026/11/value-of-eu-agricultural-output-hits-record-558-7bn-in-2025",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Value of EU agricultural output hits record €558.7bn in 2025",
           "category": "Unclassified",
           "species": [
@@ -643,12 +651,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-6c3ece6e27",
+          "id": "the-pig-site-20261115-922bdd4e7f",
           "source": "The Pig Site",
           "title": "Brazil pork exports rise 2.4% in October - ABPA",
           "url": "https://www.thepigsite.com/news/2026/11/brazil-pork-exports-rise-2-4-in-october-abpa",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Brazil pork exports rise 2.4% in October - ABPA",
           "category": "Market / Trade",
           "species": [
@@ -664,12 +672,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-85f50c1e33",
+          "id": "the-pig-site-20261115-b682760be2",
           "source": "The Pig Site",
           "title": "Imports and Exports",
           "url": "https://www.thepigsite.com/markets-2/imports-and-exports",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Imports and Exports",
           "category": "Market / Trade",
           "species": [
@@ -678,19 +686,19 @@
           "priority": "Low",
           "priority_score": 20,
           "keywords": [
-            "import",
-            "export"
+            "export",
+            "import"
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-7778bfa691",
+          "id": "the-pig-site-20261115-170d7f6bfa",
           "source": "The Pig Site",
           "title": "Lean hogs end mixed as pork cutout stays near five-year low - CME",
           "url": "https://www.thepigsite.com/news/2026/11/feeder-cattle-firm-on-technical-buying-and-weaker-feed-corn-cme",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Lean hogs end mixed as pork cutout stays near five-year low - CME",
           "category": "Unclassified",
           "species": [
@@ -705,12 +713,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261114-d42a424e6a",
+          "id": "the-pig-site-20261115-966b61456f",
           "source": "The Pig Site",
           "title": "MBRF third-quarter profit rises 124% on North American beef",
           "url": "https://www.thepigsite.com/news/2026/11/mbrf-third-quarter-profit-rises-124-on-north-american-beef",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "MBRF third-quarter profit rises 124% on North American beef",
           "category": "Unclassified",
           "species": [
@@ -730,18 +738,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-11-14T11:54:58+09:00",
-      "last_attempt_at": "2026-11-14T11:54:58+09:00",
+      "last_success_at": "2026-11-15T11:24:45+09:00",
+      "last_attempt_at": "2026-11-15T11:24:45+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20261114-17a38e3a1c",
+          "id": "the-poultry-site-20261115-f2b7191658",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -756,12 +764,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-b31e754983",
+          "id": "the-poultry-site-20261115-902b865495",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -774,12 +782,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-0adcc78c03",
+          "id": "the-poultry-site-20261115-6d8f73b44e",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -792,12 +800,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-cd8b669db3",
+          "id": "the-poultry-site-20261115-9a10f9044e",
           "source": "The Poultry Site",
           "title": "Value of EU agricultural output hits record €558.7bn in 2025",
           "url": "https://www.thepoultrysite.com/news/2026/11/value-of-eu-agricultural-output-hits-record-558-7bn-in-2025",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Value of EU agricultural output hits record €558.7bn in 2025",
           "category": "Unclassified",
           "species": [
@@ -810,12 +818,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-6cbd97c817",
+          "id": "the-poultry-site-20261115-5e4eca6c20",
           "source": "The Poultry Site",
           "title": "Brazil chicken exports reach 2026 monthly high in October - ABPA",
           "url": "https://www.thepoultrysite.com/news/2026/11/brazil-chicken-exports-reach-2026-monthly-high-in-october-abpa",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Brazil chicken exports reach 2026 monthly high in October - ABPA",
           "category": "Market / Trade",
           "species": [
@@ -831,12 +839,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-1e12e64948",
+          "id": "the-poultry-site-20261115-cbb66d85c2",
           "source": "The Poultry Site",
           "title": "AVEC warns of surge in Brazilian poultry imports to EU",
           "url": "https://www.thepoultrysite.com/news/2026/11/avec-warns-of-surge-in-brazilian-poultry-imports-to-eu",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "AVEC warns of surge in Brazilian poultry imports to EU",
           "category": "Market / Trade",
           "species": [
@@ -852,12 +860,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-f048a01fc4",
+          "id": "the-poultry-site-20261115-c635caadb9",
           "source": "The Poultry Site",
           "title": "MBRF third-quarter profit rises 124% on North American beef",
           "url": "https://www.thepoultrysite.com/news/2026/11/mbrf-third-quarter-profit-rises-124-on-north-american-beef",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "MBRF third-quarter profit rises 124% on North American beef",
           "category": "Unclassified",
           "species": [
@@ -872,12 +880,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261114-0b3db6c581",
+          "id": "the-poultry-site-20261115-8ce390d8e0",
           "source": "The Poultry Site",
           "title": "Bird flu confirmed in Oregon dairy herd for the first time",
           "url": "https://www.thepoultrysite.com/news/2026/11/bird-flu-confirmed-in-oregon-dairy-herd-for-the-first-time",
-          "published_date": "2026-11-14",
-          "collected_at": "2026-11-14T11:54:58+09:00",
+          "published_date": "2026-11-15",
+          "collected_at": "2026-11-15T11:24:45+09:00",
           "summary": "Bird flu confirmed in Oregon dairy herd for the first time",
           "category": "Unclassified",
           "species": [
