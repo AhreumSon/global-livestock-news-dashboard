@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-11-21T12:45:59+09:00",
+    "data_generated_at": "2026-11-22T11:50:06+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-11-21 12:45 KST",
+  "last_updated": "2026-11-22 11:50 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-11-21T12:45:59+09:00",
-      "last_attempt_at": "2026-11-21T12:45:59+09:00",
+      "last_success_at": "2026-11-22T11:50:06+09:00",
+      "last_attempt_at": "2026-11-22T11:50:06+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "Automated truck receiving keeps grain moving when every minute counts",
           "url": "https://www.feedstrategy.com/feed-mill-of-the-future/automation/article/16542197/automated-truck-receiving-keeps-grain-moving-when-every-minute-counts",
           "published_date": "2026-11-20",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "From RFID check-in to unattended scales, automation helps grain elevators and feed mills handle peak-season traffic with fewer...",
           "category": "Unclassified",
           "species": [
@@ -48,7 +48,7 @@
           "title": "From automation to autonomy: What holds feed mills back?",
           "url": "https://www.feedstrategy.com/feed-mill-of-the-future/article/15834312/feed-mill-autonomy-technology-vs-real-barriers",
           "published_date": "2026-11-18",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Robots, digital twins and predictive maintenance are ready, but legacy infrastructure, unclear ROI and integration hurdles keep...",
           "category": "Unclassified",
           "species": [
@@ -66,7 +66,7 @@
           "title": "Can coarser sorghum support broiler performance while lowering costs?",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834037/can-coarser-sorghum-support-broiler-performance-while-lowering-costs",
           "published_date": "2026-11-17",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "A recent study finds modern US grain sorghum supports broiler performance, gizzard development, improved ingredient flowability...",
           "category": "Animal Nutrition",
           "species": [
@@ -87,7 +87,7 @@
           "title": "Why probiotics do not always deliver consistent results",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/feed-additives/article/15834039/why-probiotics-do-not-always-deliver-consistent-results",
           "published_date": "2026-11-16",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Probiotics may not always deliver consistent results because we ask them to behave like non-living additives in systems that are...",
           "category": "Feed Additives",
           "species": [
@@ -108,7 +108,7 @@
           "title": "The path to a PRRS-free world: Managing and overcoming virus challenges",
           "url": "https://www.feedstrategy.com/animal-health-veterinary/livestock-poultry-diseases/pig-health-disease/article/16425325/the-path-to-a-prrsfree-world-managing-and-overcoming-virus-challenges",
           "published_date": "2026-11-12",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Dr. Scott Dee shares research on virus spread via fomites, air and contaminated feed, and explains how a next-generation biosecurity...",
           "category": "Disease / Biosecurity",
           "species": [
@@ -128,7 +128,7 @@
           "title": "Beyond additives: How feed manufacturing shapes swine gut health",
           "url": "https://www.feedstrategy.com/animal-nutrition/swine/article/15835126/how-feed-mill-decisions-impact-pig-gut-health",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Because fine grinding improves feed conversion but increases ulcer risk, feed mills must choose biological compromise over efficiency...",
           "category": "Feed Additives",
           "species": [
@@ -150,7 +150,7 @@
           "title": "How artificial intelligence can aid feed sustainability research",
           "url": "https://www.feedstrategy.com/sustainability-in-feed-production/article/15835486/how-artificial-intelligence-can-aid-feed-sustainability-research",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "AI could help researchers model ingredient constraints, environmental footprints and future feed demand.",
           "category": "Sustainability",
           "species": [
@@ -172,7 +172,7 @@
           "title": "Beyond bigger and faster: Optimizing the modern feed mill",
           "url": "https://www.feedstrategy.com/animal-feed-manufacturing/feed-mill-management/article/15835827/beyond-bigger-and-faster-optimizing-the-modern-feed-mill",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Automation, real-time data and smarter controls help feed mills get more throughput, consistency and uptime from mixing, batching...",
           "category": "Unclassified",
           "species": [
@@ -190,18 +190,18 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-11-21T12:45:59+09:00",
-      "last_attempt_at": "2026-11-21T12:45:59+09:00",
+      "last_success_at": "2026-11-22T11:50:06+09:00",
+      "last_attempt_at": "2026-11-22T11:50:06+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "all-about-feed-20261121-3ab5ea0265",
+          "id": "all-about-feed-20261122-6f56a9a015",
           "source": "All About Feed",
           "title": "All About Feed Partner Phytogenic feed additives linked to improved meat yield and quality Nov 16",
           "url": "https://www.foodagribusiness.world/feed/phytogenic-feed-additives-linked-to-improved-meat-yield-and-quality",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "All About Feed Partner Phytogenic feed additives linked to improved meat yield and quality Nov 16",
           "category": "Feed Additives",
           "species": [
@@ -218,12 +218,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-c19f24fdd3",
+          "id": "all-about-feed-20261122-ffcebbd6d1",
           "source": "All About Feed",
           "title": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-forecasting-mycotoxin-risks",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "category": "Feed Additives",
           "species": [
@@ -238,12 +238,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-d4c2cbc992",
+          "id": "all-about-feed-20261122-de2dd3438c",
           "source": "All About Feed",
           "title": "Nov 19 News All About Feed Upcoming webinar: What can bacteria tell us about poultry gut health? Discover the power of bacterial communication in All About Feed’s upcoming webinar on Thursday 26 November at 10.00 am (CET) in cooperation with CCPA.",
           "url": "https://www.foodagribusiness.world/feed/upcoming-webinar-what-can-bacteria-tell-us-about-poultry-gut-health",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Nov 19 News All About Feed Upcoming webinar: What can bacteria tell us about poultry gut health? Discover the power of bacterial communication in All About Feed’s upcoming webinar on Thursday 26 November at 10.00 am (CET) in cooperation with CCPA.",
           "category": "Unclassified",
           "species": [
@@ -259,12 +259,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-e98d71067c",
+          "id": "all-about-feed-20261122-9fea18a93d",
           "source": "All About Feed",
           "title": "All About Feed Nov 9 Video Feed Talks: The power of phytogenics",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-the-power-of-phytogenics",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "All About Feed Nov 9 Video Feed Talks: The power of phytogenics",
           "category": "Feed Additives",
           "species": [
@@ -279,12 +279,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-bf7449c319",
+          "id": "all-about-feed-20261122-b777773f84",
           "source": "All About Feed",
           "title": "Nov 19 Analysis All About Feed Russia-Ukraine grain talks fail as wheat prices rise Failed talks in Abu Dhabi and lower export forecasts for Russia and Ukraine are adding pressure to wheat markets. Strong demand for French wheat is also drawing attention. Wheat export talks stall Russia and Ukraine do not appear likely to increase exports of wheat and other grains any time soon. Talks between Ukraine, Russia and the United States in Abu Dhabi did not result in an agreement. The situation in and around the Black Sea remains tense, putting upward pressure on wheat prices. Wheat prices and export demand Last week, the US Department of Agriculture (USDA) revised upwards its forecast for global wheat production in the 2026...",
           "url": "https://www.foodagribusiness.world/feed/russia-ukraine-grain-talks-fail-as-wheat-prices-rise",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Nov 19 Analysis All About Feed Russia-Ukraine grain talks fail as wheat prices rise Failed talks in Abu Dhabi and lower export forecasts for Russia and Ukraine are adding pressure to wheat markets. Strong demand for French wheat is also drawing attention. Whea",
           "category": "Market / Trade",
           "species": [
@@ -294,8 +294,8 @@
           "priority_score": 28,
           "keywords": [
             "production",
-            "demand",
             "export",
+            "demand",
             "market",
             "price"
           ],
@@ -303,12 +303,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-9ce3cc6788",
+          "id": "all-about-feed-20261122-340114427b",
           "source": "All About Feed",
           "title": "Nov 18 Article All About Feed Partner What happens when the gut loses its most versatile molecule Butyrate fuels colon cells, supplying 60–70% of their energy, and regulates immunity, microbiome balance and gut-barrier integrity. What if absent?",
           "url": "https://www.foodagribusiness.world/feed/what-happens-when-the-gut-loses-its-most-versatile-molecule",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Nov 18 Article All About Feed Partner What happens when the gut loses its most versatile molecule Butyrate fuels colon cells, supplying 60–70% of their energy, and regulates immunity, microbiome balance and gut-barrier integrity. What if absent?",
           "category": "Animal Nutrition",
           "species": [
@@ -325,12 +325,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-b787524410",
+          "id": "all-about-feed-20261122-2524c730b7",
           "source": "All About Feed",
           "title": "All About Feed UK seeks to strengthen protein supply chains by boosting home-grown pulses Nov 14 News",
           "url": "https://www.foodagribusiness.world/feed/uk-seeks-to-strengthen-protein-supply-chains-by-boosting-home-grown-pulses",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "All About Feed UK seeks to strengthen protein supply chains by boosting home-grown pulses Nov 14 News",
           "category": "Animal Nutrition",
           "species": [
@@ -347,12 +347,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261121-69d58d97f8",
+          "id": "all-about-feed-20261122-9fdc9d0cb0",
           "source": "All About Feed",
           "title": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "url": "https://www.foodagribusiness.world/feed/recognising-excellence-in-sustainability-the-sustainability-impact-award-debut",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "category": "Sustainability",
           "species": [
@@ -372,8 +372,8 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-11-21T12:45:59+09:00",
-      "last_attempt_at": "2026-11-21T12:45:59+09:00",
+      "last_success_at": "2026-11-22T11:50:06+09:00",
+      "last_attempt_at": "2026-11-22T11:50:06+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -383,7 +383,7 @@
           "title": "Sweden marks 40 years since banning antibiotic growth promoters",
           "url": "https://www.feedandadditive.com/sweden-marks-40-years-since-banning-antibiotic-growth-promoters/",
           "published_date": "2026-11-20",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Sweden marks 40 years since banning antibiotics as growth promoters in livestock feed. Svenskt Kött highlights farmers’ role in driving the shift towards preventive animal health management. Sweden is marking 40 years since it banned the use of antibiotics for",
           "category": "Feed Additives",
           "species": [
@@ -404,7 +404,7 @@
           "title": "De Heus Korea expands into swine genetics",
           "url": "https://www.feedandadditive.com/de-heus-korea-expands-into-swine-genetics/",
           "published_date": "2026-11-20",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "De Heus Korea is expanding in the South Korean swine sector with its first Artificial Insemination (AI) Center. Together with Topigs Norsvin, it plans to offer integrated genetics, nutrition and farm management support. De Heus Korea, the Korean subsidiary of",
           "category": "Feed Additives",
           "species": [
@@ -427,7 +427,7 @@
           "title": "Study compares methods for assessing rumen-protected methionine bioavailability",
           "url": "https://www.feedandadditive.com/study-compares-methods-for-assessing-rumen-protected-methionine-bioavailability/",
           "published_date": "2026-11-19",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "A dairy cow study compared two methods for estimating rumen-protected methionine bioavailability. Both methods ranked the products similarly but differed in their ability to detect significant differences. A study published in the Journal of Dairy Science and",
           "category": "Feed Additives",
           "species": [
@@ -438,11 +438,11 @@
           "keywords": [
             "nutrition",
             "additive",
-            "rumen",
             "dairy",
+            "rumen",
             "cow"
           ],
-          "why_it_matters": "nutrition, additive, rumen, dairy 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "why_it_matters": "nutrition, additive, dairy, rumen 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
         },
         {
@@ -451,7 +451,7 @@
           "title": "Feeding trials assess PEKILO mycoprotein in pet food",
           "url": "https://www.feedandadditive.com/feeding-trials-assess-pekilo-mycoprotein-in-pet-food/",
           "published_date": "2026-11-19",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Prima Pet has assessed the palatability of dog and cat foods containing PEKILO® mycoprotein, developed by Enifer. The feeding trials, conducted in Germany and Finland, examined pet acceptance under controlled and home-feeding conditions. In spring 2026, Prima",
           "category": "Feed Additives",
           "species": [
@@ -472,7 +472,7 @@
           "title": "FAO Food Outlook highlights rising feed costs and supply risks",
           "url": "https://www.feedandadditive.com/fao-food-outlook-highlights-rising-feed-costs-and-supply-risks/",
           "published_date": "2026-11-19",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "FAO’s latest Food Outlook reports rising feed ingredient costs amid generally ample supplies of wheat and coarse grains. The report also examines grain trade disruptions and increasing aquaculture feed prices. The Food and Agriculture Organization of the Unite",
           "category": "Market / Trade",
           "species": [
@@ -484,8 +484,8 @@
             "aquaculture",
             "additive",
             "supply",
-            "trade",
             "price",
+            "trade",
             "cost",
             "fao"
           ],
@@ -498,7 +498,7 @@
           "title": "Mars invests in UK and US pet food manufacturing",
           "url": "https://www.feedandadditive.com/mars-invests-in-uk-and-us-pet-food-manufacturing/",
           "published_date": "2026-11-18",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Mars is upgrading its UK pet food factory with a £161 million investment and expanding US production through a separate $49 million project. Both involve manufacturing technology improvements. Mars, Incorporated has announced a £161 million modernisation of it",
           "category": "Feed Additives",
           "species": [
@@ -520,7 +520,7 @@
           "title": "Zinpro highlights importance of chromium source in beef cattle nutrition",
           "url": "https://www.feedandadditive.com/zinpro-highlights-importance-of-chromium-source-in-beef-cattle-nutrition/",
           "published_date": "2026-11-18",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Zinpro encourages beef producers to look beyond absorption when choosing chromium sources. The company says bioefficacy can help assess whether a source delivers a meaningful performance response in cattle. Zinpro is drawing attention to the importance of chro",
           "category": "Feed Additives",
           "species": [
@@ -546,7 +546,7 @@
           "title": "Purina Pro Plan Veterinary introduces three feline nutrition products",
           "url": "https://www.feedandadditive.com/purina-pro-plan-veterinary-introduces-three-feline-nutrition-products/",
           "published_date": "2026-11-18",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Purina Pro Plan Veterinary is expanding its feline range with a therapeutic diet and two liquid supplements. The products support urinary health, mobility and hairball management. Purina Pro Plan Veterinary has announced three new science-informed products to",
           "category": "Animal Nutrition",
           "species": [
@@ -568,18 +568,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-11-21T12:45:59+09:00",
-      "last_attempt_at": "2026-11-21T12:45:59+09:00",
+      "last_success_at": "2026-11-22T11:50:06+09:00",
+      "last_attempt_at": "2026-11-22T11:50:06+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20261121-f3d022050d",
+          "id": "the-pig-site-20261122-dec411c63b",
           "source": "The Pig Site",
           "title": "African swine fever",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases/african-swine-fever",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "African swine fever",
           "category": "Disease / Biosecurity",
           "species": [
@@ -595,12 +595,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-5dd0db4714",
+          "id": "the-pig-site-20261122-d90bf6cba9",
           "source": "The Pig Site",
           "title": "Tracking study shows wild boar stay local but can travel far - EFSA",
           "url": "https://www.thepigsite.com/news/2026/11/tracking-study-shows-wild-boar-stay-local-but-can-travel-far-efsa",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Tracking study shows wild boar stay local but can travel far - EFSA",
           "category": "Regulation",
           "species": [
@@ -615,12 +615,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-9cff96f427",
+          "id": "the-pig-site-20261122-11c7160e2c",
           "source": "The Pig Site",
           "title": "Notifiable diseases",
           "url": "https://www.thepigsite.com/disease-and-welfare-2/notifiable-diseases",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Notifiable diseases",
           "category": "Disease / Biosecurity",
           "species": [
@@ -635,12 +635,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-ab4d5d2144",
+          "id": "the-pig-site-20261122-5ab509c9f6",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -655,12 +655,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-8d3fc9b7c8",
+          "id": "the-pig-site-20261122-b98a281ef9",
           "source": "The Pig Site",
           "title": "U.S. Soy survey shows shifts in soybean meal valuation, summer swine diets",
           "url": "https://www.thepigsite.com/news/2026/11/u-s-soy-survey-shows-shifts-in-soybean-meal-valuation-summer-swine-diets",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "U.S. Soy survey shows shifts in soybean meal valuation, summer swine diets",
           "category": "Animal Nutrition",
           "species": [
@@ -677,12 +677,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-20867dbfed",
+          "id": "the-pig-site-20261122-2061dba86c",
           "source": "The Pig Site",
           "title": "Feed and nutrition",
           "url": "https://www.thepigsite.com/herd-management/feed-and-nutrition",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Feed and nutrition",
           "category": "Animal Nutrition",
           "species": [
@@ -697,12 +697,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-e59fae0612",
+          "id": "the-pig-site-20261122-1cc644e816",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -717,12 +717,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261121-e39beecc02",
+          "id": "the-pig-site-20261122-ed8dfabc43",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -740,18 +740,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-11-21T12:45:59+09:00",
-      "last_attempt_at": "2026-11-21T12:45:59+09:00",
+      "last_success_at": "2026-11-22T11:50:06+09:00",
+      "last_attempt_at": "2026-11-22T11:50:06+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20261121-8747c05a04",
+          "id": "the-poultry-site-20261122-eb70fc5376",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -766,12 +766,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-3a09706f8e",
+          "id": "the-poultry-site-20261122-f373c08b94",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -784,12 +784,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-40cdca5495",
+          "id": "the-poultry-site-20261122-5110030748",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -802,12 +802,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-443bf735d6",
+          "id": "the-poultry-site-20261122-39d9163d0c",
           "source": "The Poultry Site",
           "title": "France raises bird flu alert to maximum level",
           "url": "https://www.thepoultrysite.com/news/2026/11/france-raises-bird-flu-alert-to-maximum-level",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "France raises bird flu alert to maximum level",
           "category": "Unclassified",
           "species": [
@@ -820,12 +820,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-b96df71200",
+          "id": "the-poultry-site-20261122-a92fe10d18",
           "source": "The Poultry Site",
           "title": "Venezuela poultry imports forecast to fall 68% in 2026",
           "url": "https://www.thepoultrysite.com/news/2026/11/venezuela-poultry-imports-forecast-to-fall-68-in-2026",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Venezuela poultry imports forecast to fall 68% in 2026",
           "category": "Market / Trade",
           "species": [
@@ -841,12 +841,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-5c093f4d94",
+          "id": "the-poultry-site-20261122-693a55e6fd",
           "source": "The Poultry Site",
           "title": "Brazil chicken exports on course for record year",
           "url": "https://www.thepoultrysite.com/news/2026/11/brazil-chicken-exports-on-course-for-record-year",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Brazil chicken exports on course for record year",
           "category": "Market / Trade",
           "species": [
@@ -862,12 +862,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-0e691797d9",
+          "id": "the-poultry-site-20261122-a6d54c929e",
           "source": "The Poultry Site",
           "title": "Commercial poultry farms to limit El Niño impact in Philippines",
           "url": "https://www.thepoultrysite.com/news/2026/11/commercial-poultry-farms-to-limit-el-niño-impact-in-philippines",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Commercial poultry farms to limit El Niño impact in Philippines",
           "category": "Unclassified",
           "species": [
@@ -882,12 +882,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261121-ab97bf0a2b",
+          "id": "the-poultry-site-20261122-92b0d790ad",
           "source": "The Poultry Site",
           "title": "Philippine chicken output rises as hog sector rebuilds",
           "url": "https://www.thepoultrysite.com/news/2026/11/philippine-chicken-output-rises-as-hog-sector-rebuilds",
-          "published_date": "2026-11-21",
-          "collected_at": "2026-11-21T12:45:59+09:00",
+          "published_date": "2026-11-22",
+          "collected_at": "2026-11-22T11:50:06+09:00",
           "summary": "Philippine chicken output rises as hog sector rebuilds",
           "category": "Unclassified",
           "species": [
