@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "meta": {
-    "data_generated_at": "2026-11-24T15:46:46+09:00",
+    "data_generated_at": "2026-11-25T14:14:47+09:00",
     "dashboard_version": "0.2.0-prototype",
     "timezone": "Asia/Seoul",
     "data_mode": "external_json_auto",
@@ -11,14 +11,14 @@
     "sources_stale": 0,
     "run_status": "success"
   },
-  "last_updated": "2026-11-24 15:46 KST",
+  "last_updated": "2026-11-25 14:14 KST",
   "sources": [
     {
       "name": "Feed Strategy",
       "source_url": "https://www.feedstrategy.com/",
       "status": "success",
-      "last_success_at": "2026-11-24T15:46:46+09:00",
-      "last_attempt_at": "2026-11-24T15:46:46+09:00",
+      "last_success_at": "2026-11-25T14:14:47+09:00",
+      "last_attempt_at": "2026-11-25T14:14:47+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
@@ -28,7 +28,7 @@
           "title": "Corn, soybean prices dip as USDA cuts demand expectations",
           "url": "https://www.feedstrategy.com/business-markets/commodities/article/16542340/corn-and-soybean-prices-drop-after-usda-cuts-demand",
           "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "USDA may have been overestimating demand for U.S. corn for several months, economist says.",
           "category": "Market / Trade",
           "species": [
@@ -51,7 +51,7 @@
           "title": "Automated truck receiving keeps grain moving when every minute counts",
           "url": "https://www.feedstrategy.com/feed-mill-of-the-future/automation/article/16542197/automated-truck-receiving-keeps-grain-moving-when-every-minute-counts",
           "published_date": "2026-11-20",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "From RFID check-in to unattended scales, automation helps grain elevators and feed mills handle peak-season traffic with fewer...",
           "category": "Unclassified",
           "species": [
@@ -71,7 +71,7 @@
           "title": "From automation to autonomy: What holds feed mills back?",
           "url": "https://www.feedstrategy.com/feed-mill-of-the-future/article/15834312/feed-mill-autonomy-technology-vs-real-barriers",
           "published_date": "2026-11-18",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Robots, digital twins and predictive maintenance are ready, but legacy infrastructure, unclear ROI and integration hurdles keep...",
           "category": "Unclassified",
           "species": [
@@ -89,7 +89,7 @@
           "title": "Can coarser sorghum support broiler performance while lowering costs?",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834037/can-coarser-sorghum-support-broiler-performance-while-lowering-costs",
           "published_date": "2026-11-17",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "A recent study finds modern US grain sorghum supports broiler performance, gizzard development, improved ingredient flowability...",
           "category": "Animal Nutrition",
           "species": [
@@ -110,7 +110,7 @@
           "title": "Why probiotics do not always deliver consistent results",
           "url": "https://www.feedstrategy.com/animal-feed-additives-ingredients/feed-additives/article/15834039/why-probiotics-do-not-always-deliver-consistent-results",
           "published_date": "2026-11-16",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Probiotics may not always deliver consistent results because we ask them to behave like non-living additives in systems that are...",
           "category": "Feed Additives",
           "species": [
@@ -131,7 +131,7 @@
           "title": "The path to a PRRS-free world: Managing and overcoming virus challenges",
           "url": "https://www.feedstrategy.com/animal-health-veterinary/livestock-poultry-diseases/pig-health-disease/article/16425325/the-path-to-a-prrsfree-world-managing-and-overcoming-virus-challenges",
           "published_date": "2026-11-12",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Dr. Scott Dee shares research on virus spread via fomites, air and contaminated feed, and explains how a next-generation biosecurity...",
           "category": "Disease / Biosecurity",
           "species": [
@@ -151,7 +151,7 @@
           "title": "Beyond additives: How feed manufacturing shapes swine gut health",
           "url": "https://www.feedstrategy.com/animal-nutrition/swine/article/15835126/how-feed-mill-decisions-impact-pig-gut-health",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Because fine grinding improves feed conversion but increases ulcer risk, feed mills must choose biological compromise over efficiency...",
           "category": "Feed Additives",
           "species": [
@@ -173,7 +173,7 @@
           "title": "How artificial intelligence can aid feed sustainability research",
           "url": "https://www.feedstrategy.com/sustainability-in-feed-production/article/15835486/how-artificial-intelligence-can-aid-feed-sustainability-research",
           "published_date": "2026-11-09",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "AI could help researchers model ingredient constraints, environmental footprints and future feed demand.",
           "category": "Sustainability",
           "species": [
@@ -195,18 +195,18 @@
       "name": "All About Feed",
       "source_url": "https://www.allaboutfeed.net/",
       "status": "success",
-      "last_success_at": "2026-11-24T15:46:46+09:00",
-      "last_attempt_at": "2026-11-24T15:46:46+09:00",
+      "last_success_at": "2026-11-25T14:14:47+09:00",
+      "last_attempt_at": "2026-11-25T14:14:47+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "all-about-feed-20261124-29d83192d4",
+          "id": "all-about-feed-20261125-3c963423fc",
           "source": "All About Feed",
           "title": "All About Feed Partner Phytogenic feed additives linked to improved meat yield and quality Nov 16",
           "url": "https://www.foodagribusiness.world/feed/phytogenic-feed-additives-linked-to-improved-meat-yield-and-quality",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "All About Feed Partner Phytogenic feed additives linked to improved meat yield and quality Nov 16",
           "category": "Feed Additives",
           "species": [
@@ -223,12 +223,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-0e38e72726",
+          "id": "all-about-feed-20261125-0065a1a5d9",
           "source": "All About Feed",
           "title": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-forecasting-mycotoxin-risks",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "All About Feed Jul 2 Video Feed Talks: Forecasting mycotoxin risks",
           "category": "Feed Additives",
           "species": [
@@ -243,12 +243,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-50fcb5662e",
+          "id": "all-about-feed-20261125-9cbff4cc65",
           "source": "All About Feed",
           "title": "All About Feed Upcoming webinar: What can bacteria tell us about poultry gut health? Nov 19 News",
           "url": "https://www.foodagribusiness.world/feed/upcoming-webinar-what-can-bacteria-tell-us-about-poultry-gut-health",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "All About Feed Upcoming webinar: What can bacteria tell us about poultry gut health? Nov 19 News",
           "category": "Unclassified",
           "species": [
@@ -264,12 +264,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-fba449891d",
+          "id": "all-about-feed-20261125-820523c914",
           "source": "All About Feed",
           "title": "All About Feed Nov 9 Video Feed Talks: The power of phytogenics",
           "url": "https://www.foodagribusiness.world/feed/feed-talks-the-power-of-phytogenics",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "All About Feed Nov 9 Video Feed Talks: The power of phytogenics",
           "category": "Feed Additives",
           "species": [
@@ -284,12 +284,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-fda0188ad8",
+          "id": "all-about-feed-20261125-d3fd4ed500",
           "source": "All About Feed",
           "title": "Nov 23 Article All About Feed Partner Precision in trace mineral nutrition starts here The poultry industry is shifting toward more bioavailable trace mineral sources while also improving the release of naturally occurring minerals from feed ingredients. As a result, you can optimise and fine-tune total trace mineral supplementation. Trace minerals are essential nutrients required in small amounts, yet they play a vital role in supporting growth, immune function, bone development and overall performance in poultry. What fascinates me most about trace minerals is how tiny quantities can profoundly affect animal health and productivity. I am also intrigued by the wide range of trace mineral forms and structures available, and...",
           "url": "https://www.foodagribusiness.world/feed/precision-in-trace-mineral-nutrition-starts-here",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Nov 23 Article All About Feed Partner Precision in trace mineral nutrition starts here The poultry industry is shifting toward more bioavailable trace mineral sources while also improving the release of naturally occurring minerals from feed ingredients. As a",
           "category": "Animal Nutrition",
           "species": [
@@ -306,12 +306,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-03498cd0b0",
+          "id": "all-about-feed-20261125-072c6f414e",
           "source": "All About Feed",
           "title": "Nov 19 Analysis All About Feed Russia-Ukraine grain talks fail as wheat prices rise Failed Abu Dhabi talks and lower Russian and Ukrainian export forecasts pressure wheat markets, while demand for French wheat remains strong.",
           "url": "https://www.foodagribusiness.world/feed/russia-ukraine-grain-talks-fail-as-wheat-prices-rise",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Nov 19 Analysis All About Feed Russia-Ukraine grain talks fail as wheat prices rise Failed Abu Dhabi talks and lower Russian and Ukrainian export forecasts pressure wheat markets, while demand for French wheat remains strong.",
           "category": "Market / Trade",
           "species": [
@@ -321,20 +321,20 @@
           "priority_score": 28,
           "keywords": [
             "market",
-            "demand",
             "export",
+            "demand",
             "price"
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-2ac3697267",
+          "id": "all-about-feed-20261125-2ff82402b4",
           "source": "All About Feed",
           "title": "All About Feed UK seeks to strengthen protein supply chains by boosting home-grown pulses Nov 14 News",
           "url": "https://www.foodagribusiness.world/feed/uk-seeks-to-strengthen-protein-supply-chains-by-boosting-home-grown-pulses",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "All About Feed UK seeks to strengthen protein supply chains by boosting home-grown pulses Nov 14 News",
           "category": "Animal Nutrition",
           "species": [
@@ -351,12 +351,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "all-about-feed-20261124-e3ecc8b231",
+          "id": "all-about-feed-20261125-0087657efd",
           "source": "All About Feed",
           "title": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "url": "https://www.foodagribusiness.world/feed/recognising-excellence-in-sustainability-the-sustainability-impact-award-debut",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "All About Feed Jul 28 Video Recognising excellence in sustainability: The Sustainability Impact Award debut",
           "category": "Sustainability",
           "species": [
@@ -376,18 +376,42 @@
       "name": "Feed & Additive Magazine",
       "source_url": "https://www.feedandadditive.com/",
       "status": "success",
-      "last_success_at": "2026-11-24T15:46:46+09:00",
-      "last_attempt_at": "2026-11-24T15:46:46+09:00",
+      "last_success_at": "2026-11-25T14:14:47+09:00",
+      "last_attempt_at": "2026-11-25T14:14:47+09:00",
       "collection_method": "rss",
       "error_message": "",
       "articles": [
+        {
+          "id": "feed-additive-magazine-20261124-93403f17bc",
+          "source": "Feed & Additive Magazine",
+          "title": "Agrifirm and VetosEurope expand methane reduction partnership to Spain",
+          "url": "https://www.feedandadditive.com/agrifirm-and-vetoseurope-expand-methane-reduction-partnership-to-spain/",
+          "published_date": "2026-11-24",
+          "collected_at": "2026-11-25T14:14:47+09:00",
+          "summary": "Royal Agrifirm Group and VetosEurope are extending their Anavrin collaboration to Spain. Nuscience Ibérica will exclusively market the methane reduction solution to Spanish dairy and beef producers. Royal Agrifirm Group and VetosEurope have announced the expan",
+          "category": "Feed Additives",
+          "species": [
+            "Ruminant"
+          ],
+          "priority": "Low",
+          "priority_score": 40,
+          "keywords": [
+            "additive",
+            "methane",
+            "market",
+            "dairy",
+            "beef"
+          ],
+          "why_it_matters": "additive, methane, market, dairy 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
+          "collection_method": "rss"
+        },
         {
           "id": "feed-additive-magazine-20261123-1b19a9cec8",
           "source": "Feed & Additive Magazine",
           "title": "Orffa commissions new office and laboratory in Pune, India",
           "url": "https://www.feedandadditive.com/orffa-commissions-new-office-and-laboratory-in-pune-india/",
           "published_date": "2026-11-23",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Through its newly opened base in Pune, Orffa is bringing technical expertise closer to Indian poultry producers. Its on-site laboratory facilitates discussions on gut health, feed quality and nutrition. Orffa has officially opened a new office and laboratory i",
           "category": "Feed Additives",
           "species": [
@@ -410,7 +434,7 @@
           "title": "ADM names Achyuth Iyengar as Global VP of Feed Additives & Ingredients",
           "url": "https://www.feedandadditive.com/adm-names-achyuth-iyengar-as-global-vp-of-feed-additives-ingredients/",
           "published_date": "2026-11-23",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Achyuth Iyengar brings more than 20 years of international experience to ADM‘s animal nutrition business. His priorities include portfolio development, customer collaboration and faster product innovation. ADM has appointed Achyuth Iyengar as Global Vice Presi",
           "category": "Feed Additives",
           "species": [
@@ -432,7 +456,7 @@
           "title": "Premier Nutrition promotes Dr. Sadie Douglas to Head of Commercial",
           "url": "https://www.feedandadditive.com/premier-nutrition-promotes-dr-sadie-douglas-to-head-of-commercial/",
           "published_date": "2026-11-23",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Dr. Sadie Douglas is taking on a wider leadership role at Premier Nutrition following her promotion to Head of Commercial. She brings a strong track record in commercial leadership, customer engagement and team development. Premier Nutrition has promoted Dr. S",
           "category": "Feed Additives",
           "species": [
@@ -453,7 +477,7 @@
           "title": "Innovasea calls for broader view of aquaculture sustainability",
           "url": "https://www.feedandadditive.com/innovasea-calls-for-broader-view-of-aquaculture-sustainability/",
           "published_date": "2026-11-23",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Innovasea is urging a broader assessment of aquaculture sustainability amid criticism of fishmeal supply chains. Its leaders highlight changes in aquafeed composition and feed conversion efficiency. Innovasea has called for a broader assessment of aquaculture",
           "category": "Sustainability",
           "species": [
@@ -463,8 +487,8 @@
           "priority_score": 28,
           "keywords": [
             "sustainability",
-            "environment",
             "aquaculture",
+            "environment",
             "additive",
             "supply",
             "fish"
@@ -478,7 +502,7 @@
           "title": "Sweden marks 40 years since banning antibiotic growth promoters",
           "url": "https://www.feedandadditive.com/sweden-marks-40-years-since-banning-antibiotic-growth-promoters/",
           "published_date": "2026-11-20",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Sweden marks 40 years since banning antibiotics as growth promoters in livestock feed. Svenskt Kött highlights farmers’ role in driving the shift towards preventive animal health management. Sweden is marking 40 years since it banned the use of antibiotics for",
           "category": "Feed Additives",
           "species": [
@@ -499,7 +523,7 @@
           "title": "De Heus Korea expands into swine genetics",
           "url": "https://www.feedandadditive.com/de-heus-korea-expands-into-swine-genetics/",
           "published_date": "2026-11-20",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "De Heus Korea is expanding in the South Korean swine sector with its first Artificial Insemination (AI) Center. Together with Topigs Norsvin, it plans to offer integrated genetics, nutrition and farm management support. De Heus Korea, the Korean subsidiary of",
           "category": "Feed Additives",
           "species": [
@@ -522,7 +546,7 @@
           "title": "Study compares methods for assessing rumen-protected methionine bioavailability",
           "url": "https://www.feedandadditive.com/study-compares-methods-for-assessing-rumen-protected-methionine-bioavailability/",
           "published_date": "2026-11-19",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "A dairy cow study compared two methods for estimating rumen-protected methionine bioavailability. Both methods ranked the products similarly but differed in their ability to detect significant differences. A study published in the Journal of Dairy Science and",
           "category": "Feed Additives",
           "species": [
@@ -539,27 +563,6 @@
           ],
           "why_it_matters": "nutrition, additive, rumen, dairy 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
           "collection_method": "rss"
-        },
-        {
-          "id": "feed-additive-magazine-20261119-4f3e6cef91",
-          "source": "Feed & Additive Magazine",
-          "title": "Feeding trials assess PEKILO mycoprotein in pet food",
-          "url": "https://www.feedandadditive.com/feeding-trials-assess-pekilo-mycoprotein-in-pet-food/",
-          "published_date": "2026-11-19",
-          "collected_at": "2026-11-24T15:46:46+09:00",
-          "summary": "Prima Pet has assessed the palatability of dog and cat foods containing PEKILO® mycoprotein, developed by Enifer. The feeding trials, conducted in Germany and Finland, examined pet acceptance under controlled and home-feeding conditions. In spring 2026, Prima",
-          "category": "Feed Additives",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 32,
-          "keywords": [
-            "additive",
-            "protein"
-          ],
-          "why_it_matters": "additive, protein 관련 첨가제 claim, 작용기전, 적용 축종, 경쟁제품 포지셔닝을 점검할 필요가 있습니다.",
-          "collection_method": "rss"
         }
       ]
     },
@@ -567,18 +570,18 @@
       "name": "The Pig Site",
       "source_url": "https://www.thepigsite.com/",
       "status": "success",
-      "last_success_at": "2026-11-24T15:46:46+09:00",
-      "last_attempt_at": "2026-11-24T15:46:46+09:00",
+      "last_success_at": "2026-11-25T14:14:47+09:00",
+      "last_attempt_at": "2026-11-25T14:14:47+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-pig-site-20261124-27810dfee6",
+          "id": "the-pig-site-20261125-828232e1d6",
           "source": "The Pig Site",
           "title": "Policy and regulation",
           "url": "https://www.thepigsite.com/policy-and-regulation",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Policy and regulation",
           "category": "Regulation",
           "species": [
@@ -594,12 +597,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261124-9982fffcdf",
+          "id": "the-pig-site-20261125-2922fc097e",
           "source": "The Pig Site",
           "title": "MBRF expects stronger Christmas meat sales after betting ban",
           "url": "https://www.thepigsite.com/news/2026/11/mbrf-expects-stronger-christmas-meat-sales-after-betting-ban",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "MBRF expects stronger Christmas meat sales after betting ban",
           "category": "Regulation",
           "species": [
@@ -614,12 +617,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261124-a9add77a0e",
+          "id": "the-pig-site-20261125-662c5e13ff",
           "source": "The Pig Site",
           "title": "Markets and economics",
           "url": "https://www.thepigsite.com/trends/markets-and-economics",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -634,12 +637,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261124-efa623fdfd",
+          "id": "the-pig-site-20261125-ab11db6d9d",
           "source": "The Pig Site",
           "title": "Mexico and China to create trade working group on trade imbalance",
           "url": "https://www.thepigsite.com/news/2026/11/mexico-and-china-to-create-trade-working-group-on-trade-imbalance",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Mexico and China to create trade working group on trade imbalance",
           "category": "Market / Trade",
           "species": [
@@ -654,12 +657,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261124-b96e352cd8",
+          "id": "the-pig-site-20261125-201be24706",
           "source": "The Pig Site",
           "title": "Genetics & reproduction",
           "url": "https://www.thepigsite.com/genetics-and-reproduction-2",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Genetics & reproduction",
           "category": "Market / Trade",
           "species": [
@@ -674,12 +677,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261124-67a94a480e",
+          "id": "the-pig-site-20261125-92691f3d2f",
           "source": "The Pig Site",
           "title": "Research & innovation",
           "url": "https://www.thepigsite.com/research-and-innovation",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Research & innovation",
           "category": "Unclassified",
           "species": [
@@ -692,12 +695,36 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-pig-site-20261124-1f9421dba2",
+          "id": "the-pig-site-20261125-b29f629000",
+          "source": "The Pig Site",
+          "title": "Chicken is Venezuela’s cheapest meat, well below beef and pork",
+          "url": "https://www.thepigsite.com/news/2026/11/chicken-is-venezuelas-cheapest-meat-well-below-beef-and-pork",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
+          "summary": "Chicken is Venezuela’s cheapest meat, well below beef and pork",
+          "category": "Unclassified",
+          "species": [
+            "Swine",
+            "Poultry",
+            "Ruminant"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "chicken",
+            "beef",
+            "pork"
+          ],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-pig-site-20261125-58620896c1",
           "source": "The Pig Site",
           "title": "US lean hogs stay near contract lows on weak pork demand - CME",
           "url": "https://www.thepigsite.com/news/2026/11/us-live-cattle-futures-rise-for-a-fourth-session-cme",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "US lean hogs stay near contract lows on weak pork demand - CME",
           "category": "Market / Trade",
           "species": [
@@ -711,27 +738,6 @@
           ],
           "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
           "collection_method": "listing"
-        },
-        {
-          "id": "the-pig-site-20261124-43833c665b",
-          "source": "The Pig Site",
-          "title": "Imports and Exports",
-          "url": "https://www.thepigsite.com/markets-2/imports-and-exports",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
-          "summary": "Imports and Exports",
-          "category": "Market / Trade",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 20,
-          "keywords": [
-            "export",
-            "import"
-          ],
-          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
-          "collection_method": "listing"
         }
       ]
     },
@@ -739,18 +745,18 @@
       "name": "The Poultry Site",
       "source_url": "https://www.thepoultrysite.com/",
       "status": "success",
-      "last_success_at": "2026-11-24T15:46:46+09:00",
-      "last_attempt_at": "2026-11-24T15:46:46+09:00",
+      "last_success_at": "2026-11-25T14:14:47+09:00",
+      "last_attempt_at": "2026-11-25T14:14:47+09:00",
       "collection_method": "listing",
       "error_message": "",
       "articles": [
         {
-          "id": "the-poultry-site-20261124-3882c21777",
+          "id": "the-poultry-site-20261125-917fd3d2c1",
           "source": "The Poultry Site",
           "title": "France reports bird flu outbreak on northern poultry farm",
           "url": "https://www.thepoultrysite.com/news/2026/11/france-reports-bird-flu-outbreak-on-northern-poultry-farm",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "France reports bird flu outbreak on northern poultry farm",
           "category": "Disease / Biosecurity",
           "species": [
@@ -766,12 +772,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261124-78bbcaa01e",
+          "id": "the-poultry-site-20261125-f26e86d64b",
           "source": "The Poultry Site",
           "title": "Poland reports first bird flu outbreak in six months",
           "url": "https://www.thepoultrysite.com/news/2026/11/poland-reports-first-bird-flu-outbreak-in-six-months",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Poland reports first bird flu outbreak in six months",
           "category": "Disease / Biosecurity",
           "species": [
@@ -786,33 +792,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261124-a6dacfd4af",
-          "source": "The Poultry Site",
-          "title": "Policy and regulation",
-          "url": "https://www.thepoultrysite.com/markets-policy-2/policy-and-regulation",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
-          "summary": "Policy and regulation",
-          "category": "Regulation",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Medium",
-          "priority_score": 53,
-          "keywords": [
-            "regulation",
-            "policy"
-          ],
-          "why_it_matters": "규제·품질·안전 관련 이슈이므로 제품 등록, 표시 claim, 원료 추적성, 고객 커뮤니케이션 리스크를 점검할 필요가 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20261124-d7e61e0e40",
+          "id": "the-poultry-site-20261125-28647661e9",
           "source": "The Poultry Site",
           "title": "MBRF expects stronger Christmas meat sales after betting ban",
           "url": "https://www.thepoultrysite.com/news/2026/11/mbrf-expects-stronger-christmas-meat-sales-after-betting-ban",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "MBRF expects stronger Christmas meat sales after betting ban",
           "category": "Regulation",
           "species": [
@@ -827,12 +812,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261124-c2ffe8ebbf",
+          "id": "the-poultry-site-20261125-36973b3a03",
           "source": "The Poultry Site",
           "title": "Markets and economics",
           "url": "https://www.thepoultrysite.com/markets-policy-2/market-trends/markets-and-economics",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Markets and economics",
           "category": "Market / Trade",
           "species": [
@@ -847,32 +832,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261124-88b620e30b",
-          "source": "The Poultry Site",
-          "title": "EU expects Mexico to ratify trade deal by year end",
-          "url": "https://www.thepoultrysite.com/news/2026/11/eu-expects-mexico-to-ratify-trade-deal-by-year-end",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
-          "summary": "EU expects Mexico to ratify trade deal by year end",
-          "category": "Market / Trade",
-          "species": [
-            "Multi-species"
-          ],
-          "priority": "Low",
-          "priority_score": 28,
-          "keywords": [
-            "trade"
-          ],
-          "why_it_matters": "원료 가격, 수급, 수출입 변화가 고객사의 원가 관리와 생산성 개선 니즈로 이어질 수 있습니다.",
-          "collection_method": "listing"
-        },
-        {
-          "id": "the-poultry-site-20261124-56efab4fe8",
+          "id": "the-poultry-site-20261125-a844e8fab9",
           "source": "The Poultry Site",
           "title": "Genetics & breeding",
           "url": "https://www.thepoultrysite.com/genetics-breeding-2",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Genetics & breeding",
           "category": "Unclassified",
           "species": [
@@ -885,12 +850,12 @@
           "collection_method": "listing"
         },
         {
-          "id": "the-poultry-site-20261124-0b7e665279",
+          "id": "the-poultry-site-20261125-0611af269e",
           "source": "The Poultry Site",
           "title": "Equipment & innovation",
           "url": "https://www.thepoultrysite.com/equipment-innovation",
-          "published_date": "2026-11-24",
-          "collected_at": "2026-11-24T15:46:46+09:00",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
           "summary": "Equipment & innovation",
           "category": "Unclassified",
           "species": [
@@ -899,6 +864,50 @@
           "priority": "Low",
           "priority_score": 20,
           "keywords": [],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20261125-fb28b1c24b",
+          "source": "The Poultry Site",
+          "title": "Venezuela per capita poultry consumption steady at 31kg",
+          "url": "https://www.thepoultrysite.com/news/2026/11/venezuela-per-capita-poultry-consumption-steady-at-31kg",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
+          "summary": "Venezuela per capita poultry consumption steady at 31kg",
+          "category": "Unclassified",
+          "species": [
+            "Poultry"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "poultry"
+          ],
+          "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
+          "collection_method": "listing"
+        },
+        {
+          "id": "the-poultry-site-20261125-5e81650dd6",
+          "source": "The Poultry Site",
+          "title": "Chicken is Venezuela’s cheapest meat, well below beef and pork",
+          "url": "https://www.thepoultrysite.com/news/2026/11/chicken-is-venezuelas-cheapest-meat-well-below-beef-and-pork",
+          "published_date": "2026-11-25",
+          "collected_at": "2026-11-25T14:14:47+09:00",
+          "summary": "Chicken is Venezuela’s cheapest meat, well below beef and pork",
+          "category": "Unclassified",
+          "species": [
+            "Swine",
+            "Poultry",
+            "Ruminant"
+          ],
+          "priority": "Low",
+          "priority_score": 20,
+          "keywords": [
+            "chicken",
+            "beef",
+            "pork"
+          ],
           "why_it_matters": "PM 관점에서 제품 적용 가능성, 고객 영향도, 기술마케팅 활용 가능성을 추가 검토할 필요가 있습니다.",
           "collection_method": "listing"
         }
